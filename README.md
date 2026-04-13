@@ -216,6 +216,25 @@
 ### 1.1. Startup Profile
 
 #### 1.1.1. Descripción de la Startup
+EcoDrop es una startup tecnológica enfocada en el desarrollo de soluciones IoT para la gestión inteligente del riego en huertos urbanos y parcelas agrícolas de pequeña escala. Esta iniciativa nace como respuesta a la crítica ineficiencia en el uso del agua dentro del sector agrícola peruano, donde la falta de tecnificación genera un desperdicio significativo del recurso hídrico.
+
+Según Ybánez (2023), el sector agrario en Perú emplea aproximadamente el 80% de los recursos hídricos disponibles, pero presenta solo una eficiencia promedio nacional del 35% (párr. 5). Asimismo, Vinelli (2021) señala que "la eficiencia del agua de riego es apenas del 35 %, es decir, existe un alto desperdicio de agua, debido, entre varias razones, a su deficiente aplicación a los predios y el mal estado de conservación de las redes de conducción y distribución" (párr. 4). Esta realidad evidencia la urgente necesidad de implementar herramientas tecnológicas accesibles que permitan optimizar el consumo de agua y brindar a los pequeños productores y horticultores urbanos un control preciso sobre el riego de sus cultivos.
+
+Fundada por estudiantes de Ingeniería de Software de la Universidad Peruana de Ciencias Aplicadas, EcoDrop busca democratizar el acceso a tecnologías de agricultura inteligente, conectando dispositivos IoT con plataformas digitales que faciliten el monitoreo en tiempo real y la toma de decisiones basada en datos para el cuidado eficiente de los cultivos.
+
+**Producto principal**
+
+Su producto principal es AquaSave, un sistema de riego inteligente compuesto por un dispositivo IoT basado en ESP32 con sensores de humedad del suelo, temperatura y caudal, un RESTful API de desarrollo interno que gestiona la lógica de negocio y cruza los datos locales con el pronóstico climático mediante servicios externos, un API que comunica el dispositivo con la nube, una aplicación web y una aplicación móvil desarrollada en Flutter que permiten al usuario monitorear el estado de sus cultivos, visualizar métricas de ahorro hídrico y controlar el sistema de riego en tiempo real desde cualquier lugar. Además, incluye un Landing Page que presenta el modelo de negocio y permite a los visitantes conocer las características de la solución y acceder a las aplicaciones.
+
+De esta manera, AquaSave no solo automatiza el riego activando o deteniendo el suministro de agua según las condiciones reales del suelo y el clima, sino que también empodera a los usuarios con información clara y oportuna para gestionar sus recursos hídricos de forma eficiente y sostenible.
+
+**Visión**
+
+Ser la plataforma líder en Perú en soluciones IoT accesibles para la gestión inteligente del riego, reduciendo el desperdicio de agua en huertos urbanos y parcelas agrícolas de pequeña escala mediante tecnología al alcance de todos.
+
+**Misión**
+
+Proporcionar herramientas tecnológicas asequibles, confiables e intuitivas que permitan a horticultores urbanos y micro-agricultores periurbanos optimizar el uso del agua en sus cultivos, promoviendo prácticas de riego eficientes a través de la integración de dispositivos IoT, datos climáticos y plataformas móviles de monitoreo en tiempo real.
 
 #### 1.1.2. Perfiles de integrantes del equipo
 
@@ -223,17 +242,146 @@
 
 #### 1.2.1. Antecedentes y problemática
 
+**What – ¿Cuál es el problema?**
+
+En el Perú, el sector agrícola consume el 85.9% del agua disponible en el país según el Diagnóstico Nacional del Agua de la ANA (Arauco Livia, 2025); sin embargo, la eficiencia del agua de riego es apenas del 35%, lo que significa que existe un alto desperdicio del recurso hídrico (Vinelli, 2021). Esta ineficiencia afecta de manera desproporcionada a los pequeños productores: según la Encuesta Nacional Agropecuaria del INEI (2022), solo el 7% de los pequeños y medianos productores utiliza sistemas de riego tecnificado, mientras que entre los grandes productores la cifra asciende al 53% (Arauco Livia, 2025). Para los horticultores urbanos y micro-agricultores periurbanos, la situación es aún más precaria, ya que el riego se realiza de forma completamente manual, sin acceso a datos sobre las condiciones reales del suelo ni del clima, generando un uso excesivo o insuficiente del agua que afecta tanto la salud de los cultivos como la economía familiar.
+
+**When – ¿Cuándo sucede el problema?**
+
+El problema se manifiesta de forma continua a lo largo de todo el año, pero se intensifica durante las temporadas de verano y los períodos de sequía, cuando la demanda hídrica de los cultivos aumenta significativamente y la disponibilidad del recurso disminuye. Zapana Churata (2018) evidenció que el déficit hídrico para cultivos como la alfalfa se presenta durante seis meses al año, particularmente de enero a febrero y de septiembre a diciembre, períodos en los que la evapotranspiración es mayor. Además, el problema ocurre diariamente cada vez que un horticultor o agricultor riega sus plantas sin conocer el nivel real de humedad del suelo, desperdiciando agua en momentos donde el riego no era necesario o, por el contrario, dejando de regar cuando el suelo ya estaba en condiciones críticas.
+
+**Where – ¿Dónde ocurre el problema?**
+
+La problemática se presenta en todo el territorio peruano, con una paradoja hídrica particularmente grave: la vertiente del Pacífico, donde habita el 66% de la población, concentra apenas el 2.2% de los recursos hídricos nacionales (Arauco Livia, 2025). A nivel nacional, apenas el 20% de la superficie agrícola cuenta con riego tecnificado, y Vinelli (2021) señala que "solo el 12 % de los cultivos se riegan bajo sistemas de riego, mientras que el resto usa el riego por gravedad" (párr. 4). En las zonas urbanas de Lima, donde crece la tendencia de huertos domésticos en terrazas, patios y jardines, el riego se realiza de manera artesanal sin ningún tipo de tecnificación. Asimismo, en las áreas periurbanas de ciudades como Lima, Arequipa y Cusco, los micro-agricultores enfrentan limitaciones de infraestructura hídrica que dificultan la adopción de prácticas de riego eficientes.
+
+**Who – ¿Quiénes están involucrados?**
+
+Los principales afectados son los horticultores urbanos, personas que mantienen huertos domésticos en sus viviendas y que carecen de herramientas para gestionar el riego de forma eficiente. También se ven impactados los micro-agricultores periurbanos, pequeños productores con parcelas de menos de 5 hectáreas que dependen del riego para su sustento. Según el INEI (2017), en el Perú existían más de 2 millones 244 mil pequeñas y medianas unidades agropecuarias, de las cuales el 70.4% son conducidas por hombres y el 29.6% por mujeres, con un 53.5% de productores entre 40 y 64 años de edad. De este grupo, solo el 11.4% recibió algún tipo de capacitación y apenas el 5.7% recibió asistencia técnica, lo que refleja una importante brecha en el acceso al conocimiento tecnológico.
+
+**Why – ¿Por qué ocurre esta situación?**
+
+Las causas son múltiples. En primer lugar, la falta de infraestructura de riego tecnificado: Vinelli (2021) señala que de los 55,237 kilómetros de canales de riego evaluados en el Perú, solo el 15% están revestidos, lo que provoca pérdidas enormes por filtración y evaporación. En segundo lugar, según Ybánez (2023) se pierde hasta el 45% del agua que se canaliza para el trabajo en tierras de cultivo debido al mal estado de los canales de riego. En tercer lugar, la baja capacitación tecnológica de los productores, ya que según el INEI (2017) solo el 5.7% recibió asistencia técnica. Además, el costo de las soluciones existentes de agricultura inteligente resulta inaccesible para pequeños productores y horticultores domésticos. Finalmente, la ausencia de herramientas digitales que integren datos del suelo con información climática en tiempo real para la toma de decisiones de riego.
+
+**How – ¿En qué condiciones usarán el producto?**
+
+Los horticultores urbanos y micro-agricultores periurbanos que utilicen AquaSave lo harán desde entornos diversos. El dispositivo IoT basado en ESP32 estará instalado directamente en el huerto o parcela, conectado a sensores de humedad, temperatura y caudal, operando de forma autónoma y continua. Los usuarios accederán a la aplicación web o móvil desde sus smartphones o computadoras para monitorear en tiempo real las condiciones de sus cultivos, revisar el historial de consumo hídrico, recibir alertas cuando la humedad del suelo sea crítica y controlar manualmente el riego cuando lo consideren necesario. La interfaz deberá ser intuitiva y accesible, considerando que según el INEI (2017), el 52.9% de los pequeños productores tienen solo educación primaria.
+
+**How Much – ¿Cuánto cuesta no resolverlo?**
+
+Los costos de no resolver este problema son significativos tanto a nivel económico como ambiental. Según Ybánez (2023), el sector agrario registra pérdidas diarias de hasta S/ 50 millones por problemas asociados a la gestión hídrica. A nivel global, la FAO advierte que para el 2050 habrá un 25% de déficit de agua, lo que afectaría directamente la producción de alimentos. Actualmente, a nivel nacional solo el 20% de la superficie agrícola cuenta con riego tecnificado (Arauco Livia, 2025), lo que implica que la gran mayoría de productores sigue desperdiciando recursos. En contraste, la implementación de sistemas de riego inteligente basados en IoT ha demostrado reducir el consumo de agua entre un 30% y un 50% en comparación con métodos tradicionales, sin afectar el rendimiento de los cultivos. Para un horticultor urbano, esto representa un ahorro directo en la factura de agua y una mejora sustancial en la salud de sus plantas; para un micro-agricultor periurbano, significa mayor productividad con menor inversión en recursos hídricos.
+
+*Tabla 1\.* Brecha de acceso a riego tecnificado en Perú según tipo de productor (2022)
+<div align="center">
+
+  <img src="image/tabla .png" alt="Diagrama" width="600">
+
+</div>
+
+_Nota._ Adaptado de "Agricultura inteligente: un puente entre la justicia hídrica y la sostenibilidad empresarial en el Perú", por Arauco Livia, 2025, Infobae, basado en datos de la Encuesta Nacional Agropecuaria del INEI (2022).
+
+
 #### 1.2.2. Lean UX Process
 
 ##### 1.2.2.1. Lean UX Problem Statements
 
+**Problem Statement 1 (Horticultores Urbanos):**
+
+AquaSave ha sido diseñado para ayudar a horticultores urbanos a gestionar el riego de sus huertos domésticos de manera eficiente, mediante un sistema IoT que monitorea las condiciones del suelo en tiempo real e integra datos climáticos para automatizar el suministro de agua.
+
+Hemos observado que las personas que mantienen huertos en sus hogares realizan el riego de forma manual y sin información objetiva sobre el estado real de la humedad del suelo. Esto genera un uso excesivo o insuficiente del agua, provocando el deterioro de las plantas, desperdicio del recurso hídrico y frustración por la falta de control sobre el proceso. Según Arauco Livia (2025), apenas el 20% de la superficie agrícola nacional cuenta con riego tecnificado, y en el ámbito doméstico esta cifra es prácticamente inexistente.
+
+**¿Cómo podemos ofrecer a los horticultores urbanos una herramienta accesible e intuitiva que les permita monitorear y automatizar el riego de sus cultivos, optimizando el consumo de agua y mejorando la salud de sus plantas sin requerir conocimientos técnicos especializados?**
+
+**Problem Statement 2 (Micro-Agricultores Periurbanos):**
+
+AquaSave fue creado con el objetivo de brindar a los micro-agricultores periurbanos una solución IoT de bajo costo que les permita tecnificar el riego de sus parcelas, accediendo a datos en tiempo real sobre humedad, temperatura y pronóstico climático para tomar decisiones informadas sobre el suministro de agua.
+
+Hemos identificado que los pequeños productores agrícolas en zonas periurbanas carecen de herramientas tecnológicas asequibles para gestionar el riego de manera eficiente. Según la Encuesta Nacional Agropecuaria del INEI (2022), solo el 7% de los pequeños y medianos productores utiliza sistemas de riego tecnificado (Arauco Livia, 2025), y apenas el 5.7% recibe asistencia técnica (INEI, 2017). Esta brecha tecnológica provoca pérdidas significativas por desperdicio de agua, menor productividad de los cultivos y un impacto negativo en los ingresos de las familias que dependen de la agricultura.
+
+**¿Cómo podemos facilitar a los micro-agricultores periurbanos el acceso a tecnología de riego inteligente que sea económica, fácil de instalar y que les permita optimizar el uso del agua, incrementar la productividad de sus cultivos y reducir sus costos operativos?**
+
+
 ##### 1.2.2.2. Lean UX Assumptions
+
+1. Creo que mis clientes necesitan una forma accesible y confiable de monitorear las condiciones de humedad y temperatura de sus cultivos en tiempo real, y automatizar el riego según las necesidades reales de sus plantas y el pronóstico del clima.  
+2. Estas necesidades se pueden resolver con un sistema IoT compuesto por un dispositivo basado en ESP32 con sensores de humedad, temperatura y caudal, una API en la nube que integre datos climáticos externos, y una aplicación web y móvil que permita visualizar métricas, recibir alertas y controlar el riego de forma remota.  
+3. Mis clientes iniciales son (o serán) horticultores urbanos en Lima metropolitana que mantienen huertos domésticos en terrazas, patios o jardines, y micro-agricultores periurbanos con parcelas de menos de 5 hectáreas que buscan tecnificar su riego con soluciones de bajo costo.  
+4. El valor \#1 que un cliente quiere de mi servicio es tener el control total sobre el riego de sus cultivos desde su celular, sabiendo que sus plantas reciben la cantidad exacta de agua que necesitan sin desperdiciar el recurso.  
+5. El cliente también puede obtener estos beneficios adicionales: ahorro mensual en el consumo de agua, historial detallado de consumo hídrico, prevención de pérdidas de cultivos por riego excesivo o insuficiente, y tranquilidad de saber que el sistema detiene el riego automáticamente cuando se aproxima la lluvia.  
+6. Voy a adquirir la mayoría de mis clientes a través de campañas en redes sociales dirigidas a comunidades de jardinería y agricultura urbana, participación en ferias agrícolas y de innovación tecnológica, alianzas con tiendas de jardinería y viveros, y convenios con municipalidades que promuevan huertos urbanos.  
+7. Haré dinero a través de la venta del dispositivo IoT (kit ESP32 con sensores y actuador) y un modelo de suscripción mensual con plan básico gratuito (monitoreo en tiempo real) y plan premium (historial completo de consumo, integración con pronóstico climático, alertas inteligentes, reportes de ahorro y control remoto avanzado).  
+8. Mi competencia principal en el mercado será aplicaciones de jardinería como Planta o Gardenia que ofrecen recordatorios de riego pero sin datos reales del suelo, temporizadores de riego básicos que funcionan con horarios fijos sin adaptarse a las condiciones del ambiente, y soluciones IoT de agricultura industrial como Gardena Smart o sistemas profesionales de riego de precisión que resultan costosos e inaccesibles para pequeños usuarios.  
+9. Los venceremos debido a que ofrecemos una solución integral que combina hardware IoT de bajo costo con software inteligente, específicamente diseñada para huertos urbanos y parcelas pequeñas. A diferencia de las apps de jardinería, nuestro sistema usa datos reales del suelo; a diferencia de los temporizadores, se adapta al clima; y a diferencia de las soluciones industriales, es accesible económicamente.  
+10. Mi mayor riesgo de producto es que los usuarios no perciban el valor suficiente como para pagar la suscripción mensual después de adquirir el dispositivo, o que la instalación del hardware les resulte complicada y abandonen el uso del sistema.  
+11. Resolveremos esto a través de un proceso de instalación guiado paso a paso dentro de la app, tutoriales en video, un período de prueba gratuita del plan premium al adquirir el dispositivo, y métricas visibles de ahorro de agua que demuestren el retorno de inversión desde las primeras semanas de uso.  
+12. **¿Quién es el usuario?** Los usuarios son horticultores urbanos que cultivan en espacios domésticos y buscan optimizar el riego de sus plantas, y micro-agricultores periurbanos con parcelas pequeñas que necesitan tecnificar el riego con soluciones económicas y accesibles.  
+13. **¿Dónde encaja nuestro producto en su trabajo o vida?** AquaSave encaja en la rutina diaria del horticultor urbano al eliminar la incertidumbre de cuándo y cuánto regar, y en la operación del micro-agricultor periurbano al automatizar una tarea que consume tiempo y recursos, permitiéndole enfocarse en otras labores productivas.  
+14. **¿Qué problemas tiene nuestro producto que resolver?** El riego manual sin datos objetivos del suelo, el desperdicio de agua por riego excesivo o en momentos inadecuados, la falta de herramientas accesibles de monitoreo agrícola para pequeños usuarios, y la desconexión entre las condiciones climáticas y las decisiones de riego.  
+15. **¿Cuándo y cómo es nuestro producto usado?** El dispositivo IoT opera de forma continua midiendo las condiciones del suelo. La app se usa diariamente para consultar el estado de los cultivos, revisar alertas y el pronóstico climático. El control manual del riego se activa cuando el usuario lo considera necesario. Los reportes de ahorro se consultan semanal o mensualmente.  
+16. **¿Qué características son importantes?** Monitoreo en tiempo real de humedad y temperatura del suelo, automatización del riego basada en umbrales configurables, integración con API de pronóstico climático para pausar el riego ante lluvias, control remoto manual desde la app, historial de consumo hídrico con métricas de ahorro, alertas push cuando la humedad del suelo es crítica, y un diseño responsivo adaptado a dispositivos móviles y web.  
+17. **¿Cómo debe verse nuestro producto y cómo comportarse?** Debe verse limpio, moderno y orientado a la naturaleza, con colores verdes y terrosos que transmitan sustentabilidad. Debe comportarse de forma rápida, confiable y simple, mostrando la información más relevante de un vistazo sin requerir conocimientos técnicos. Las acciones críticas como activar el riego o configurar alertas deben estar a máximo dos toques de distancia.  
+    
+
 
 ##### 1.2.2.3. Lean UX Hypothesis Statements
 
+**Hypothesis Statement 1 (Horticultores Urbanos):**
+
+Creemos que el monitoreo en tiempo real de la humedad del suelo combinado con la automatización del riego basada en datos climáticos ayudará a los horticultores urbanos a reducir el desperdicio de agua y mejorar la salud de sus cultivos domésticos. Sabremos que estamos bien cuando los usuarios reporten en sus comentarios que se sienten más seguros y en control del riego de sus plantas, cuando al menos el 60% de los usuarios activos consulten la app al menos tres veces por semana y utilicen la función de riego automático, y cuando se observe una reducción promedio del 30% en el consumo de agua reportado por los usuarios durante los primeros dos meses de uso.
+
+**Hypothesis Statement 2 (Micro-Agricultores Periurbanos):**
+
+Creemos que un sistema IoT de riego inteligente de bajo costo con alertas de humedad crítica, integración climática y reportes de consumo hídrico permitirá a los micro-agricultores periurbanos optimizar el uso del agua e incrementar la productividad de sus parcelas. Sabremos que esto es cierto cuando los micro-agricultores reporten que las alertas les han permitido prevenir pérdidas de cultivos por falta o exceso de riego, cuando al menos el 50% de ellos utilicen los reportes de consumo hídrico para tomar decisiones de riego semanalmente, y cuando se evidencie un ahorro de agua de al menos el 25% en comparación con su método de riego anterior durante la primera temporada de uso.
+
+
 ##### 1.2.2.4. Lean UX Canvas
+<div align="center">
+
+  <img src="image/canvas.png" alt="Diagrama" width="600">
+
+</div>
 
 ### 1.3. Segmentos objetivo
+
+**Segmento Objetivo 1: Horticultores Urbanos**
+
+Este segmento está conformado por personas que mantienen huertos domésticos en sus viviendas como actividad de autoconsumo, hobby o interés por la sostenibilidad. Incluye a quienes cultivan hortalizas, hierbas aromáticas, plantas ornamentales o frutales en espacios reducidos como terrazas, patios, balcones o jardines, y que realizan el riego de forma completamente manual.
+
+**Características demográficas:**
+
+Ubicación: Principalmente en zonas urbanas del Perú, con mayor concentración en Lima Metropolitana y ciudades intermedias como Arequipa, Trujillo y Cusco, donde la tendencia de huertos urbanos ha crecido impulsada por el interés en alimentación saludable y sostenibilidad.
+
+Edad: Entre 25 y 50 años, adultos jóvenes y de mediana edad con interés en jardinería, alimentación orgánica y tecnología para el hogar.
+
+Nivel socioeconómico: Clase media y media-alta, con acceso a smartphones y conexión Wi-Fi doméstica.
+
+**Necesidades principales:**
+
+Conocer el estado real de humedad del suelo sin depender de la intuición. Automatizar el riego para evitar desperdicio de agua y deterioro de plantas. Recibir alertas ante condiciones críticas del suelo o lluvias próximas.
+
+**Desafíos:**
+
+Riego por intuición o por horarios fijos sin datos reales del suelo. Ausencia de soluciones IoT accesibles diseñadas para huertos domésticos de pequeña escala.
+
+**Segmento Objetivo 2: Micro-Agricultores Periurbanos**
+
+Este segmento está integrado por pequeños productores agrícolas ubicados en zonas periurbanas que manejan parcelas de menos de 5 hectáreas y dependen del riego para el sustento de sus familias. Buscan soluciones tecnológicas económicas que les permitan mejorar la eficiencia del riego sin grandes inversiones en infraestructura.
+
+**Características demográficas:**
+
+Ubicación: Zonas periurbanas y rurales cercanas a ciudades como Lima, Arequipa, Cusco y Trujillo, donde la agricultura de pequeña escala coexiste con el crecimiento urbano.
+
+Edad: Entre 35 y 65 años, con mayor concentración en el rango de 40 a 64 años, que según el INEI (2017) representa el 53.5% de los productores agropecuarios del país.
+
+Nivel socioeconómico: Clase media-baja y baja, con ingresos dependientes de la producción agrícola. El 52.9% tiene solo educación primaria (INEI, 2017), lo que demanda interfaces extremadamente intuitivas.
+
+**Necesidades principales:**
+
+Tecnificar el riego con una solución de bajo costo y fácil instalación. Monitorear humedad y temperatura de sus cultivos sin estar físicamente en la parcela. Reducir pérdidas de cultivos y consumo de agua por riego inadecuado.
+
+**Desafíos:**
+
+Solo el 7% de pequeños productores usa riego tecnificado frente al 53% de grandes productores (Arauco Livia, 2025). Las soluciones de riego inteligente del mercado están diseñadas para agricultura industrial con costos inaccesibles para este segmento.
 
 ---
 
@@ -422,6 +570,17 @@
 ---
 
 ## Bibliografía
+
+
+Arauco Livia, M. (2025, 25 de octubre). *Agricultura inteligente: un puente entre la justicia hídrica y la sostenibilidad empresarial en el Perú*. Infobae. [https://www.infobae.com/peru/2025/10/25/agricultura-inteligente-un-puente-entre-la-justicia-hidrica-y-la-sostenibilidad-empresarial-en-el-peru/](https://www.infobae.com/peru/2025/10/25/agricultura-inteligente-un-puente-entre-la-justicia-hidrica-y-la-sostenibilidad-empresarial-en-el-peru/)
+
+Instituto Nacional de Estadística e Informática. (2017, 10 de julio). *El riego tecnificado en pequeñas y medianas unidades agropecuarias creció 2,2 puntos porcentuales en el año 2016*. Plataforma del Estado Peruano. [https://www.gob.pe/institucion/inei/noticias/](https://www.gob.pe/institucion/inei/noticias/)
+
+Vinelli, M. (2021, 2 de marzo). *La brecha de infraestructura de riego en el sector agropecuario*. Conexión ESAN. [https://www.esan.edu.pe/conexion-esan/la-brecha-de-infraestructura-de-riego-en-el-sector-agropecuario](https://www.esan.edu.pe/conexion-esan/la-brecha-de-infraestructura-de-riego-en-el-sector-agropecuario)
+
+Ybánez, I. (2023, 8 de febrero). *El 45% de agua se pierde por canales de riego en mal estado*. Infobae. [https://www.infobae.com/peru/2023/02/09/el-45-de-agua-se-pierde-por-canales-de-riego-en-mal-estado/](https://www.infobae.com/peru/2023/02/09/el-45-de-agua-se-pierde-por-canales-de-riego-en-mal-estado/)
+
+Zapana Churata, L. E. (2018). Respuestas a la crisis hídrica en zonas agrícolas y urbanas: Caso de estudio “Proyecto de Irrigación Majes Siguas I” Arequipa – Perú. Agua Y Territorio Water and Landscape, 12, 145-156. [https://doi.org/10.17561/at.12.3532](https://doi.org/10.17561/at.12.3532)  
 
 ---
 
