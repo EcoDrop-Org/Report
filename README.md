@@ -335,7 +335,11 @@ Creemos que un sistema IoT de riego inteligente de bajo costo con alertas de hum
 
 
 ##### 1.2.2.4. Lean UX Canvas
+<div align="center">
 
+  <img src="image/canvas.png" alt="Diagrama" width="600">
+
+</div>
 
 ### 1.3. Segmentos objetivo
 
