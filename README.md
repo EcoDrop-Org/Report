@@ -343,6 +343,46 @@ Creemos que un sistema IoT de riego inteligente de bajo costo con alertas de hum
 
 ### 1.3. Segmentos objetivo
 
+**Segmento Objetivo 1: Horticultores Urbanos**
+
+Este segmento está conformado por personas que mantienen huertos domésticos en sus viviendas como actividad de autoconsumo, hobby o interés por la sostenibilidad. Incluye a quienes cultivan hortalizas, hierbas aromáticas, plantas ornamentales o frutales en espacios reducidos como terrazas, patios, balcones o jardines, y que realizan el riego de forma completamente manual.
+
+**Características demográficas:**
+
+Ubicación: Principalmente en zonas urbanas del Perú, con mayor concentración en Lima Metropolitana y ciudades intermedias como Arequipa, Trujillo y Cusco, donde la tendencia de huertos urbanos ha crecido impulsada por el interés en alimentación saludable y sostenibilidad.
+
+Edad: Entre 25 y 50 años, adultos jóvenes y de mediana edad con interés en jardinería, alimentación orgánica y tecnología para el hogar.
+
+Nivel socioeconómico: Clase media y media-alta, con acceso a smartphones y conexión Wi-Fi doméstica.
+
+**Necesidades principales:**
+
+Conocer el estado real de humedad del suelo sin depender de la intuición. Automatizar el riego para evitar desperdicio de agua y deterioro de plantas. Recibir alertas ante condiciones críticas del suelo o lluvias próximas.
+
+**Desafíos:**
+
+Riego por intuición o por horarios fijos sin datos reales del suelo. Ausencia de soluciones IoT accesibles diseñadas para huertos domésticos de pequeña escala.
+
+**Segmento Objetivo 2: Micro-Agricultores Periurbanos**
+
+Este segmento está integrado por pequeños productores agrícolas ubicados en zonas periurbanas que manejan parcelas de menos de 5 hectáreas y dependen del riego para el sustento de sus familias. Buscan soluciones tecnológicas económicas que les permitan mejorar la eficiencia del riego sin grandes inversiones en infraestructura.
+
+**Características demográficas:**
+
+Ubicación: Zonas periurbanas y rurales cercanas a ciudades como Lima, Arequipa, Cusco y Trujillo, donde la agricultura de pequeña escala coexiste con el crecimiento urbano.
+
+Edad: Entre 35 y 65 años, con mayor concentración en el rango de 40 a 64 años, que según el INEI (2017) representa el 53.5% de los productores agropecuarios del país.
+
+Nivel socioeconómico: Clase media-baja y baja, con ingresos dependientes de la producción agrícola. El 52.9% tiene solo educación primaria (INEI, 2017), lo que demanda interfaces extremadamente intuitivas.
+
+**Necesidades principales:**
+
+Tecnificar el riego con una solución de bajo costo y fácil instalación. Monitorear humedad y temperatura de sus cultivos sin estar físicamente en la parcela. Reducir pérdidas de cultivos y consumo de agua por riego inadecuado.
+
+**Desafíos:**
+
+Solo el 7% de pequeños productores usa riego tecnificado frente al 53% de grandes productores (Arauco Livia, 2025). Las soluciones de riego inteligente del mercado están diseñadas para agricultura industrial con costos inaccesibles para este segmento.
+
 ---
 
 ## Capítulo II: Requirements Elicitation & Analysis
@@ -530,6 +570,17 @@ Creemos que un sistema IoT de riego inteligente de bajo costo con alertas de hum
 ---
 
 ## Bibliografía
+
+
+Arauco Livia, M. (2025, 25 de octubre). *Agricultura inteligente: un puente entre la justicia hídrica y la sostenibilidad empresarial en el Perú*. Infobae. [https://www.infobae.com/peru/2025/10/25/agricultura-inteligente-un-puente-entre-la-justicia-hidrica-y-la-sostenibilidad-empresarial-en-el-peru/](https://www.infobae.com/peru/2025/10/25/agricultura-inteligente-un-puente-entre-la-justicia-hidrica-y-la-sostenibilidad-empresarial-en-el-peru/)
+
+Instituto Nacional de Estadística e Informática. (2017, 10 de julio). *El riego tecnificado en pequeñas y medianas unidades agropecuarias creció 2,2 puntos porcentuales en el año 2016*. Plataforma del Estado Peruano. [https://www.gob.pe/institucion/inei/noticias/](https://www.gob.pe/institucion/inei/noticias/)
+
+Vinelli, M. (2021, 2 de marzo). *La brecha de infraestructura de riego en el sector agropecuario*. Conexión ESAN. [https://www.esan.edu.pe/conexion-esan/la-brecha-de-infraestructura-de-riego-en-el-sector-agropecuario](https://www.esan.edu.pe/conexion-esan/la-brecha-de-infraestructura-de-riego-en-el-sector-agropecuario)
+
+Ybánez, I. (2023, 8 de febrero). *El 45% de agua se pierde por canales de riego en mal estado*. Infobae. [https://www.infobae.com/peru/2023/02/09/el-45-de-agua-se-pierde-por-canales-de-riego-en-mal-estado/](https://www.infobae.com/peru/2023/02/09/el-45-de-agua-se-pierde-por-canales-de-riego-en-mal-estado/)
+
+Zapana Churata, L. E. (2018). Respuestas a la crisis hídrica en zonas agrícolas y urbanas: Caso de estudio “Proyecto de Irrigación Majes Siguas I” Arequipa – Perú. Agua Y Territorio Water and Landscape, 12, 145-156. [https://doi.org/10.17561/at.12.3532](https://doi.org/10.17561/at.12.3532)  
 
 ---
 
