@@ -468,6 +468,18 @@ La estructura de las entrevistas se ajusta estratégicamente a cada segmento de 
 
 #### 2.3.2. User Task Matrix
 
+
+| TASK MATRIX |   | Lucía Ramírez |   | Carlos Mendoza |   |
+| ----- | ----- | :---- | :---- | :---- | :---- |
+|   |   | **frecuencia** | **importancia** | **frecuencia** | **importancia** |
+| **Monitorear la humedad del suelo o sustrato** |   | **A veces** | **Alta** | **Siempre** | **Alta** |
+| **Ejecutar el riego manual de plantas/cultivos** |   | **A veces** | **Alta** | **Siempre** | **Alta** |
+| **Calcular la cantidad de agua necesaria** |   |   | **Alta** | **A veces** | **Alta** |
+| **Revisar el pronóstico del clima o temperatura** |   | **A veces** | **Media** | **Siempre** | **Alta** |
+| **Supervisar el consumo y costo de agua** |   | **A veces** | **Media** | **Siempre** | **Alta** |
+| **Configurar horarios o rutinas de riego** |   | **Siempre** | **Alta** |   | **Baja** |
+| **Ajustar válvulas y mangueras de distribución** |   |   | **Baja** | **Siempre** | **Alta** |
+
 #### 2.3.3. User Journey Mapping
 
 #### 2.3.4. Empathy Mapping
