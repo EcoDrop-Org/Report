@@ -15,8 +15,8 @@
   
   ## <p align="center">Informe del Trabajo Final</p>
   
-  <p align="center">Startup: </p>
-  <p align="center">Producto: </p>
+  <p align="center">Startup: EcoDrop</p>
+  <p align="center">Producto: AquaSave</p>
   
   <br>
   
@@ -396,6 +396,59 @@ Solo el 7% de pequeños productores usa riego tecnificado frente al 53% de grand
 ### 2.2. Entrevistas
 
 #### 2.2.1. Diseño de entrevistas
+
+La estructura de las entrevistas se ajusta estratégicamente a cada segmento de usuarios con el objetivo de identificar a fondo sus verdaderas demandas y expectativas. Como punto de partida, la dinámica inicia con un bloque de preguntas exploratorias orientadas a recopilar el perfil demográfico fundamental, estableciendo así los cimientos empíricos necesarios para la posterior creación de los arquetipos.
+
+***Segmento objetivo #1: Horticultores Urbanos*** 
+
+***Características demográficas:***
+
+* ¿Cuál es tu nombre y edad?  
+* ¿En qué ciudad y distrito vives actualmente?  
+* ¿A qué te dedicas (ocupación) y cómo encaja el cuidado del huerto en tu rutina diaria?  
+* ¿Qué tipo de espacio tienes para tu huerto (balcón, terraza, patio o jardín) y qué tamaño aproximado tiene?  
+
+***Preguntas Principales***
+
+1. ¿Cuáles son tus principales responsabilidades diarias o semanales para cuidar tu huerto (riego, abonado, poda, control de plagas, cosecha)?  
+2. ¿Cómo gestionas actualmente el riego de tus plantas (por intuición, por horarios fijos, según el clima, según el aspecto de la tierra)?  
+3. ¿Utilizas algún software o herramienta digital para controlar el riego o recordar tareas del huerto (alarmas, calendario, apps de jardinería)? ¿Qué te funciona y qué te frustra?  
+4. ¿Cuáles son los mayores retos que enfrentas al momento de regar (olvidos, exceso/falta de agua, poco tiempo, viajes, no saber si el suelo está realmente húmedo)?  
+5. ¿Qué consecuencias has notado cuando el riego no sale bien (plantas débiles, hojas amarillas, hongos, pérdida de plantas, gasto de agua)?  
+
+***Preguntas sobre el Proyecto*** 
+
+6. ¿Qué te parecería contar con una plataforma/solución que te permita conocer el estado real de la humedad del suelo y saber si tus plantas realmente necesitan agua antes de regar?  
+7. ¿Qué te parecería contar con una plataforma/solución que te permita automatizar el riego y, a la vez, activar o detener el riego manualmente desde el móvil cuando tú lo decidas?  
+8. ¿Qué funcionalidades serían esenciales para ti (monitoreo en tiempo real, alertas de humedad crítica, historial de riegos/consumo, recomendaciones, métricas de ahorro, control remoto)?  
+9. ¿Con qué frecuencia necesitarías revisar esta información (cada día, dos o tres veces por semana, solo en épocas de calor o cuando te ausentas de casa)?  
+10. ¿Qué tan cómodo(a) te sentirías instalando un sensor en el huerto y configurándolo desde una app, y qué tipo de guía o soporte necesitarías para hacerlo sin complicaciones?  
+
+
+***Segmento objetivo #2: Micro-Agricultores Periurbanos*** 
+
+***Características demográficas:***
+
+* ¿Cuál es tu nombre y edad?  
+* ¿En qué zona se ubica tu parcela y cuántas hectáreas trabajan actualmente?  
+* ¿Cuál es tu cargo o rol específico dentro del trabajo en la parcela (dueño(a), conductor(a), encargado(a) de riego, trabajador(a))?  
+* ¿Qué tipo de teléfono usas normalmente (smartphone o básico) y qué tan estable es la señal o el internet en tu parcela?  
+
+***Preguntas Principales***
+
+1. ¿Cuáles son tus principales responsabilidades diarias en la parcela y cuánto tiempo te demanda el riego dentro de esa rutina?  
+2. ¿Cómo gestionas actualmente el riego (por gravedad, manguera, aspersión, goteo) y cómo defines los horarios o turnos de riego?  
+3. ¿Cómo decides hoy cuándo regar y cuánta agua usar (experiencia, observación del suelo, calendario, disponibilidad del canal/fuente de agua, estado del cultivo)?  
+4. ¿Cuáles son los mayores retos que enfrentas al momento de regar (pérdidas de agua, falta de agua, costos, mano de obra, necesidad de estar presente para revisar, daños al cultivo)?  
+5. ¿Llevas algún registro (cuaderno, notas en el teléfono) de riegos, gastos o rendimiento del cultivo? ¿Qué información te gustaría tener más clara para tomar decisiones?  
+
+***Preguntas sobre el Proyecto*** 
+
+6. ¿Qué te parecería contar con una plataforma/solución que te permita monitorear la humedad y temperatura del suelo para regar con datos y no solo con la experiencia o la intuición?  
+7. ¿Qué te parecería contar con una plataforma/solución que te permita revisar esa información desde el móvil sin estar físicamente en la parcela y recibir alertas cuando el suelo esté en un nivel crítico?  
+8. ¿Qué funcionalidades serían esenciales para ti para que esto sea útil en campo (instalación sencilla, datos fáciles de entender, alertas claras, historial por días/semanas, acceso para más de una persona)?  
+9. ¿Con qué frecuencia necesitarías revisar esta información para tomar decisiones rápidas (por turno de riego, diariamente, semanalmente) y quién sería la persona responsable de revisarla?  
+10. ¿Qué tipo de notificaciones o alertas te serían realmente útiles para tomar decisiones rápidas en el riego (por ejemplo, “suelo muy seco”, “suelo demasiado húmedo”, “riesgo de riego innecesario”) y por qué?  
 
 #### 2.2.2. Registro de entrevistas
 
