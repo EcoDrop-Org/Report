@@ -536,6 +536,8 @@ Solo el 7% de pequeños productores usa riego tecnificado frente al 53% de grand
 
 ### 2.2. Entrevistas
 
+La sección abarca el proceso de investigación de nuestros segmentos objetivos mediante la recolección de información en base a entrevistas.
+
 #### 2.2.1. Diseño de entrevistas
 
 La estructura de las entrevistas se ajusta estratégicamente a cada segmento de usuarios con el objetivo de identificar a fondo sus verdaderas demandas y expectativas. Como punto de partida, la dinámica inicia con un bloque de preguntas exploratorias orientadas a recopilar el perfil demográfico fundamental, estableciendo así los cimientos empíricos necesarios para la posterior creación de los arquetipos.
