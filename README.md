@@ -391,6 +391,8 @@ Solo el 7% de pequeños productores usa riego tecnificado frente al 53% de grand
 
 #### 2.1.1. Análisis competitivo
 
+El análisis competitivo es una herramienta clave por su importancia en la toma de decisiones estratégicas, así como en la detección de oportunidades y amenazas, y en la generación de ventajas competitivas sostenibles en el mercado. Por ello, permite a las empresas adaptarse con agilidad y tomar decisiones fundamentadas en un entorno empresarial dinámico y en constante evolución. A continuación, se presenta la aplicación de esta herramienta en el desarrollo del proyecto y el análisis de los competidores:
+
 <table style="width: 100%; border-collapse: collapse; margin: 20px 0; font-family: Arial, sans-serif; font-size: 14px;">
   <thead>
     <tr>
@@ -536,7 +538,7 @@ Solo el 7% de pequeños productores usa riego tecnificado frente al 53% de grand
 
 ### 2.2. Entrevistas
 
-La sección abarca el proceso de investigación de nuestros segmentos objetivos mediante la recolección de información en base a entrevistas.
+Esta sección describe el proceso de investigación de los segmentos objetivo, basado en la recopilación de información a través de entrevistas.
 
 #### 2.2.1. Diseño de entrevistas
 
