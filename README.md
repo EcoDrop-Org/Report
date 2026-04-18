@@ -495,6 +495,45 @@ Solo el 7% de pequeños productores usa riego tecnificado frente al 53% de grand
 
 #### 2.1.2. Estrategias y tácticas frente a competidores
 
+**Estrategias generales de AquaSave:**
+
+- Diferenciación por precisión híbrida: Uso de sensores locales (caudal y humedad) cruzados con APIs climáticas para una toma de decisiones superior al promedio del mercado.
+
+- Integración end-to-end simplificada: Ecosistema cerrado pero flexible entre hardware (ESP32), API propietaria y aplicaciones multiplataforma (Móvil/Web).
+
+- Modelo de impacto medible: Enfoque en métricas de ahorro hídrico real y monetización del ahorro para el usuario (sostenibilidad rentable).
+
+- Posicionamiento como experto local: Solución diseñada para enfrentar microclimas y condiciones de estrés hídrico específicas, superando a soluciones genéricas extranjeras.
+
+**Tácticas frente a competidores:**
+
+<table>
+  <thead>
+    <tr>
+      <th align="left">Competidor</th>
+      <th align="left">Estrategia</th>
+      <th align="left">Táctica</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><b>Rachio</b></td>
+      <td>Superar la dependencia de datos meteorológicos externos.</td>
+      <td>Posicionar a AquaSave como un sistema de "precisión real" que utiliza sensores de humedad y caudal en sitio, evitando errores de riego basados en estaciones climáticas lejanas o inexactas.</td>
+    </tr>
+    <tr>
+      <td><b>Orbit B-hyve</b></td>
+      <td>Diferenciarse mediante UX/UI superior y analítica avanzada.</td>
+      <td>Explotar el potencial de Flutter para ofrecer una interfaz móvil moderna, fluida y con dashboards que visualicen el ahorro de agua en litros reales, superando la experiencia de usuario limitada de la competencia.</td>
+    </tr>
+    <tr>
+      <td><b>OpenSprinkler</b></td>
+      <td>Competir en confiabilidad y facilidad de despliegue.</td>
+      <td>Ofrecer una solución integral lista para usar, con soporte técnico y una API RESTful documentada, eliminando la barrera técnica y la complejidad de configuración del hardware DIY.</td>
+    </tr>
+  </tbody>
+</table>
+
 ### 2.2. Entrevistas
 
 #### 2.2.1. Diseño de entrevistas
