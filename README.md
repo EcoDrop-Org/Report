@@ -631,6 +631,42 @@ La estructura de las entrevistas se ajusta estratégicamente a cada segmento de 
 
 ### 2.4. Big Picture EventStorming
 
+Es un espacio de trabajo colaborativo en el que un grupo de personas (como desarrolladores, especialistas del negocio, gerentes de producto, entre otros) analiza y comprende rápidamente un dominio de negocio complejo.
+
+**Sus principales propósitos son:**
+
+- **Unificar criterios:** Garantizar que todo el equipo comparta la misma visión del proceso de negocio.
+
+- **Detectar inconvenientes:** Identificar cuellos de botella, incertidumbres y complejidades que no resultan evidentes a primera vista.
+
+- **Establecer un lenguaje compartido:** Comenzar a desarrollar un “lenguaje ubicuo”, es decir, un conjunto de términos comunes entre los expertos del negocio y el equipo técnico.
+
+***1. Preparing the room***
+
+Para asegurar comodidad, eficiencia y una colaboración en tiempo real, optamos por usar Discord como espacio virtual para nuestra primera reunión. En este entorno, nos encontramos con la finalidad de unificar la comprensión del negocio, detectar dudas relevantes, identificar problemas frecuentes y promover un clima de confianza y comunicación abierta centrado en el cuidado de plantas en el hogar.
+
+***2. Energizing the audience***
+
+Para captar la atención y mejorar el ambiente, comenzamos la sesión con una breve rutina de estiramientos dirigida para desarrolladores, seguida de un reto lógico rápido sobre optimización de recursos. El propósito fue elevar los niveles de dopamina, aliviar la tensión de las horas frente al monitor y fomentar la conexión entre los miembros del equipo antes de abordar la complejidad de los dominios, los comandos y los eventos de nuestro sistema IoT.
+
+***3. Briefing and presenting the plan***
+
+Posteriormente, expusimos nuestra visión: crear una solución integral de riego inteligente que combine la robustez del ESP32 con la versatilidad de Flutter. El objetivo es permitir una gestión autónoma y eficiente del agua tanto en jardines residenciales como en cultivos de mediana escala, utilizando el cruce de sensores locales y pronósticos climáticos.
+
+Detallamos también el modelo de negocio, el cual se apoya en la venta del hardware especializado y un modelo SaaS (Software as a Service) que ofrece analítica avanzada de ahorro hídrico y reportes de sostenibilidad para usuarios pro. Finalmente, revisamos el roadmap del proyecto, definiendo los hitos clave para el API REST y la aplicacion móvil.
+
+***4. Generating Domain Events***
+
+***5. Sorting Domain Events***
+
+***6. Adding Actors and External Systems***
+
+***7. Storytelling***
+
+***8. Reverse storytelling***
+
+***9. Closing***
+
 ### 2.5. Ubiquitous Language
 
 ---
