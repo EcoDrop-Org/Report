@@ -822,7 +822,15 @@ Solicitamos a los participantes que anoten en post-its amarillos los “eventos�
 
 ***8. Reverse storytelling***
 
+Como complemento, se puede hacer una narración en sentido inverso: comenzar desde el último evento y retroceder hasta el primero. Este enfoque permite identificar dependencias ocultas, detectar puntos de fricción que no son evidentes en la secuencia normal y evidenciar posibles errores en la relación causal del proceso. Resulta especialmente útil para cuestionar supuestos y revelar interacciones críticas que podrían no notarse al seguir únicamente el orden habitual.
+
 ***9. Closing***
+
+Al finalizar la sesión, se revisan los resultados obtenidos:
+
+- La creación de una comprensión compartida del dominio del negocio.
+- La detección clara de problemas, dudas y aspectos aún inciertos.
+- El desarrollo de un lenguaje común entre los participantes, lo que facilita la comunicación técnica y operativa en las siguientes fases.
 
 ### 2.5. Ubiquitous Language
 
