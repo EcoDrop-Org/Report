@@ -694,9 +694,19 @@ La estructura de las entrevistas se ajusta estratégicamente a cada segmento de 
 
 ### 3.2. Impact Mapping
 
-### 3.3. Product Backlog
+Usuario: Horticultor Urbano
+<div align="center">
 
-# 3.3. Product Backlog — AquaSave (EcoDrop)
+  <img src="image/Impact Map — Lucía Ramírez.png" alt="Diagrama" width="600">
+
+</div>
+Usuario: Micro-Agricultor Periurbano
+<div align="center">
+
+  <img src="image/Impact Map — Carlos Mendoza.png" alt="Diagrama" width="600">
+
+</div>
+### 3.3. Product Backlog
 
 | Orden | User Story ID | Título | Descripción | Story Points |
 |:-----:|:-------------:|--------|-------------|:------------:|
