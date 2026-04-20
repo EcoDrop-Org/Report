@@ -599,7 +599,7 @@ La estructura de las entrevistas se ajusta estratégicamente a cada segmento de 
 
 Las entrevistas están en un video en el siguiente URL: 
 
-**Segmento 1: Horticultores Urbanos:** 
+***Segmento 1: Horticultores Urbanos:*** 
 
 Nombre: Gabriel Borja  
 Edad: 32  
@@ -640,7 +640,7 @@ Carla es una profesora de 45 años que mantiene un huerto en su jardín como act
 
 
 
-**Segmento 2: Micro-Agricultores Periurbanos:** 
+***Segmento 2: Micro-Agricultores Periurbanos:*** 
 
 Nombre: Raul Bellido  
 Edad: 42  
@@ -685,7 +685,7 @@ Werner es un agricultor de 48 años que trabaja en una parcela de aproximadament
 
 En base en las entrevistas recopiladas para cada segmento, se llevó a cabo un análisis, el cual destaca los principales hallazgos y las conclusiones derivadas.
 
-**Segmento objetivo #1: Horticultores Urbanos**
+***Segmento objetivo #1: Horticultores Urbanos***
 
 **Hallazgos:**
 
@@ -716,7 +716,7 @@ Los horticultores urbanos gestionan el riego de sus plantas de manera empírica,
 Este segmento muestra una alta apertura hacia soluciones tecnológicas, siempre que estas sean simples, intuitivas y no requieran conocimientos técnicos avanzados. El principal valor que buscan es el control y la tranquilidad de saber que están regando correctamente. Por ello, una solución como AquaSave debe enfocarse en ofrecer monitoreo en tiempo real, alertas claras y automatización del riego, junto con una experiencia de instalación guiada y accesible que reduzca la fricción inicial.
 
 
-**Segmento objetivo #2: Micro-Agricultores Periurbanos**
+***Segmento objetivo #2: Micro-Agricultores Periurbanos***
 
 **Hallazgos:**
 
@@ -750,14 +750,14 @@ Este segmento muestra una clara necesidad de tecnificación, pero enfrenta barre
 
 #### 2.3.1. User Personas
 
-**Segmento objetivo #1: Horticultores Urbanos**
+***Segmento objetivo #1: Horticultores Urbanos***
 
 <p align="center">
   <img src="image/Segmento%201%20-%20USER%20PERSONA.png" alt="Segmento1" width="1000">
 </p>
 
 
-**Segmento 2: Micro-Agricultores Periurbanos:** 
+***Segmento 2: Micro-Agricultores Periurbanos:***
 
 <p align="center">
   <img src="image/Segmento%202%20-%20USER%20PERSONA.png" alt="Segmento2" width="1000">
