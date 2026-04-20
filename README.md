@@ -627,16 +627,16 @@ Lukas es un profesional de marketing digital de 28 años que mantiene un huerto 
 
 
 
-Nombre: Carla Cárdenas  
-Edad: 45  
-Ocupación: Profesora  
+Nombre: Santiago Cárdenas  
+Edad: 28 
+Ocupación: Profesor  
 Distrito: Arequipa  
 Timing:  
 <p align="center">
   <img src="image/entrevista3.png" alt="Entrevista3" width="1000">
 </p>
 
-Carla es una profesora de 45 años que mantiene un huerto en su jardín como actividad complementaria en su tiempo libre. Cuenta con experiencia en el cuidado de plantas y realiza tareas diarias como riego, abonado y control de plagas. Sin embargo, su gestión del riego se basa completamente en la experiencia, lo que en ocasiones genera errores debido a cambios climáticos o falta de información precisa. Ha enfrentado pérdidas de plantas tanto por exceso como por falta de agua. No utiliza herramientas tecnológicas para el cuidado de su huerto, lo que evidencia una oportunidad para soluciones intuitivas y accesibles. Muestra interés en una plataforma que le permita visualizar datos claros y recibir alertas que mejoren la toma de decisiones. También considera importante contar con apoyo en la instalación del sistema, lo que sugiere la necesidad de procesos guiados y simples.
+Santiago es una profesor de 28 años que mantiene un huerto en su jardín como actividad complementaria en su tiempo libre. Cuenta con experiencia en el cuidado de plantas y realiza tareas diarias como riego, abonado y control de plagas. Sin embargo, su gestión del riego se basa completamente en la experiencia, lo que en ocasiones genera errores debido a cambios climáticos o falta de información precisa. Ha enfrentado pérdidas de plantas tanto por exceso como por falta de agua. No utiliza herramientas tecnológicas para el cuidado de su huerto, lo que evidencia una oportunidad para soluciones intuitivas y accesibles. Muestra interés en una plataforma que le permita visualizar datos claros y recibir alertas que mejoren la toma de decisiones. También considera importante contar con apoyo en la instalación del sistema, lo que sugiere la necesidad de procesos guiados y simples.
 
 
 
