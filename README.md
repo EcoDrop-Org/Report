@@ -830,9 +830,29 @@ Solicitamos a los participantes que anoten en post-its amarillos los “eventos�
 
 ***5. Sorting Domain Events***
 
+Solicitamos al equipo que organice de manera cronológica los eventos escritos en post-its amarillos sobre una pared, ubicándolos de izquierda a derecha para formar una línea de tiempo del proceso de autocuidado de plantas.
+
+Este ejercicio va más allá de simplemente ordenar elementos: representa el momento más enriquecedor de la sesión. Al discutir si la secuencia planteada es la adecuada, el equipo empieza a evidenciar diferencias en sus perspectivas, supuestos implícitos y posibles malentendidos sobre el funcionamiento real del proceso. Lejos de ser conflictos, estas conversaciones se convierten en oportunidades fundamentales para alinear la comprensión colectiva, detectar vacíos en el flujo del negocio y construir un modelo compartido más claro y preciso del dominio.
+
+[![Aqua-Save-Big-Picture-Event-Storming-(1).jpg](https://i.postimg.cc/3w1nCpCS/Aqua-Save-Big-Picture-Event-Storming-(1).jpg)](https://postimg.cc/rdd1qDHx)
+
 ***6. Adding Actors and External Systems***
 
+Para profundizar en la modelación del dominio, asignamos distintos colores a los elementos clave que interactúan con los eventos previamente ordenados:
+
+- Actores: Mediante post-its de color naranja, identificamos quién —o qué rol— inicia o participa en cada evento. Estos actores pueden ser personas, roles o entidades externas involucradas en el proceso. Esto facilita visualizar las responsabilidades humanas dentro del flujo.
+
+- Sistemas externos: Con post-its azules, marcamos los sistemas, servicios o plataformas externas con los que el producto se integra, como una plataforma de pagos, un servicio de envíos, una API de clima local o la aplicación móvil del usuario. Esto permite identificar puntos de integración y prever dependencias técnicas.
+
+- Problemas: Utilizamos el color rojo para señalar inquietudes o inconvenientes, evitando interrumpir el flujo con debates en ese momento y dejando esos puntos registrados para revisarlos posteriormente.
+
+[![Aqua-Save-Big-Picture-Event-Storming-(2).jpg](https://i.postimg.cc/nzQ71Fr0/Aqua-Save-Big-Picture-Event-Storming-(2).jpg)](https://postimg.cc/vgbcYdWV)
+
 ***7. Storytelling***
+
+Se recorre la línea de eventos en orden cronológico, desde el inicio hasta el final, relatando la historia que los post-its han construido de forma colectiva. Esta narración permite verificar la coherencia del flujo, identificar posibles inconsistencias, confirmar la secuencia de acciones y detectar omisiones o redundancias dentro del proceso.
+
+[![Aqua-Save-Big-Picture-Event-Storming-(3).jpg](https://i.postimg.cc/4N4yf4GB/Aqua-Save-Big-Picture-Event-Storming-(3).jpg)](https://postimg.cc/XXh4xbpC)
 
 ***8. Reverse storytelling***
 
