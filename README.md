@@ -605,7 +605,8 @@ Nombre: Gabriel Borja
 Edad: 32  
 Ocupación: Diseñador gráfico  
 Distrito: Santiago de Surco, Lima  
-Timing:  
+Timing: 0:00
+
 <p align="center">
   <img src="image/entrevista1.png" alt="Entrevista1" width="1000">
 </p>
@@ -613,12 +614,12 @@ Timing:
 Gabriel es un diseñador gráfico de 32 años que trabaja desde casa y utiliza el cuidado de su huerto como una actividad de relajo dentro de su rutina diaria. En su experiencia, dedica tiempo constante al mantenimiento de sus plantas, realizando tareas como riego, poda y control de plagas. Sin embargo, menciona que actualmente gestiona el riego de manera intuitiva, lo que le genera incertidumbre sobre si está aplicando la cantidad correcta de agua. Además, ha tenido problemas como el deterioro de sus plantas y un posible desperdicio de agua. Utiliza herramientas simples como alarmas en el celular, pero no ha encontrado una solución digital que realmente se adapte a sus necesidades. Muestra un alto interés en una solución que le permita monitorear la humedad del suelo en tiempo real y automatizar el riego, destacando la importancia de recibir alertas y contar con un historial para entender mejor el comportamiento de sus cultivos. También valora que el sistema sea fácil de instalar mediante guías claras.
 
 
-
 Nombre: Lukas Coronado  
 Edad: 28  
 Ocupación: Especialista en marketing digital  
 Distrito: Miraflores, Lima  
-Timing:  
+Timing: 4:29  
+
 <p align="center">
   <img src="image/entrevista2.png" alt="Entrevista2" width="1000">
 </p>
@@ -628,15 +629,16 @@ Lukas es un profesional de marketing digital de 28 años que mantiene un huerto 
 
 
 Nombre: Santiago Cárdenas  
-Edad: 28 
+Edad: 22 
 Ocupación: Profesor  
 Distrito: Arequipa  
-Timing:  
+Timing: 7:03
+
 <p align="center">
   <img src="image/entrevista3.png" alt="Entrevista3" width="1000">
 </p>
 
-Santiago es una profesor de 28 años que mantiene un huerto en su jardín como actividad complementaria en su tiempo libre. Cuenta con experiencia en el cuidado de plantas y realiza tareas diarias como riego, abonado y control de plagas. Sin embargo, su gestión del riego se basa completamente en la experiencia, lo que en ocasiones genera errores debido a cambios climáticos o falta de información precisa. Ha enfrentado pérdidas de plantas tanto por exceso como por falta de agua. No utiliza herramientas tecnológicas para el cuidado de su huerto, lo que evidencia una oportunidad para soluciones intuitivas y accesibles. Muestra interés en una plataforma que le permita visualizar datos claros y recibir alertas que mejoren la toma de decisiones. También considera importante contar con apoyo en la instalación del sistema, lo que sugiere la necesidad de procesos guiados y simples.
+Santiago es una profesor de 22 años que mantiene un huerto en su jardín como actividad complementaria en su tiempo libre. Cuenta con experiencia en el cuidado de plantas y realiza tareas diarias como riego, abonado y control de plagas. Sin embargo, su gestión del riego se basa completamente en la experiencia, lo que en ocasiones genera errores debido a cambios climáticos o falta de información precisa. Ha enfrentado pérdidas de plantas tanto por exceso como por falta de agua. No utiliza herramientas tecnológicas para el cuidado de su huerto, lo que evidencia una oportunidad para soluciones intuitivas y accesibles. Muestra interés en una plataforma que le permita visualizar datos claros y recibir alertas que mejoren la toma de decisiones. También considera importante contar con apoyo en la instalación del sistema, lo que sugiere la necesidad de procesos guiados y simples.
 
 
 
@@ -646,7 +648,8 @@ Nombre: Raul Bellido
 Edad: 42  
 Ocupación: Agricultor y propietario  
 Distrito: Lurín, Lima  
-Timing:  
+Timing: 9:52  
+
 <p align="center">
   <img src="image/entrevista4.png" alt="Entrevista4" width="1000">
 </p>
@@ -659,7 +662,8 @@ Nombre: Santiago Suarez
 Edad: 30  
 Ocupación: Encargado de cultivo  
 Distrito: Cusco  
-Timing:  
+Timing: 13:32  
+
 <p align="center">
   <img src="image/entrevista5.png" alt="Entrevista5" width="1000">
 </p>
@@ -672,7 +676,7 @@ Nombre: Werner Lang
 Edad: 48  
 Ocupación: Agricultor  
 Distrito: Arequipa  
-Timing:  
+Timing: 16:02  
 
 <p align="center">
   <img src="image/entrevista6.png" alt="Entrevista6" width="1000">
