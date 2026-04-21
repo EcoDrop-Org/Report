@@ -1007,7 +1007,27 @@ Usuario: Micro-Agricultor Periurbano
 
 ### 4.1. Strategic-Level Domain-Driven Design
 
+En esta sección se describe el procedimiento que utilizamos para identificar y definir los bounded contexts de nuestro sistema. Para lograrlo, empleamos las técnicas de EventStorming y el Bounded Context Canvas, herramientas fundamentales que nos ayudaron a mapear los dominios del negocio, reconocer límites naturales entre sus componentes y alinear la arquitectura con la estructura organizacional y los flujos reales de trabajo.
+
 #### 4.1.1. Design-Level EventStorming
+
+Para desarrollar el EventStorming, el equipo se organizó con el objetivo de obtener una primera aproximación al modelado del dominio de nuestro proyecto. Durante este proceso seguimos una secuencia de nueve pasos.
+
+**Paso 1: Collect Domain Events**
+
+En esta etapa inicial, identificamos todos los eventos relevantes del dominio que tienen lugar en nuestro sistema. Estos eventos representan hechos significativos dentro del proceso de negocio y los registramos utilizando post-its de color naranja.
+
+[![Design-Level-Event-Storming.jpg](https://i.postimg.cc/nrXm5xHt/Design-Level-Event-Storming.jpg)](https://postimg.cc/tnH7ZLZr)
+
+**Paso 2: Timeline**
+
+Ordenamos todos los eventos identificados en una línea de tiempo, ubicándolos de manera cronológica para comprender mejor el flujo del proceso y visualizar la secuencia natural de acciones dentro del sistema.
+
+[![Design-Level-Event-Storming-(1).jpg](https://i.postimg.cc/hv0Gp3dy/Design-Level-Event-Storming-(1).jpg)](https://postimg.cc/RJN90dGK)
+
+**Paso 3: Pain and Pivotal Points**
+
+Detectamos los puntos de dolor (pain points) y los momentos decisivos (pivotal points) dentro del proceso. Estos corresponden a áreas que requieren especial atención o que resultan críticas para el correcto funcionamiento del sistema.
 
 ##### 4.1.1.1. Candidate Context Discovery
 
