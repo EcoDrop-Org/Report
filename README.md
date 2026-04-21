@@ -878,26 +878,18 @@ Al finalizar la sesión, se revisan los resultados obtenidos:
 
 ### 2.5. Ubiquitous Language
 
-**Horticultor urbano:** Persona que cultiva plantas en espacios de su hogar por hobby o autoconsumo.
-
-**Micro-agricultor periurbano:** Pequeño productor agrícola con parcelas menores a 5 hectáreas ubicadas cerca de la ciudad.
-
-**Dispositivo IoT:** Equipo físico instalado en el cultivo que recopila y transmite datos en tiempo real.
-
-**Sensor de humedad:** Componente que mide el nivel exacto de agua en la tierra para saber si requiere riego.
-
-**Sensor de caudal:** Componente que mide el flujo de agua en el sistema para calcular el consumo y ahorro.
-
-**Riego inteligente:** Sistema autónomo que activa o detiene el agua según las condiciones del suelo y el clima.
-
-**Pronóstico climático:** Datos meteorológicos obtenidos de internet para anticipar lluvias y evitar riegos innecesarios.
-
-**Huerto / Parcela:** El espacio físico (macetas o terreno) donde se encuentran las plantas monitoreadas.
-
-**Alerta crítica:** Notificación automática al celular cuando la tierra está excesivamente seca o inundada.
-
-**Reporte hídrico:** Resumen visual en la aplicación que muestra el historial de agua usada y el ahorro logrado.
-
+| Término | Definición |
+| :--- | :--- |
+| **Horticultor urbano** | Persona que cultiva plantas en espacios de su hogar por hobby o autoconsumo. |
+| **Micro-agricultor periurbano** | Pequeño productor agrícola con parcelas menores a 5 hectáreas ubicadas cerca de la ciudad. |
+| **Dispositivo IoT** | Equipo físico instalado en el cultivo que recopila y transmite datos en tiempo real. |
+| **Sensor de humedad** | Componente que mide el nivel exacto de agua en la tierra para saber si requiere riego. |
+| **Sensor de caudal** | Componente que mide el flujo de agua en el sistema para calcular el consumo y ahorro. |
+| **Riego inteligente** | Sistema autónomo que activa o detiene el agua según las condiciones del suelo y el clima. |
+| **Pronóstico climático** | Datos meteorológicos obtenidos de internet para anticipar lluvias y evitar riegos innecesarios. |
+| **Huerto / Parcela** | El espacio físico (macetas o terreno) donde se encuentran las plantas monitoreadas. |
+| **Alerta crítica** | Notificación automática al celular cuando la tierra está excesivamente seca o inundada. |
+| **Reporte hídrico** | Resumen visual en la aplicación que muestra el historial de agua usada y el ahorro logrado. |
 
 <hr>
 
