@@ -794,6 +794,16 @@ Este segmento muestra una clara necesidad de tecnificación, pero enfrenta barre
 
 #### 2.3.4. Empathy Mapping
 
+***Segmento objetivo #1: Horticultores Urbanos***
+<p align="center">
+  <img src="image/Empathy_Mapping_S1.png" alt="EM1" width="1000">
+</p>
+
+***Segmento 2: Micro-Agricultores Periurbanos:***
+<p align="center">
+  <img src="image/Empathy_Mapping_S2.png" alt="EM2" width="1000">
+</p>
+
 ### 2.4. Big Picture EventStorming
 
 Es un espacio de trabajo colaborativo en el que un grupo de personas (como desarrolladores, especialistas del negocio, gerentes de producto, entre otros) analiza y comprende rápidamente un dominio de negocio complejo.
