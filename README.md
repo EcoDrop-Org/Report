@@ -1029,6 +1029,30 @@ Ordenamos todos los eventos identificados en una línea de tiempo, ubicándolos 
 
 Detectamos los puntos de dolor (pain points) y los momentos decisivos (pivotal points) dentro del proceso. Estos corresponden a áreas que requieren especial atención o que resultan críticas para el correcto funcionamiento del sistema.
 
+**Paso 4: Commands**
+
+Incorporamos los comandos (representados con post-its azules) que originan los eventos. Estos comandos corresponden a las acciones que realizan los usuarios o sistemas externos para generar cambios en el sistema.
+
+**Paso 5: Policies**
+
+Establecimos las políticas o reglas de negocio (con post-its morados) que responden a determinados eventos y producen nuevos eventos como resultado. Estas políticas permiten automatizar decisiones basadas en eventos anteriores.
+
+**Paso 6: Read Models**
+
+Identificamos los modelos de lectura o vistas que los usuarios requieren para la toma de decisiones. Estos representan la información que debe estar disponible en momentos específicos del proceso.
+
+**Paso 7: External Systems**
+
+Señalamos los sistemas externos (con post-its rosados) que interactúan con nuestra solución. Estos son componentes fuera de nuestro control directo, pero que influyen en el proceso.
+
+**Paso 8: Aggregates**
+
+Organizamos los comandos y eventos relacionados en unidades lógicas llamadas agregados (representados con post-its amarillos). Cada agregado encapsula un conjunto consistente de funcionalidades.
+
+**Paso 9: Bounded Context**
+
+Finalmente, definimos los contextos delimitados o bounded contexts, que representan áreas de responsabilidad claramente diferenciadas dentro del sistema.
+
 ##### 4.1.1.1. Candidate Context Discovery
 
 ##### 4.1.1.2. Domain Message Flows Modeling
