@@ -1121,6 +1121,84 @@ Finalmente, definimos los contextos delimitados o bounded contexts, que represen
 
 ##### 4.1.1.1. Candidate Context Discovery
 
+A partir del EventStorming realizado en Miro, el equipo llevó a cabo una sesión de Candidate Context Discovery con el fin de identificar los bounded contexts de la solución. Durante esta actividad, se utilizó principalmente la técnica look-for-pivotal-events.
+
+Proceso de identificación: se inició revisando el modelo completo previamente construido, poniendo especial énfasis en los eventos clave y en los agregados identificados.
+
+[![Design-Level-Event-Storming-(37).jpg](https://i.postimg.cc/YqZHYhtr/Design-Level-Event-Storming-(37).jpg)](https://postimg.cc/mtYJGZcJ)
+
+[![Design-Level-Event-Storming-(38).jpg](https://i.postimg.cc/j5d9GbRB/Design-Level-Event-Storming-(38).jpg)](https://postimg.cc/Y4ZbWTGx)
+
+[![Design-Level-Event-Storming-(39).jpg](https://i.postimg.cc/9fcN7hw2/Design-Level-Event-Storming-(39).jpg)](https://postimg.cc/dhS9bg9N)
+
+[![Design-Level-Event-Storming-(40).jpg](https://i.postimg.cc/bNkh0qrn/Design-Level-Event-Storming-(40).jpg)](https://postimg.cc/WhNCTLMp)
+
+[![Design-Level-Event-Storming-(41).jpg](https://i.postimg.cc/Xv760F8c/Design-Level-Event-Storming-(41).jpg)](https://postimg.cc/hXw5LXNf)
+
+Detección de agrupaciones naturales: se reconocieron patrones y conjuntos naturales de comandos, eventos y políticas que operaban sobre las mismas entidades o procesos.
+
+[![Design-Level-Event-Storming-(21).jpg](https://i.postimg.cc/Y9jQmnpQ/Design-Level-Event-Storming-(21).jpg)](https://postimg.cc/TLMKzc5P)
+
+[![Design-Level-Event-Storming-(22).jpg](https://i.postimg.cc/h4kVf1NC/Design-Level-Event-Storming-(22).jpg)](https://postimg.cc/V5FJhnfM)
+
+[![Design-Level-Event-Storming-(23).jpg](https://i.postimg.cc/nrBjvNNP/Design-Level-Event-Storming-(23).jpg)](https://postimg.cc/tnR4bvq3)
+
+[![Design-Level-Event-Storming-(24).jpg](https://i.postimg.cc/9QJ4tdgg/Design-Level-Event-Storming-(24).jpg)](https://postimg.cc/BjPQJK02)
+
+[![Design-Level-Event-Storming-(25).jpg](https://i.postimg.cc/wM83T03M/Design-Level-Event-Storming-(25).jpg)](https://postimg.cc/5Ygfs5BW)
+
+[![Design-Level-Event-Storming-(42).jpg](https://i.postimg.cc/sXmcCQTf/Design-Level-Event-Storming-(42).jpg)](https://postimg.cc/CBZDj1y9)
+
+Una vez que se establecieron todas las relaciones dentro del Event Storming, se procedió a realizar la agrupación con el fin de identificar y definir el contexto de los bounded contexts.
+
+1. Start-with-Value
+
+Comenzamos identificando las áreas core del dominio, es decir, aquellas con mayor impacto en la propuesta de valor del sistema.
+
+Core: Irrigation Management, Device Management, Analytics
+
+Supporting: IAM, Monetization
+
+2. Start-with-Simple
+
+Para no perdernos en la complejidad, descompusimos el flujo en pasos secuenciales simples, lo que permitió distinguir qué parte del sistema debía encargarse de cada responsabilidad.
+
+3. Look-for-Pivotal-Events
+
+Se identificaron eventos clave que señalaban transiciones entre distintos subsistemas. Algunas son:
+
+- "App session started": frontera entre IAM y Device Management
+
+- "Settings updated": frontera entre IAM y Monetization
+
+- "Water savings metric calculated": frontera entre Irrigation Intelligence y Analytics
+
+[![Design-Level-Event-Storming-(36).jpg](https://i.postimg.cc/vTnvKqxW/Design-Level-Event-Storming-(36).jpg)](https://postimg.cc/vxQ9gvzB)
+
+**Primer agrupamiento**
+
+Se definieron los contextos iniciales de IAM y Device Management, los cuales responden a responsabilidades diferenciadas, como la autenticación de usuarios y la gestión del hardware.
+
+[![Design-Level-Event-Storming-(43).jpg](https://i.postimg.cc/Nj4GvQ1X/Design-Level-Event-Storming-(43).jpg)](https://postimg.cc/TKKvrMN2)
+
+**Segundo agrupamiento**
+
+Se aislaron los contextos centrales de negocio: Irrigation Intelligence, Monetization y Analytics. Aquí ubicamos la lógica principal sobre la riego, monetización y analítica.
+
+[![Design-Level-Event-Storming-(44).jpg](https://i.postimg.cc/D0FYh3QV/Design-Level-Event-Storming-(44).jpg)](https://postimg.cc/sQ6JP80K)
+
+**Consolidación final** 
+
+Como resultado se obtuvo un mapa compuesto por 5 Bounded Context:
+
+IAM
+Device Management
+Monetization
+Irrigation Intelligence
+Analytics
+
+Cada uno cuenta con responsabilidades y límites claramente definidos, lo que contribuye a disminuir su complejidad.
+
 ##### 4.1.1.2. Domain Message Flows Modeling
 
 ##### 4.1.1.3. Bounded Context Canvases
