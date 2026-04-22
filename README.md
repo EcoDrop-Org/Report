@@ -1051,21 +1051,73 @@ Incorporamos los comandos (representados con post-its azules) que originan los e
 
 Establecimos las políticas o reglas de negocio (con post-its morados) que responden a determinados eventos y producen nuevos eventos como resultado. Estas políticas permiten automatizar decisiones basadas en eventos anteriores.
 
+[![Design-Level-Event-Storming-(11).jpg](https://i.postimg.cc/PJGKkH4K/Design-Level-Event-Storming-(11).jpg)](https://postimg.cc/0Mf7pLhJ)
+
+[![Design-Level-Event-Storming-(12).jpg](https://i.postimg.cc/W4h7FzYd/Design-Level-Event-Storming-(12).jpg)](https://postimg.cc/67xZFWXK)
+
+[![Design-Level-Event-Storming-(13).jpg](https://i.postimg.cc/v8Wt6phr/Design-Level-Event-Storming-(13).jpg)](https://postimg.cc/0rywTXLj)
+
+[![Design-Level-Event-Storming-(14).jpg](https://i.postimg.cc/GmpFV9Cx/Design-Level-Event-Storming-(14).jpg)](https://postimg.cc/rKvRtVzD)
+
+[![Design-Level-Event-Storming-(15).jpg](https://i.postimg.cc/9f6yDp7C/Design-Level-Event-Storming-(15).jpg)](https://postimg.cc/d79hXG6x)
+
 **Paso 6: Read Models**
 
 Identificamos los modelos de lectura o vistas que los usuarios requieren para la toma de decisiones. Estos representan la información que debe estar disponible en momentos específicos del proceso.
+
+[![Design-Level-Event-Storming-(16).jpg](https://i.postimg.cc/HLNjnsFY/Design-Level-Event-Storming-(16).jpg)](https://postimg.cc/kVx7h9nz)
+
+[![Design-Level-Event-Storming-(17).jpg](https://i.postimg.cc/T3YPcD6f/Design-Level-Event-Storming-(17).jpg)](https://postimg.cc/Vdp1f5vV)
+
+[![Design-Level-Event-Storming-(18).jpg](https://i.postimg.cc/RVvCMHqy/Design-Level-Event-Storming-(18).jpg)](https://postimg.cc/ThHv0hVJ)
+
+[![Design-Level-Event-Storming-(19).jpg](https://i.postimg.cc/3xc3Cf1s/Design-Level-Event-Storming-(19).jpg)](https://postimg.cc/4YpCX5rP)
+
+[![Design-Level-Event-Storming-(20).jpg](https://i.postimg.cc/C5S0L3Md/Design-Level-Event-Storming-(20).jpg)](https://postimg.cc/vgqk0SVd)
 
 **Paso 7: External Systems**
 
 Señalamos los sistemas externos (con post-its rosados) que interactúan con nuestra solución. Estos son componentes fuera de nuestro control directo, pero que influyen en el proceso.
 
+[![Design-Level-Event-Storming-(21).jpg](https://i.postimg.cc/Y9jQmnpQ/Design-Level-Event-Storming-(21).jpg)](https://postimg.cc/TLMKzc5P)
+
+[![Design-Level-Event-Storming-(22).jpg](https://i.postimg.cc/h4kVf1NC/Design-Level-Event-Storming-(22).jpg)](https://postimg.cc/V5FJhnfM)
+
+[![Design-Level-Event-Storming-(23).jpg](https://i.postimg.cc/nrBjvNNP/Design-Level-Event-Storming-(23).jpg)](https://postimg.cc/tnR4bvq3)
+
+[![Design-Level-Event-Storming-(24).jpg](https://i.postimg.cc/9QJ4tdgg/Design-Level-Event-Storming-(24).jpg)](https://postimg.cc/BjPQJK02)
+
+[![Design-Level-Event-Storming-(25).jpg](https://i.postimg.cc/wM83T03M/Design-Level-Event-Storming-(25).jpg)](https://postimg.cc/5Ygfs5BW)
+
 **Paso 8: Aggregates**
 
 Organizamos los comandos y eventos relacionados en unidades lógicas llamadas agregados (representados con post-its amarillos). Cada agregado encapsula un conjunto consistente de funcionalidades.
 
+[![Design-Level-Event-Storming-(26).jpg](https://i.postimg.cc/Zn4BxwZ4/Design-Level-Event-Storming-(26).jpg)](https://postimg.cc/jw3SsQLF)
+
+[![Design-Level-Event-Storming-(27).jpg](https://i.postimg.cc/vZc1hgRm/Design-Level-Event-Storming-(27).jpg)](https://postimg.cc/pmMXXdLN)
+
+[![Design-Level-Event-Storming-(28).jpg](https://i.postimg.cc/ydXWx0Rc/Design-Level-Event-Storming-(28).jpg)](https://postimg.cc/0Mj9HMcy)
+
+[![Design-Level-Event-Storming-(29).jpg](https://i.postimg.cc/59g6Mqb9/Design-Level-Event-Storming-(29).jpg)](https://postimg.cc/jCWsHfDB)
+
+[![Design-Level-Event-Storming-(30).jpg](https://i.postimg.cc/pTxXwySz/Design-Level-Event-Storming-(30).jpg)](https://postimg.cc/nsRJ7Vph)
+
 **Paso 9: Bounded Context**
 
 Finalmente, definimos los contextos delimitados o bounded contexts, que representan áreas de responsabilidad claramente diferenciadas dentro del sistema.
+
+[![Design-Level-Event-Storming-(31).jpg](https://i.postimg.cc/W1g78Hcp/Design-Level-Event-Storming-(31).jpg)](https://postimg.cc/zyDWXpf4)
+
+[![Design-Level-Event-Storming-(32).jpg](https://i.postimg.cc/VvJqC7W3/Design-Level-Event-Storming-(32).jpg)](https://postimg.cc/T5X58JS9)
+
+[![Design-Level-Event-Storming-(33).jpg](https://i.postimg.cc/8Prdk056/Design-Level-Event-Storming-(33).jpg)](https://postimg.cc/9rCwJ1ym)
+
+[![Design-Level-Event-Storming-(34).jpg](https://i.postimg.cc/Pqd14fMD/Design-Level-Event-Storming-(34).jpg)](https://postimg.cc/5XkH9VT9)
+
+[![Design-Level-Event-Storming-(35).jpg](https://i.postimg.cc/XJJFR2ms/Design-Level-Event-Storming-(35).jpg)](https://postimg.cc/Ny35TxgX)
+
+[![Design-Level-Event-Storming-(36).jpg](https://i.postimg.cc/vTnvKqxW/Design-Level-Event-Storming-(36).jpg)](https://postimg.cc/vxQ9gvzB)
 
 ##### 4.1.1.1. Candidate Context Discovery
 
