@@ -1029,9 +1029,23 @@ Ordenamos todos los eventos identificados en una línea de tiempo, ubicándolos 
 
 Detectamos los puntos de dolor (pain points) y los momentos decisivos (pivotal points) dentro del proceso. Estos corresponden a áreas que requieren especial atención o que resultan críticas para el correcto funcionamiento del sistema.
 
+[![Design-Level-Event-Storming-(5).jpg](https://i.postimg.cc/pXxPXHhP/Design-Level-Event-Storming-(5).jpg)](https://postimg.cc/t7rK28Nc)
+
+[![Design-Level-Event-Storming-(4).jpg](https://i.postimg.cc/0578sQNw/Design-Level-Event-Storming-(4).jpg)](https://postimg.cc/z3XmwqKz)
+
 **Paso 4: Commands**
 
 Incorporamos los comandos (representados con post-its azules) que originan los eventos. Estos comandos corresponden a las acciones que realizan los usuarios o sistemas externos para generar cambios en el sistema.
+
+[![Design-Level-Event-Storming-(6).jpg](https://i.postimg.cc/BQkfyP99/Design-Level-Event-Storming-(6).jpg)](https://postimg.cc/3dXq0Rxn)
+
+[![Design-Level-Event-Storming-(7).jpg](https://i.postimg.cc/85tqbjBn/Design-Level-Event-Storming-(7).jpg)](https://postimg.cc/624jW6Pd)
+
+[![Design-Level-Event-Storming-(8).jpg](https://i.postimg.cc/dVrpxWjG/Design-Level-Event-Storming-(8).jpg)](https://postimg.cc/87kZFm3C)
+
+[![Design-Level-Event-Storming-(9).jpg](https://i.postimg.cc/RFsDH24X/Design-Level-Event-Storming-(9).jpg)](https://postimg.cc/cg3hq9Kn)
+
+[![Design-Level-Event-Storming-(10).jpg](https://i.postimg.cc/mDJKnKJh/Design-Level-Event-Storming-(10).jpg)](https://postimg.cc/WFm9FY2P)
 
 **Paso 5: Policies**
 
