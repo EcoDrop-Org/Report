@@ -1208,15 +1208,22 @@ Cada uno cuenta con responsabilidades y límites claramente definidos, lo que co
 #### 4.1.3. Software Architecture
 
 ##### 4.1.3.1. Software Architecture System Landscape Diagram
-El System Landscape Diagram presenta la vista más amplia de la solución AquaSave, ubicando la plataforma dentro de su ecosistema tecnológico y mostrando cómo se relaciona con los actores humanos, los sistemas externos de soporte y el hardware IoT desplegado en campo. Esta perspectiva permite identificar claramente los límites del sistema, las integraciones críticas y el flujo de valor entre usuarios, servicios cloud y dispositivos físicos de medición.
+
+El System Landscape Diagram presenta la vista más amplia de la solución AquaSave, mostrando cómo se relaciona con sus actores, sistemas externos y hardware IoT en campo. Esta perspectiva permite identificar los límites del sistema, las integraciones críticas y el flujo de valor entre usuarios, servicios cloud y dispositivos físicos.
 
 <p align="center">
   <img src="image/System_Landscape_Diagram.png" alt="SLD" width="1000">
 </p>
 
-En esta vista se evidencia que AquaSave opera como una arquitectura distribuida: la experiencia de usuario se articula a través de interfaces web y móviles desarrolladas en Flutter, la lógica de negocio se concentra en una plataforma backend que cruza datos del sensor con pronósticos climáticos externos, y la operación en campo se sostiene mediante el dispositivo IoT basado en ESP32 equipado con sensores de humedad del suelo, temperatura y caudal. Además, el landscape deja explícita la dependencia de servicios externos como Google OAuth2 para autenticación, Stripe para la gestión de suscripciones premium y Resend para la comunicación transaccional, lo cual facilita analizar riesgos de integración, puntos de escalabilidad y decisiones de evolución arquitectónica.
+En esta vista se evidencia que AquaSave opera como una arquitectura distribuida donde la experiencia de usuario se articula mediante interfaces web y móviles, la lógica de negocio gestiona el cruce de datos del sensor con pronósticos climáticos, y la operación en campo se sostiene a través del dispositivo IoT ESP32. El landscape deja explícita además la dependencia de servicios externos como Google OAuth2, Stripe y Resend para autenticación, pagos y notificaciones respectivamente.
 
 ##### 4.1.3.2. Software Architecture Context Level Diagrams
+
+El diagrama de contexto presenta una vista de alto nivel de AquaSave, identificando a los actores principales y los sistemas externos que interactúan con la solución. Se observa cómo el Horticultor Urbano y el Micro-Agricultor Periurbano utilizan la plataforma para monitorear el suelo y controlar el riego de forma remota, mientras que Google OAuth2, Stripe, Resend y OpenWeatherMap complementan las funciones de autenticación, pagos, notificaciones y datos climáticos. El diagrama delimita claramente la frontera del sistema y sus dependencias estratégicas con proveedores externos y el hardware IoT.
+
+<p align="center">
+  <img src="image/Context_Level_Diagram.png" alt="CLD" width="1000">
+</p>
 
 ##### 4.1.3.2. Software Architecture Container Level Diagrams
 
