@@ -1204,6 +1204,17 @@ Cada uno cuenta con responsabilidades y límites claramente definidos, lo que co
 ##### 4.1.1.3. Bounded Context Canvases
 
 #### 4.1.2. Context Mapping
+Con el Context Mapping se presentan las relaciones entre los bounded contexts identificados de AquaSave.
+
+<p align="center">
+  <img src="image/Context_Mapping.png" alt="CM" width="1000">
+</p>
+
+La relación Partnership entre IAM y Monetization refleja que ambos contextos evolucionan de forma coordinada, ya que el estado de suscripción impacta directamente en los permisos de acceso.
+
+Las relaciones Customer–Supplier (CUS → SUP) se presentan desde IAM y Monetization hacia Irrigation Intelligence, dado que este depende de la identidad del usuario y su plan activo para operar. Asimismo, Device Management actúa como supplier de Irrigation Intelligence, suministrando la telemetría del sensor ESP32 para las decisiones de riego.
+
+La relación Published Language (PL) entre Irrigation Intelligence y Analytics establece que el primero expone eventos estructurados de consumo hídrico que Analytics consume para generar métricas y reportes.
 
 #### 4.1.3. Software Architecture
 
