@@ -1240,13 +1240,17 @@ El diagrama de contexto presenta una vista de alto nivel de AquaSave, identifica
 
 El diagrama de contenedores descompone la plataforma AquaSave en sus principales unidades de ejecución y responsabilidades técnicas, permitiendo comprender cómo se distribuyen las funciones entre interfaces de usuario, servicios backend, almacenamiento de datos y componentes IoT. En esta vista se identifican la Landing Page, la Web Application (SPA), la Mobile Application, la Mobile SQLite Database, la AquaSave API, la Platform PostgreSQL Database y el Dispositivo IoT ESP32. Esta representación permite evidenciar la separación entre experiencia de usuario, lógica de negocio, persistencia y procesamiento en campo, mostrando además las principales relaciones de comunicación entre los frontends web y móvil, el backend central y los dispositivos físicos instalados en las parcelas. Se hace visible también la dependencia con sistemas externos como Google OAuth2 para autenticación, Stripe para suscripciones, OpenWeatherMap para datos climáticos y Resend para notificaciones transaccionales, los cuales complementan la lógica central sin formar parte del sistema desplegado.
 
-
+<p align="center">
+  <img src="image/DiagramaContainerAquaSave.png" alt="ContainerDiagram" width="1000">
+</p>
 
 ##### 4.1.3.3. Software Architecture Deployment Diagrams
 
 El diagrama de despliegue muestra la distribución física y tecnológica de los principales contenedores del sistema en su entorno operativo de producción. A través de esta vista se observa cómo las aplicaciones frontend web se alojan en Netlify como plataforma de publicación estática con CDN global, mientras que la aplicación móvil se distribuye y gestiona mediante Firebase, aprovechando su infraestructura de hosting y configuración remota sobre Google Cloud. El backend de AquaSave se despliega sobre AWS mediante Elastic Beanstalk o ECS con contenedores Docker, respaldado por Amazon RDS como servidor gestionado de PostgreSQL para la persistencia principal, y AWS IoT Core como broker MQTT para la comunicación bidireccional con los dispositivos de campo. La capa IoT se materializa en el entorno físico de las parcelas a través de la placa ESP32, la cual reporta telemetría de sensores y recibe comandos de riego a través del broker. Esta perspectiva evidencia que AquaSave no opera como un sistema puramente centralizado, sino como una arquitectura distribuida donde servicios cloud, dispositivos de usuario y hardware IoT cooperan para sostener el monitoreo en tiempo real, la automatización del riego y la sincronización continua de datos con la plataforma.
 
-
+<p align="center">
+  <img src="image/DiagramaDeploymentAquaSave.png" alt="DeploymentDiagram" width="1000">
+</p>
 
 ### 4.2. Tactical-Level Domain-Driven Design
 
