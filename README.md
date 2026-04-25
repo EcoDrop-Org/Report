@@ -1287,6 +1287,16 @@ Estos flujos de mensaje son pilares fundamentales de la arquitectura del sistema
 
 Los Bounded Context Canvases son herramientas visuales que permiten documentar las características esenciales de cada contexto delimitado, capturando su propósito estratégico, modelo de dominio, lenguaje ubicuo, políticas y relaciones con otros contextos. A continuación, se presentan los canvases de los bounded context identificados, los cuales han servido para definir con claridad sus responsabilidades y límites.
 
+[![image.png](https://i.postimg.cc/QChSCnqh/image.png)](https://postimg.cc/VrZXHgTV)
+
+[![image.png](https://i.postimg.cc/ncdTV2jN/image.png)](https://postimg.cc/1fqDJpKK)
+
+[![image.png](https://i.postimg.cc/YSFx3wnp/image.png)](https://postimg.cc/gwYRz1b5)
+
+[![image.png](https://i.postimg.cc/2ykFrLzz/image.png)](https://postimg.cc/KkWg5zkV)
+
+[![image.png](https://i.postimg.cc/2y7cxf55/image.png)](https://postimg.cc/K34DZwBX)
+
 #### 4.1.2. Context Mapping
 Con el Context Mapping se presentan las relaciones entre los bounded contexts identificados de AquaSave.
 
