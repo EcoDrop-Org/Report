@@ -1402,15 +1402,17 @@ Implementa persistencia y servicios externos para la gestión del dispositivo.
 
 #### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams
 
-*Por desarrollar.*
-
 ##### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams
 
-*Por desarrollar.*
+<p align="center">
+  <img src="image/DEVICE-MANAGEMENT.png" alt="Segmento2" width="1000">
+</p>
 
 ##### 4.2.1.6.2. Bounded Context Database Design Diagram
+<p align="center">
+  <img src="image/b1.png" alt="Segmento2" width="1000">
+</p>
 
-*Por desarrollar.*
 
 ---
 
