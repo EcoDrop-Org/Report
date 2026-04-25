@@ -1803,15 +1803,19 @@ Esta capa encapsula las reglas de negocio para el cálculo de métricas de ahorr
 
 #### 4.2.5.6. Bounded Context Software Architecture Code Level Diagrams
 
-*Por desarrollar.*
+
 
 ##### 4.2.5.6.1. Bounded Context Domain Layer Class Diagrams
 
-*Por desarrollar.*
+<p align="center">
+  <img src="image/ANALYTICS.png" alt="Segmento2" width="1000">
+</p>
 
 ##### 4.2.5.6.2. Bounded Context Database Design Diagram
 
-*Por desarrollar.*
+<p align="center">
+  <img src="image/b5.png" alt="Segmento2" width="1000">
+</p>
 
 
 
