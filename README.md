@@ -1505,15 +1505,16 @@ Esta capa encapsula las reglas de negocio para la automatización y toma de deci
 
 #### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams
 
-*Por desarrollar.*
-
 ##### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams
 
-*Por desarrollar.*
+<p align="center">
+  <img src="image/IRRIGATION-INTELLIGENCE.png" alt="Segmento2" width="1000">
+</p>
 
 ##### 4.2.2.6.2. Bounded Context Database Design Diagram
-
-*Por desarrollar.*
+<p align="center">
+  <img src="image/b2.png" alt="Segmento2" width="1000">
+</p>
 
 ---
 
