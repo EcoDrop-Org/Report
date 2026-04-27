@@ -1971,6 +1971,12 @@ Esta capa encapsula las reglas de negocio para el cálculo de métricas de ahorr
 
 ### Conclusiones y recomendaciones
 
+1. Existe una problemática crítica y validada en el uso ineficiente del agua que justifica plenamente la propuesta de AquaSave. El análisis del contexto demuestra que el sector agrícola peruano presenta niveles muy bajos de eficiencia hídrica (alrededor del 35%), afectando especialmente a pequeños productores y horticultores urbanos que dependen de métodos manuales e intuitivos. Esto confirma que el problema no solo es real, sino también recurrente, masivo y con impacto económico y ambiental significativo.
+
+2. Los usuarios objetivo muestran una necesidad clara de tecnificación, pero con fuertes restricciones de simplicidad, accesibilidad y usabilidad. Tanto horticultores urbanos como micro-agricultores periurbanos comparten patrones: toman decisiones basadas en experiencia, carecen de datos en tiempo real y muestran alta apertura a soluciones tecnológicas. Sin embargo, también presentan barreras como baja adopción tecnológica, necesidad de interfaces intuitivas y preferencia por soluciones fáciles de instalar, lo que define directamente los requisitos clave del producto.
+
+3. AquaSave se posiciona como una solución diferenciada al integrar hardware IoT accesible con software inteligente enfocado en datos reales y contexto local. A diferencia de la competencia, la propuesta combina sensores físicos (humedad, caudal, temperatura) con datos climáticos y plataformas digitales, ofreciendo una solución integral, precisa y orientada a pequeños usuarios. Este enfoque no solo responde al problema identificado, sino que también genera una ventaja competitiva clara basada en accesibilidad, automatización y toma de decisiones basada en datos.
+
 ### Video About-the-Team
 
 ---
