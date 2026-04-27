@@ -279,6 +279,80 @@
 
 # Student Outcome
 
+El curso contribuye al cumplimiento del Student Outcome ABET: **ABET – EAC - Student Outcome 3**  
+
+**Criterio:** *La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos*   
+
+En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome 5.
+
+**Objetivo general:** Desarrollar, como equipo EcoDrop, AquaSave, una solución IoT para optimizar el consumo hídrico en huertos domésticos y parcelas periurbanas. Buscamos diseñar e implementar una plataforma tecnológica basada en el enfoque Domain-Driven Design (DDD), con una arquitectura moderna compuesta por una aplicación móvil/web en Flutter y un backend orientado a microservicios, integrada con dispositivos ESP32 para el monitoreo y control inteligente del riego, respondiendo a las necesidades reales de nuestro público objetivo y fomentando el trabajo colaborativo y la planificación eficaz del equipo.
+
+<table border="1">
+  <tr>
+    <th>Criterio específico</th>
+    <th>Acciones realizadas</th>
+    <th>Conclusiones</th>
+  </tr>
+  <tr>
+    <td><strong>Trabaja en equipo para proporcionar liderazgo en forma conjunta.</strong></td>
+    <td>
+      <p><strong>Gutiérrez Condo, Maylhy Olinda</strong></p>
+      <p><i>AV1</i></p>
+      <p>Lideró el desarrollo de los diagramas de componentes y código del bounded context, así como los diagramas de clases del dominio y el diseño de base de datos, coordinando con el equipo para mantener coherencia arquitectónica.</p>
+      <p></p>
+      <p><strong>Roca Tineo, Steven Mathew</strong></p>
+      <p><i>AV1</i></p>
+      <p>Como Team Leader, lideró la definición de User Stories, Impact Mapping y Product Backlog, y tomó iniciativa en el diseño de las capas de dominio, interfaz, aplicación e infraestructura del sistema.</p>
+      <p></p>
+      <p><strong>Rodríguez Rodríguez, Luis Piero</strong></p>
+      <p><i>AV1</i></p>
+      <p>Lideró la realización de entrevistas con usuarios y la elaboración de los diagramas de contenedores y despliegue de la arquitectura de software, aportando una visión técnica estructurada al equipo.</p>
+      <p></p>
+      <p><strong>Román Pajuelo, Luis Gustavo</strong></p>
+      <p><i>AV1</i></p>
+      <p>Lideró el Needfinding, el Ubiquitous Language, el Context Mapping y los diagramas de arquitectura a nivel de sistema (Landscape y Context), estableciendo las bases del diseño estratégico del proyecto.</p>
+      <p></p>
+      <p><strong>Silva Morales, Renzo Cesar</strong></p>
+      <p><i>AV1</i></p>
+      <p>Lideró el análisis competitivo, el Big Picture EventStorming y el Strategic-Level Domain-Driven Design, incluyendo el Candidate Context Discovery, Domain Message Flows y Bounded Context Canvases, orientando al equipo en la definición del dominio.</p>
+    </td>
+    <td>
+      <p><ins><i><strong>AV1:</strong></i></ins></p>
+      <p><strong>Objetivo específico: </strong>Promover el liderazgo distribuido entre los integrantes para organizar las actividades iniciales del proyecto, como el diseño de la arquitectura, el modelado del dominio y la documentación base.</p>
+      <p><strong>Conclusión: </strong>Todos los miembros del equipo EcoDrop ejercieron liderazgo conjunto en distintas etapas del proyecto, distribuyendo responsabilidades de manera efectiva según sus fortalezas. La colaboración permitió alcanzar los objetivos del primer entregable, evidenciando la capacidad del equipo para funcionar de manera integrada y equitativa en el desarrollo de AquaSave.</p>
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.</strong></td>
+    <td>
+      <p><strong>Gutiérrez Condo, Maylhy Olinda</strong></p>
+      <p><i>AV1</i></p>
+      <p>Planificó y cumplió a tiempo las tareas de arquitectura de componentes, código y base de datos del bounded context, contribuyendo a un entorno de trabajo ordenado y colaborativo.</p>
+      <p></p>
+      <p><strong>Roca Tineo, Steven Mathew</strong></p>
+      <p><i>AV1</i></p>
+      <p>Estableció metas claras para el equipo desde su rol de Team Leader, coordinando la planificación del backlog y el diseño por capas, fomentando la participación de todos los integrantes.</p>
+      <p></p>
+      <p><strong>Rodríguez Rodríguez, Luis Piero</strong></p>
+      <p><i>AV1</i></p>
+      <p>Facilitó un entorno inclusivo durante la fase de entrevistas y aportó con los diagramas de contenedores y despliegue, cumpliendo sus objetivos en tiempo y forma.</p>
+      <p></p>
+      <p><strong>Román Pajuelo, Luis Gustavo</strong></p>
+      <p><i>AV1</i></p>
+      <p>Promovió la planificación colaborativa a través del Needfinding y el Context Mapping, estableciendo objetivos arquitectónicos claros que guiaron el trabajo del resto del equipo.</p>
+      <p></p>
+      <p><strong>Silva Morales, Renzo Cesar</strong></p>
+      <p><i>AV1</i></p>
+      <p>Fomentó la participación activa del equipo en las sesiones de EventStorming y Domain-Driven Design, definiendo junto al grupo los bounded contexts y flujos de mensajes del dominio de AquaSave.</p>
+    </td>
+    <td>
+      <p><ins><i><strong>AV1:</strong></i></ins></p>
+      <p><strong>Objetivo específico: </strong>Fomentar la participación de todo el equipo en las decisiones iniciales del sistema, estableciendo metas claras en diseño, modelado del dominio y documentación, promoviendo un ambiente inclusivo de trabajo.</p>
+      <p><strong>Conclusión: </strong>El equipo EcoDrop creó un ambiente de colaboración donde se respetaron las contribuciones de todos los integrantes. Las metas y tareas fueron claramente definidas y cumplidas a tiempo en este primer entregable, gracias a una comunicación efectiva y una planificación organizada que permitió avanzar con solidez en el desarrollo de la solución AquaSave.</p>
+    </td>
+  </tr>
+</table>
+
 ## Capítulo I: Introducción
 
 ### 1.1. Startup Profile
