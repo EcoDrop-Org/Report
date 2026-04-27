@@ -1995,17 +1995,19 @@ Esta capa encapsula las reglas de negocio para el cálculo de métricas de ahorr
 
 ## Bibliografía
 
+- Arauco Livia, M. (2025, 25 de octubre). *Agricultura inteligente: un puente entre la justicia hídrica y la sostenibilidad empresarial en el Perú*. Infobae. [https://www.infobae.com/peru/2025/10/25/agricultura-inteligente-un-puente-entre-la-justicia-hidrica-y-la-sostenibilidad-empresarial-en-el-peru/](https://www.infobae.com/peru/2025/10/25/agricultura-inteligente-un-puente-entre-la-justicia-hidrica-y-la-sostenibilidad-empresarial-en-el-peru/)
 
-Arauco Livia, M. (2025, 25 de octubre). *Agricultura inteligente: un puente entre la justicia hídrica y la sostenibilidad empresarial en el Perú*. Infobae. [https://www.infobae.com/peru/2025/10/25/agricultura-inteligente-un-puente-entre-la-justicia-hidrica-y-la-sostenibilidad-empresarial-en-el-peru/](https://www.infobae.com/peru/2025/10/25/agricultura-inteligente-un-puente-entre-la-justicia-hidrica-y-la-sostenibilidad-empresarial-en-el-peru/)
+- Instituto Nacional de Estadística e Informática. (2017, 10 de julio). *El riego tecnificado en pequeñas y medianas unidades agropecuarias creció 2,2 puntos porcentuales en el año 2016*. Plataforma del Estado Peruano. [https://www.gob.pe/institucion/inei/noticias/](https://www.gob.pe/institucion/inei/noticias/)
 
-Instituto Nacional de Estadística e Informática. (2017, 10 de julio). *El riego tecnificado en pequeñas y medianas unidades agropecuarias creció 2,2 puntos porcentuales en el año 2016*. Plataforma del Estado Peruano. [https://www.gob.pe/institucion/inei/noticias/](https://www.gob.pe/institucion/inei/noticias/)
+- Vinelli, M. (2021, 2 de marzo). *La brecha de infraestructura de riego en el sector agropecuario*. Conexión ESAN. [https://www.esan.edu.pe/conexion-esan/la-brecha-de-infraestructura-de-riego-en-el-sector-agropecuario](https://www.esan.edu.pe/conexion-esan/la-brecha-de-infraestructura-de-riego-en-el-sector-agropecuario)
 
-Vinelli, M. (2021, 2 de marzo). *La brecha de infraestructura de riego en el sector agropecuario*. Conexión ESAN. [https://www.esan.edu.pe/conexion-esan/la-brecha-de-infraestructura-de-riego-en-el-sector-agropecuario](https://www.esan.edu.pe/conexion-esan/la-brecha-de-infraestructura-de-riego-en-el-sector-agropecuario)
+- Ybánez, I. (2023, 8 de febrero). *El 45% de agua se pierde por canales de riego en mal estado*. Infobae. [https://www.infobae.com/peru/2023/02/09/el-45-de-agua-se-pierde-por-canales-de-riego-en-mal-estado/](https://www.infobae.com/peru/2023/02/09/el-45-de-agua-se-pierde-por-canales-de-riego-en-mal-estado/)
 
-Ybánez, I. (2023, 8 de febrero). *El 45% de agua se pierde por canales de riego en mal estado*. Infobae. [https://www.infobae.com/peru/2023/02/09/el-45-de-agua-se-pierde-por-canales-de-riego-en-mal-estado/](https://www.infobae.com/peru/2023/02/09/el-45-de-agua-se-pierde-por-canales-de-riego-en-mal-estado/)
-
-Zapana Churata, L. E. (2018). Respuestas a la crisis hídrica en zonas agrícolas y urbanas: Caso de estudio “Proyecto de Irrigación Majes Siguas I” Arequipa – Perú. Agua Y Territorio Water and Landscape, 12, 145-156. [https://doi.org/10.17561/at.12.3532](https://doi.org/10.17561/at.12.3532)  
+- Zapana Churata, L. E. (2018). Respuestas a la crisis hídrica en zonas agrícolas y urbanas: Caso de estudio “Proyecto de Irrigación Majes Siguas I” Arequipa – Perú. Agua Y Territorio Water and Landscape, 12, 145-156. [https://doi.org/10.17561/at.12.3532](https://doi.org/10.17561/at.12.3532)  
 
 ---
 
 ## Anexos
+
+- Video de entrevistas: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311334_upc_edu_pe/IQDzK0EKnZzBRI0KipOh-3IfASO4awboHbeUGCySeQEBNEw?e=T6AHSh&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
