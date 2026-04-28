@@ -370,6 +370,9 @@ Su producto principal es AquaSave, un sistema de riego inteligente compuesto por
 
 De esta manera, AquaSave no solo automatiza el riego activando o deteniendo el suministro de agua según las condiciones reales del suelo y el clima, sino que también empodera a los usuarios con información clara y oportuna para gestionar sus recursos hídricos de forma eficiente y sostenible.
 
+<p align="center">
+  <img src="image/AquaSaveLogo.png" alt="logo" width="350">
+</p>
 
 **Visión**
 
