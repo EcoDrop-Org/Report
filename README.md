@@ -2021,6 +2021,57 @@ Esta sección presenta el diseño UX/UI de la aplicación AquaSave, donde se vis
 
 Inicio De Sesión:
 <p align="center">
+  <img src="image/1ws.png" width="30%">
+  <img src="image/2ws.png" width="30%">
+</p>
+
+Dashboard:
+
+<p align="center">
+  <img src="image/1wd.png" width="70%">
+</p>
+
+
+Dispositivos:
+
+<p align="center">
+  <img src="image/w1dis.png" width="23%">
+ <img src="image/w2dis.png" width="23%">
+ <img src="image/w3dis.png" width="23%">
+ <img src="image/w4dis.png" width="23%">
+  <br><br>
+ <img src="image/w5dis.png" width="23%">
+ <img src="image/w6dis.png" width="23%">
+ <img src="image/w7dis.png" width="23%">
+  <br><br>
+ <img src="image/w8dis.png" width="23%">
+ <img src="image/w9dis.png" width="23%">
+ <img src="image/w10dis.png" width="23%">
+</p>
+
+Perfil:
+<p align="center">
+  <img src="image/wperfil.png" width="70%">
+</p>
+
+Analisis:
+<p align="center">
+  <img src="image/wanalisis.png" width="70%">
+</p>
+
+Historial:
+<p align="center">
+  <img src="image/whistorial.png" width="70%">
+</p>
+
+
+#### 5.4.2. Applications Wireflow Diagrams
+
+#### 5.4.2. Applications Mock-ups
+
+
+Inicio De Sesión:
+<p align="center">
   <img src="image/1-inicioSesion.png" width="30%">
   <img src="image/2-InicioSesion.png" width="30%">
   <img src="image/3-InicioSesion.png" width="30%">
@@ -2051,7 +2102,7 @@ Dispositivos:
 
 Perfil:
 <p align="center">
-  <img src="image/Perfil.png" width="70%">
+  <img src="image/perfilll.png" width="70%">
 </p>
 
 Analisis:
@@ -2064,10 +2115,8 @@ Historial:
   <img src="image/historial.png" width="70%">
 </p>
 
+[Link para ver los wireframes y Mock-Up de la Aplicacion web](https://www.figma.com/design/pZztbeAUfk1x363ScNolMg/AquaSave?node-id=0-1&t=l9dE5WV4efNC0iQp-1 ) 
 
-#### 5.4.2. Applications Wireflow Diagrams
-
-#### 5.4.2. Applications Mock-ups
 
 #### 5.4.3. Applications User Flow Diagrams
 
