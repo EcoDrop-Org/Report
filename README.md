@@ -1991,11 +1991,31 @@ Esta capa encapsula las reglas de negocio para el cálculo de métricas de ahorr
 
 ### 5.3. Landing Page UI Design
 
+Esta es nuestra landing page, la cual contiene secciones organizadas de manera estratégica para presentar la propuesta de AquaSave. En ella se incluye una sección principal de bienvenida, los beneficios del sistema, los pasos para utilizar la aplicación, sus funcionalidades más importantes, la presentación del equipo y un llamado a la acción final. Su diseño busca comunicar de forma clara, moderna y atractiva cómo AquaSave ayuda a optimizar el riego, ahorrar agua y facilitar el cuidado de las plantas.
+
 #### 5.3.1. Landing Page Wireframe
+
+
+
+<p align="center">
+  <img src="image/wireframeLading.png" width="1000">
+</p>
+
+
+
 
 #### 5.3.2. Landing Page Mock-up
 
+
+<p align="center">
+  <img src="image/mockup-landing.png.png" width="1000">
+</p>
+
+[Link para ver los wireframes y Mock-Up de la Landing Page](https://www.figma.com/design/pZztbeAUfk1x363ScNolMg/AquaSave?node-id=43-3936&t=l9dE5WV4efNC0iQp-1)
+
 ### 5.4. Applications UX/UI Design
+
+Esta sección presenta el diseño UX/UI de la aplicación AquaSave, donde se visualizan las principales pantallas del módulo de dispositivos. El diseño incluye una navegación lateral clara, tarjetas de huertos registrados, opción para agregar nuevos dispositivos, conexión del ESP32 a la plataforma y formularios para agregar o editar plantas. La propuesta mantiene una interfaz ordenada, intuitiva y amigable, utilizando colores suaves relacionados con la naturaleza para reforzar la identidad ecológica del proyecto y facilitar la experiencia del usuario.
 
 #### 5.4.1. Applications Wireframes
 
