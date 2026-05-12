@@ -1991,17 +1991,132 @@ Esta capa encapsula las reglas de negocio para el cálculo de métricas de ahorr
 
 ### 5.3. Landing Page UI Design
 
+Esta es nuestra landing page, la cual contiene secciones organizadas de manera estratégica para presentar la propuesta de AquaSave. En ella se incluye una sección principal de bienvenida, los beneficios del sistema, los pasos para utilizar la aplicación, sus funcionalidades más importantes, la presentación del equipo y un llamado a la acción final. Su diseño busca comunicar de forma clara, moderna y atractiva cómo AquaSave ayuda a optimizar el riego, ahorrar agua y facilitar el cuidado de las plantas.
+
 #### 5.3.1. Landing Page Wireframe
+
+
+
+<p align="center">
+  <img src="image/wireframeLading.png" width="70%">
+</p>
+
+
+
 
 #### 5.3.2. Landing Page Mock-up
 
+
+<p align="center">
+  <img src="image/mockup-landing.png" width="70%">
+</p>
+
+[Link para ver los wireframes y Mock-Up de la Landing Page](https://www.figma.com/design/pZztbeAUfk1x363ScNolMg/AquaSave?node-id=43-3936&t=l9dE5WV4efNC0iQp-1)
+
 ### 5.4. Applications UX/UI Design
 
+Esta sección presenta el diseño UX/UI de la aplicación AquaSave, donde se visualizan las principales pantallas del módulo de dispositivos. El diseño incluye una navegación lateral clara, tarjetas de huertos registrados, opción para agregar nuevos dispositivos, conexión del ESP32 a la plataforma y formularios para agregar o editar plantas. La propuesta mantiene una interfaz ordenada, intuitiva y amigable, utilizando colores suaves relacionados con la naturaleza para reforzar la identidad ecológica del proyecto y facilitar la experiencia del usuario.
+
 #### 5.4.1. Applications Wireframes
+
+Inicio De Sesión:
+<p align="center">
+  <img src="image/1ws.png" width="30%">
+  <img src="image/2ws.png" width="30%">
+</p>
+
+Dashboard:
+
+<p align="center">
+  <img src="image/1wd.png" width="70%">
+</p>
+
+
+Dispositivos:
+
+<p align="center">
+  <img src="image/w1dis.png" width="23%">
+ <img src="image/w2dis.png" width="23%">
+ <img src="image/w3dis.png" width="23%">
+ <img src="image/w4dis.png" width="23%">
+  <br><br>
+ <img src="image/w5dis.png" width="23%">
+ <img src="image/w6dis.png" width="23%">
+ <img src="image/w7dis.png" width="23%">
+  <br><br>
+ <img src="image/w8dis.png" width="23%">
+ <img src="image/w9dis.png" width="23%">
+ <img src="image/w10dis.png" width="23%">
+</p>
+
+Perfil:
+<p align="center">
+  <img src="image/wperfil.png" width="70%">
+</p>
+
+Analisis:
+<p align="center">
+  <img src="image/wanalisis.png" width="70%">
+</p>
+
+Historial:
+<p align="center">
+  <img src="image/whistorial.png" width="70%">
+</p>
+
 
 #### 5.4.2. Applications Wireflow Diagrams
 
 #### 5.4.2. Applications Mock-ups
+
+
+Inicio De Sesión:
+<p align="center">
+  <img src="image/1-inicioSesion.png" width="30%">
+  <img src="image/2-InicioSesion.png" width="30%">
+  <img src="image/3-InicioSesion.png" width="30%">
+</p>
+
+Dashboard:
+
+<p align="center">
+  <img src="image/dashboard.png" width="70%">
+</p>
+
+Dispositivos:
+
+<p align="center">
+  <img src="image/1dash.png" width="23%">
+  <img src="image/2dash.png" width="23%">
+  <img src="image/3dash.png" width="23%">
+  <img src="image/4dash.png" width="23%">
+  <br><br>
+  <img src="image/5dash.png" width="23%">
+  <img src="image/6dash.png" width="23%">
+  <img src="image/7dash.png" width="23%">
+  <br><br>
+  <img src="image/1dis.png" width="23%">
+  <img src="image/2dis.png" width="23%">
+  <img src="image/3dis.png" width="23%">
+</p>
+
+Perfil:
+<p align="center">
+  <img src="image/perfilll.png" width="70%">
+</p>
+
+Analisis:
+<p align="center">
+  <img src="image/Analisis.png" width="70%">
+</p>
+
+Historial:
+<p align="center">
+  <img src="image/historial.png" width="70%">
+</p>
+
+[Link para ver los wireframes y Mock-Up de la Aplicacion web](https://www.figma.com/design/pZztbeAUfk1x363ScNolMg/AquaSave?node-id=0-1&t=l9dE5WV4efNC0iQp-1 ) 
+
 
 #### 5.4.3. Applications User Flow Diagrams
 
