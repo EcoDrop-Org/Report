@@ -55,6 +55,18 @@
   <img src="image/insight3AV1.png" alt="insight" width="1000">
 </p>
 
+<p align="center">
+  <img src="image/insightstp1.png" alt="insight" width="1000">
+</p>
+
+<p align="center">
+  <img src="image/insightstp.png" alt="insight" width="1000">
+</p>
+
+<p align="center">
+  <img src="image/insight3AV1.png" alt="insight" width="1000">
+</p>
+
 # Contenido
 
 # Tabla de contenidos
