@@ -1973,21 +1973,301 @@ Esta capa encapsula las reglas de negocio para el cálculo de métricas de ahorr
 
 ### 5.1. Style Guidelines
 
+Esta sección define los lineamientos visuales y de experiencia de usuario aplicados en la interfaz frontend de AquaSave. La documentación se elaboró tomando como referencia el diseño implementado en la aplicación Flutter, especialmente los archivos de tema, localización, navegación y pantallas principales del frontend. El objetivo es asegurar que la solución mantenga coherencia visual, claridad operativa y facilidad de uso para horticultores urbanos y micro-agricultores periurbanos.
+
 #### 5.1.1. General Style Guidelines
+
+La identidad visual de AquaSave se basa en una estética limpia, natural y funcional. La interfaz busca transmitir sostenibilidad, control y confianza mediante una combinación de tonos verdes, fondos claros, tarjetas suaves y componentes de lectura rápida. Dado que la aplicación muestra datos sensibles para la toma de decisiones de riego, como humedad, temperatura, lluvia, estado del dispositivo y consumo hídrico, el diseño prioriza la interpretación inmediata de la información.
+
+<p align="center">
+  <img src="image/General_Style_Guidelines.png" alt="Style Guidelines" width="1000">
+</p>
+
+**Branding y concepto visual**
+
+El concepto visual de AquaSave se fundamenta en la relación entre tecnología IoT y cuidado responsable del agua. Por ello, la interfaz utiliza una paleta inspirada en elementos naturales como hojas, suelo húmedo y superficies agrícolas claras. El logotipo de AquaSave se muestra como elemento de identidad en la navegación lateral de escritorio y refuerza la asociación entre la marca y la gestión inteligente del riego.
+
+Los componentes principales utilizan bordes redondeados, sombras suaves y contenedores tipo tarjeta. Este patrón permite agrupar información operativa sin saturar la pantalla. Las tarjetas de humedad, clima, dispositivos, historial y configuración se diseñan como bloques independientes para facilitar el escaneo visual y reducir la carga cognitiva del usuario.
+
+**Tipografía y legibilidad**
+
+El frontend utiliza Google Fonts mediante las familias `Manrope` e `Inter`, definidas en el sistema de estilos de la aplicación. `Manrope` se utiliza para títulos y encabezados, debido a su peso visual y buena presencia en dashboards. `Inter` se utiliza para textos de cuerpo, etiquetas, botones y datos secundarios, ya que ofrece alta legibilidad en interfaces densas.
+
+| Uso | Fuente | Tamaño aproximado | Peso | Propósito |
+|---|---|---:|---:|---|
+| Títulos principales | Manrope | 24px - 44px | 800 | Jerarquizar vistas como Inicio, Configuración y Análisis |
+| Subtítulos y encabezados de tarjeta | Inter | 17px - 18px | 700 - 800 | Identificar secciones funcionales |
+| Texto de cuerpo | Inter | 14px - 16px | 500 | Describir estados, ayudas y mensajes |
+| Botones y etiquetas | Inter | 13px - 14px | 800 | Resaltar acciones y estados |
+
+Los valores importantes, como porcentajes de humedad, temperatura y métricas de ahorro, se presentan con mayor peso tipográfico para permitir lectura rápida. Las ayudas textuales se mantienen en tamaño menor y con menor opacidad para no competir con las acciones principales.
+
+**Paleta de colores**
+
+La paleta de AquaSave tiene una función estética y semántica. Los tonos verdes representan funcionamiento normal, sostenibilidad y acciones principales. Los tonos claros generan una sensación de limpieza y calma, adecuada para usuarios no técnicos. El color secundario rojizo se reserva para alertas o estados que requieren atención.
+
+| Token visual | Color | Uso en la interfaz |
+|---|---|---|
+| `lightBackground` | `#F3F7EF` | Fondo principal en modo claro |
+| `lightSurface` | `#EAF3E5` | Superficies de secciones y contenedores |
+| `lightPrimary` | `#497654` | Botones primarios, iconos activos, indicadores y sliders |
+| `lightCard` | `#F8FBF4` | Tarjetas de contenido |
+| `lightText` | `#2D3D2C` | Texto principal |
+| `lightDivider` | `#D9E2D3` | Bordes, divisores y estados inactivos |
+| `secondary` | `#FE5C73` | Alertas, notificaciones críticas y señales de atención |
+| `darkBackground` | `#0F1712` | Fondo principal en modo oscuro |
+| `darkCard` | `#1F2D24` | Tarjetas en modo oscuro |
+| `darkPrimary` | `#94BC9A` | Acciones primarias en modo oscuro |
+
+El modo oscuro mantiene la misma lógica semántica del modo claro, pero reduce la luminosidad del fondo y aumenta el contraste de los textos. Esta opción es relevante para usuarios que revisan la aplicación durante la noche o en entornos de baja iluminación.
+
+**Espaciado, bordes y retícula**
+
+La aplicación utiliza un sistema de espaciado consistente definido en `AppDimensions`. Aunque no es una grilla rígida de 8px, sí mantiene una escala estable para separar elementos relacionados y secciones completas.
+
+| Token | Valor | Uso |
+|---|---:|---|
+| `spaceXs` | 8px | Separación mínima entre iconos y texto |
+| `spaceSm` | 14px | Separación entre campos o controles relacionados |
+| `spaceMd` | 20px | Separación entre bloques dentro de una pantalla |
+| `spaceLg` | 28px | Padding de páginas y tarjetas principales |
+| `spaceXl` | 39px | Separación inferior o márgenes amplios |
+| `buttonHeight` | 57px | Altura base de botones principales |
+| `inputHeight` | 57px | Altura base de campos de formulario |
+| `sidebarWidth` | 236px | Ancho de navegación lateral en escritorio |
+
+Los bordes redondeados de inputs y botones se mantienen alrededor de 14px, mientras que las tarjetas principales suelen usar radios entre 16px y 24px. Esta decisión visual hace que la aplicación se perciba más accesible y menos rígida para usuarios agrícolas o domésticos.
+
+**Componentes y estados visuales**
+
+Los componentes principales siguen lineamientos de Material Design 3 adaptados a la identidad de AquaSave:
+
+- **Botones primarios:** fondo verde `#497654`, texto blanco, altura mínima de 52px y bordes redondeados.
+- **Botones secundarios:** estilo outline con borde verde claro o divisor, utilizados para acciones como cancelar, agregar horario o verificar zona.
+- **Inputs:** fondo claro, radio de 14px, icono contextual y borde resaltado cuando están enfocados.
+- **Switches:** verdes cuando están activos y tonos neutros cuando están inactivos.
+- **Tarjetas:** fondos claros, sombra suave y separación suficiente para agrupar información.
+- **Indicadores de estado:** etiquetas como `Activo`, `En línea`, `Sin conexión`, `Riego iniciado` y `Pausa recomendada` permiten entender el estado del sistema sin depender de información técnica.
+
+**Tono de comunicación**
+
+El tono de AquaSave es claro, cercano y preventivo. La aplicación evita lenguaje técnico excesivo y privilegia mensajes accionables. Por ejemplo, en lugar de presentar únicamente datos climáticos, muestra estados como "No se debe regar", "Se recomienda regar" o "Riego puede continuar". Esta comunicación está alineada con el perfil de usuarios definido en el proyecto, especialmente considerando que parte del público objetivo puede tener baja familiaridad con soluciones IoT.
 
 #### 5.1.2. Web, Mobile and IoT Style Guidelines
 
+**Web Style Guidelines**
+
+La aplicación frontend de AquaSave está desarrollada en Flutter y utiliza Material Design 3. En escritorio, la experiencia se organiza mediante una barra lateral fija y un área principal de contenido. La aplicación cambia de estructura de navegación según el ancho disponible: cuando el viewport tiene al menos 800px, se muestra el `AppSidebar`; en anchos menores, se utiliza una barra de navegación inferior.
+
+| Categoría | Breakpoint aproximado | Comportamiento |
+|---|---:|---|
+| Mobile | Menor a 800px | Navegación inferior con seis destinos principales |
+| Desktop / Web amplio | 800px o más | Sidebar izquierda fija con logo y navegación vertical |
+| Contenido ancho | 980px - 1120px | Contenedores centrados para dashboards, configuración y dispositivos |
+
+El layout web prioriza dashboards escaneables. Las pantallas principales utilizan `SingleChildScrollView`, `ConstrainedBox` y `LayoutBuilder` para adaptar columnas, grids y tarjetas según el ancho. En vistas como Dispositivos, se usa un grid amplio en desktop y una lista vertical en pantallas estrechas.
+
+**Componentes web principales**
+
+| Componente | Lineamiento visual | Uso |
+|---|---|---|
+| Sidebar | Ancho 236px, logo superior, indicador activo verde | Navegación de escritorio |
+| App Header | Título de sección y accesos rápidos | Contextualiza la pantalla actual |
+| Cards de dashboard | Fondo `lightCard`, sombra suave, icono y texto jerarquizado | Métricas de humedad, clima, riego y ahorro |
+| Dialog de dispositivo | Formulario con secciones agrupadas, botones Cancelar y Registrar/Guardar | Alta y edición de huertos/dispositivos |
+| Formulario de ubicación | País, ciudad, distrito y código postal con búsqueda por API | Precisión climática para el dispositivo |
+| Programación automática | Campo 24 horas, estado activo/inactivo y validación de hora | Configuración de riego programado |
+
+**Mobile Style Guidelines**
+
+En dispositivos móviles, AquaSave mantiene el mismo sistema visual, pero reorganiza la navegación en una `NavigationBar` inferior. Esta barra incluye las mismas secciones principales que la versión de escritorio: Inicio, Dispositivos, Análisis, Historial, Perfil y Configuración.
+
+Los layouts móviles se apilan verticalmente para evitar desbordes horizontales. Los formularios y tarjetas se muestran a ancho completo, con botones principales ocupando todo el ancho disponible cuando el espacio es reducido. Esta decisión facilita el uso táctil y evita que el usuario tenga que precisar demasiado al interactuar con controles críticos como iniciar riego, guardar configuración o confirmar cambios.
+
+| Elemento móvil | Lineamiento |
+|---|---|
+| Navegación inferior | Icono + etiqueta seleccionada, basada en `NavigationBar` |
+| Tarjetas | Una columna, ancho completo y separación vertical |
+| Formularios | Campos apilados, botones full width en pantallas pequeñas |
+| Modales | Márgenes reducidos y acciones verticales cuando el ancho es menor a 560px |
+| Controles táctiles | Botones de al menos 48px de alto, switches con área táctil suficiente |
+
+**IoT Style Guidelines**
+
+La interfaz IoT de AquaSave se centra en representar de forma comprensible los datos enviados por el dispositivo ESP32 y sus sensores. Los datos del sistema no se presentan como lecturas técnicas aisladas, sino como estados operativos que ayudan al usuario a decidir si debe regar, pausar o revisar el dispositivo.
+
+| Dato IoT | Representación UI | Decisión que habilita |
+|---|---|---|
+| Humedad del suelo | Porcentaje, rango saludable e indicador visual | Determinar si el cultivo requiere riego |
+| Temperatura | Valor en °C y alerta por umbral | Identificar estrés térmico |
+| Estado del dispositivo | `En línea` / `Sin conexión` | Confiar o no en la lectura actual |
+| Caudal / consumo | Historial y métricas de litros usados | Evaluar consumo y ahorro hídrico |
+| Clima externo | Lluvia, viento, condición climática | Pausar riego si hay lluvia prevista |
+| Bomba / riego | Estado `Regando` o `Detenido` | Controlar el ciclo de riego |
+
+Para la ubicación climática, la interfaz solicita país, ciudad, distrito o código postal. Estos datos no se guardan por separado; se usan para consultar APIs externas de geocodificación y ubicar correctamente la zona climática del dispositivo. Este criterio es importante porque existen distritos con nombres repetidos entre países o regiones, como Miraflores o San Isidro.
+
 ### 5.2. Information Architecture
+
+La arquitectura de información de AquaSave organiza la experiencia en torno a las tareas principales del usuario: monitorear cultivos, gestionar dispositivos IoT, controlar el riego, revisar métricas históricas y configurar preferencias. La estructura evita una navegación técnica basada en módulos internos del sistema y utiliza etiquetas comprensibles para usuarios no especializados.
 
 #### 5.2.1. Organization Systems
 
+El sistema de organización principal es **funcional por tareas**, ya que cada sección agrupa acciones relacionadas con un objetivo concreto del usuario. Esta decisión responde a la naturaleza operativa de AquaSave: el usuario no entra a la aplicación para explorar información, sino para saber qué está pasando con su huerto o parcela y actuar rápidamente.
+
+| Sección | Objetivo de usuario | Contenido principal |
+|---|---|---|
+| Inicio | Obtener una visión rápida del huerto | Humedad, clima, dispositivo activo y control rápido |
+| Dispositivos | Gestionar huertos o dispositivos ESP32 | Lista de dispositivos, edición, ubicación y plantas |
+| Análisis | Comprender el impacto del riego inteligente | Ahorro, salud del cultivo, estrés hídrico y estabilidad |
+| Historial | Revisar registros de riego y consumo | Ciclos de bomba, litros usados y tendencias |
+| Perfil | Gestionar datos personales y preferencias de cuenta | Datos del usuario, plan, contraseña y notificaciones |
+| Configuración | Ajustar reglas del sistema | Umbrales, pausa por lluvia, horarios automáticos y plan |
+
+Además, existe una organización secundaria por **estado operativo**. El frontend diferencia datos activos, inactivos, críticos o pendientes mediante etiquetas, badges, colores y mensajes. Por ejemplo, un dispositivo puede mostrarse como `En línea` o `Sin conexión`, mientras que el riego puede mostrarse como `Regando` o `Detenido`.
+
+La aplicación también utiliza una organización por **perfil de acceso**. Antes de iniciar sesión, el usuario solo accede a Login o Registro. Después de autenticarse, accede al dashboard y al resto de secciones operativas.
+
 #### 5.2.2. Labeling Systems
+
+El sistema de etiquetado utiliza términos simples y consistentes, definidos en el archivo de localización del frontend. La aplicación soporta español e inglés, pero para el contexto principal de AquaSave se prioriza el español por estar orientada inicialmente al mercado peruano.
+
+| Label principal | Significado en la experiencia |
+|---|---|
+| Inicio | Pantalla principal de monitoreo |
+| Dispositivos | Gestión de huertos o dispositivos IoT |
+| Análisis | Métricas avanzadas del cultivo |
+| Historial | Registro de ciclos de riego y consumo |
+| Perfil | Datos personales, plan, contraseña y notificaciones |
+| Configuración | Parámetros del sistema de riego |
+
+Los labels evitan tecnicismos innecesarios. Por ejemplo, se usa "Humedad" en lugar de "Soil Moisture Reading", "Clima del huerto" en lugar de "Weather Forecast Integration" y "Pausa por lluvia" en lugar de "Weather Override Threshold". Esto permite que la información sea comprensible para horticultores urbanos y micro-agricultores periurbanos.
+
+**Labels de acción**
+
+| Acción | Uso |
+|---|---|
+| Agregar dispositivo | Abre el formulario de alta de dispositivo o huerto |
+| Verificar zona | Consulta APIs externas para validar la ubicación climática |
+| Iniciar riego | Activa el ciclo de riego desde la interfaz |
+| Detener riego | Finaliza el ciclo de riego activo |
+| Agregar horario | Crea una nueva programación automática |
+| Guardar configuración | Persiste cambios de umbrales y horarios |
+| Guardar contraseña | Confirma el cambio de contraseña |
+
+**Labels de estado**
+
+| Estado | Interpretación |
+|---|---|
+| Activo | Elemento habilitado o seleccionado |
+| Inactivo | Elemento deshabilitado o pausado |
+| En línea | Dispositivo con conexión disponible |
+| Sin conexión | Última lectura disponible, pero sin conexión actual |
+| Riego iniciado | La bomba o ciclo de riego se encuentra activo |
+| Riego detenido | La bomba no está ejecutando riego |
+| Zona detectada | La ubicación fue resuelta correctamente |
+| Zona detectada por código postal | La ubicación fue resuelta usando el código postal como referencia |
+
 
 #### 5.2.3. SEO Tags and Meta Tags
 
+La aplicación web de AquaSave incluye metadatos básicos en `web/index.html`, lo que permite identificar la aplicación correctamente en navegador, accesos móviles y favoritos. Al tratarse de una aplicación Flutter Web, gran parte del contenido se renderiza del lado del cliente; por ello, los metadatos estáticos deben ser claros y representativos.
+
+| Meta tag / recurso | Valor actual | Propósito |
+|---|---|---|
+| `<title>` | `AquaSave` | Nombre mostrado en pestaña del navegador |
+| `meta charset` | `UTF-8` | Soporte de caracteres para español e inglés |
+| `X-UA-Compatible` | `IE=Edge` | Compatibilidad de renderizado en navegadores |
+| `meta description` | `AquaSave - monitoreo y riego inteligente.` | Descripción general para buscadores |
+| `mobile-web-app-capable` | `yes` | Permite comportamiento tipo aplicación en móviles |
+| `apple-mobile-web-app-title` | `AquaSave` | Nombre en acceso directo de iOS |
+| `apple-touch-icon` | `AquaSaveLogo.PNG` | Icono para dispositivos Apple |
+| `favicon` | `AquaSaveLogo.PNG` | Icono de pestaña del navegador |
+| `manifest.json` | Vinculado | Configuración PWA base |
+
+
 #### 5.2.4. Searching Systems
 
+AquaSave no implementa un buscador global de contenido, ya que la navegación principal está diseñada alrededor de secciones funcionales. Sin embargo, sí incluye sistemas de búsqueda específicos para resolver necesidades operativas.
+
+El sistema de búsqueda más relevante se encuentra en el formulario de ubicación del dispositivo. Este flujo permite ingresar país, ciudad, distrito y código postal para encontrar la zona climática correcta del huerto. La precisión de esta búsqueda es importante porque existen nombres de distritos repetidos entre países o provincias. Por ejemplo, el usuario puede necesitar seleccionar Miraflores en Lima, Perú, y no Miraflores en otra provincia.
+
+**Búsqueda de ubicación climática**
+
+| Entrada del usuario | Uso en el sistema |
+|---|---|
+| País | Restringe la búsqueda por código de país |
+| Ciudad | Ayuda a diferenciar distritos repetidos |
+| Distrito / zona | Define el área principal del huerto |
+| Código postal | Alternativa de precisión cuando el nombre se repite |
+
+Este sistema de búsqueda no guarda país, ciudad, distrito y código postal como campos separados de perfil. Su finalidad es ubicar correctamente la zona climática asociada al dispositivo para obtener pronósticos y reglas de riego más precisas.
+
+Además, la aplicación utiliza selección directa de dispositivos en la sección Dispositivos. En lugar de un buscador textual, el usuario visualiza tarjetas de dispositivos y selecciona cuál desea mostrar como dispositivo activo en la plataforma.
+
 #### 5.2.5. Navigation Systems
+
+El sistema de navegación de AquaSave es adaptativo. En escritorio, la navegación se presenta como una barra lateral fija; en pantallas pequeñas, se reemplaza por una barra inferior. Esta estrategia mantiene consistencia funcional sin forzar el mismo patrón visual en todos los tamaños de pantalla.
+
+**Navegación de escritorio**
+
+En pantallas de 800px o más, AquaSave muestra una barra lateral izquierda con el logotipo y las secciones principales. El elemento activo se marca con un fondo verde claro, icono resaltado y un indicador vertical. Este patrón facilita que el usuario identifique rápidamente en qué módulo se encuentra.
+
+| Elemento | Comportamiento |
+|---|---|
+| Logo AquaSave | Refuerza identidad visual en la parte superior |
+| Inicio | Lleva al dashboard general |
+| Dispositivos | Lleva a la gestión de huertos/dispositivos |
+| Análisis | Lleva a métricas avanzadas |
+| Historial | Lleva al registro de riegos |
+| Perfil | Lleva a datos de cuenta |
+| Configuración | Lleva a reglas y umbrales |
+
+**Navegación móvil**
+
+En pantallas menores a 800px, la aplicación utiliza una barra inferior con los mismos destinos. Esta decisión mejora la ergonomía táctil, ya que los accesos principales quedan cerca del pulgar del usuario.
+
+**Flujo de navegación**
+
+El frontend maneja dos niveles de navegación:
+
+1. **Navegación de autenticación:** Login y Registro. Si el usuario no está autenticado, solo puede alternar entre estas dos pantallas.
+2. **Navegación interna:** Inicio, Dispositivos, Análisis, Historial, Perfil y Configuración. Esta navegación se habilita después del inicio de sesión.
+
+**Mapa de navegación principal**
+
+```text
+Login
+ └── Registro
+
+Aplicación autenticada
+ ├── Inicio
+ │   ├── Estado del huerto
+ │   ├── Clima
+ │   └── Control rápido de riego
+ ├── Dispositivos
+ │   ├── Lista de dispositivos
+ │   ├── Agregar dispositivo
+ │   └── Editar ubicación / plantas
+ ├── Análisis
+ │   ├── Ahorro hídrico
+ │   ├── Salud del cultivo
+ │   └── Estabilidad del suelo
+ ├── Historial
+ │   ├── Ciclos de bomba
+ │   └── Consumo registrado
+ ├── Perfil
+ │   ├── Datos personales
+ │   ├── Plan activo
+ │   ├── Cambio de contraseña
+ │   └── Notificaciones
+ └── Configuración
+     ├── Umbrales de humedad
+     ├── Pausa por lluvia
+     └── Programación automática
+```
+
+La navegación también está conectada con el estado del dispositivo activo. Cuando el usuario cambia de dispositivo o modifica su ubicación, el frontend carga el clima correspondiente para actualizar recomendaciones de riego. Esto vincula la navegación visual con decisiones operativas del sistema IoT.
 
 ### 5.3. Landing Page UI Design
 
