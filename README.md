@@ -2409,6 +2409,8 @@ El siguiente diagrama presenta el diseño inicial del dispositivo IoT de AquaSav
 
 El esquema fue desarrollado en **Tinkercad**, una plataforma web para diseño y simulación de circuitos electrónicos. Debido a las limitaciones de disponibilidad de componentes en las plataformas de simulación, el prototipo fue representado utilizando una placa **Arduino Uno**. Sin embargo, la solución final de AquaSave está planificada para implementarse con un **ESP32**, debido a que este microcontrolador permite conectividad WiFi y comunicación con la aplicación web del sistema.
 
+IoT Device Prototype: [AquaSave Tinkercad Circuit](https://www.tinkercad.com/things/3XQamOBJ8YY/editel?returnTo=%2Fdashboard&sharecode=DP_R27OOtFf5y2I7M1sIj3FEfroBPGAw97ZUuxzHu48)
+
 **Componentes del Diseño:**
 
 | Componente | Descripción | Especificaciones Técnicas |
