@@ -2300,7 +2300,7 @@ Historial:
 
 
 
-#### 5.4.2. Applications Mock-ups
+#### 5.4.3. Applications Mock-ups
 
 
 Inicio De Sesión:
@@ -2351,7 +2351,41 @@ Historial:
 [Link para ver los wireframes y Mock-Up de la Aplicacion web](https://www.figma.com/design/pZztbeAUfk1x363ScNolMg/AquaSave?node-id=0-1&t=l9dE5WV4efNC0iQp-1 ) 
 
 
-#### 5.4.3. Applications User Flow Diagrams
+#### 5.4.4. Applications User Flow Diagrams
+
+Esta sección presenta los diagramas de flujo de usuario de la aplicación AquaSave. Estos diagramas ilustran las rutas principales que siguen los usuarios dentro de la plataforma, permitiendo comprender de forma clara la navegación, las interacciones y las decisiones que se realizan durante el uso de la aplicación.
+
+Los User Flow Diagrams fueron elaborados a partir de los wireflows previamente definidos en la sección 5.4.2, tomando como base los tres User Goals principales: registrarse o iniciar sesión en AquaSave, agregar un nuevo dispositivo IoT y registrar una planta o huerto. De esta manera, se mantiene la coherencia entre los flujos de navegación diseñados y las funcionalidades principales del producto.
+
+**Web Application UserFlow**
+
+**User Flow: Registrarse o iniciar sesión en AquaSave**
+
+User Goal: Como usuario, quiero registrarme o iniciar sesión en AquaSave para acceder al monitoreo y gestión de mi huerto inteligente.
+
+Este User Goal representa el primer punto de interacción del usuario con la aplicación web de AquaSave. El usuario puede iniciar sesión con una cuenta existente o registrarse en caso aún no cuente con acceso a la plataforma. Una vez que el sistema valida la información ingresada, el usuario es redirigido al dashboard principal, donde puede visualizar el estado general de su huerto, el dispositivo activo, la humedad promedio, las condiciones climáticas y las acciones rápidas de riego.
+
+<img src="image/userflow-login.png" alt="userflow-login" width="1000">
+
+
+**User Flow: Agregar un nuevo dispositivo IoT**
+
+User Goal: Como usuario, quiero agregar un nuevo dispositivo IoT a AquaSave para conectar mi ESP32 y monitorear automáticamente las condiciones de mi huerto.
+
+Este User Goal representa el proceso de vinculación de un dispositivo IoT dentro de AquaSave. El usuario ingresa al módulo de Dispositivos y selecciona la opción para agregar un nuevo dispositivo. A partir de ello, la aplicación guía al usuario por una secuencia de pasos que incluye la conexión del ESP32, la selección de una red WiFi, la verificación de conexión, la configuración básica del dispositivo y la definición de umbrales de humedad. Este flujo permite que el dispositivo quede correctamente registrado y preparado para recopilar datos del huerto en tiempo real.
+
+<img src="image/userflow-agregar-dispositivo.png" alt="userflow-agregar-dispositivo" width="1000">
+
+
+**User Flow: Registrar una planta o huerto**
+
+User Goal: Como usuario, quiero registrar una planta o huerto en AquaSave para monitorear sus condiciones específicas y gestionar su riego de manera más precisa.
+
+Este User Goal representa el proceso mediante el cual el usuario registra o administra una planta asociada a un dispositivo previamente vinculado. Desde el módulo de Dispositivos, el usuario puede acceder al huerto registrado, agregar una nueva planta, editar sus datos o visualizar el detalle de una planta existente. En este flujo se consideran datos como el nombre de la planta, el dispositivo asignado, la posición en el sensor, los umbrales de humedad, el estado actual, la temperatura y el historial de riegos. De esta manera, AquaSave permite realizar un seguimiento individual de cada planta o cultivo dentro del huerto.
+
+<img src="image/userflow-registrar-planta-huerto.png" alt="userflow-registrar-planta-huerto" width="1000">
+
+[Link para ver los userflows](https://miro.com/app/board/uXjVJHRMhjA=/?share_link_id=284169649022 ) 
 
 ### 5.5. Applications Prototyping
 
