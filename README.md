@@ -2899,7 +2899,7 @@ En esta sección se deja en evidencia lo desarrollado en el sprint.
 
 [![image.png](https://i.postimg.cc/HWf8YMVy/image.png)](https://postimg.cc/BtBnNX5S)
 
-*App Web:*
+*Web App:*
 
 [![image.png](https://i.postimg.cc/MpnLyhWx/image.png)](https://postimg.cc/rDLgTZ0Y)
 
@@ -2920,6 +2920,24 @@ En esta sección se deja en evidencia lo desarrollado en el sprint.
 No se incluyeron servicios en este sprint.
 
 ##### 6.2.1.8. Software Deployment Evidence for Sprint Review
+
+Durante el sprint, se realizaron las actividades necesarias para el despliegue de los productos desarrollados. A continuación, se detallan las acciones ejecutadas para cada uno de ellos:
+
+*Landing Page:* 
+
+Para el despliegue de la Landing Page se decidió utilizar GitHub Pages, debido a su integración nativa con GitHub y su facilidad para publicar sitios web estáticos directamente desde el repositorio. Además, esta plataforma permite automatizar el proceso de despliegue mediante GitHub Actions, de modo que cada actualización realizada en la rama principal genera automáticamente una nueva versión publicada. Esto asegura un flujo de integración y entrega continua más eficiente y organizado.
+
+[![image.png](https://i.postimg.cc/prsZybdb/image.png)](https://postimg.cc/dZTdSfd4)
+
+[![image.png](https://i.postimg.cc/PrpJ05ym/image.png)](https://postimg.cc/VdwzC136)
+
+*Web App:*
+
+La aplicación web fue desplegada utilizando Firebase, aprovechando su integración con proyectos desarrollados en GitHub, su facilidad de configuración y la posibilidad de automatizar los despliegues mediante GitHub Actions. Además, Firebase ofrece una infraestructura confiable y optimizada para aplicaciones web, permitiendo publicar nuevas versiones de manera rápida y eficiente cada vez que se realizan cambios en el repositorio principal.
+
+[![image.png](https://i.postimg.cc/GpnkLhjm/image.png)](https://postimg.cc/sMKBKz8k)
+
+[![image.png](https://i.postimg.cc/MpnLyhWx/image.png)](https://postimg.cc/rDLgTZ0Y)
 
 ##### 6.2.1.9. Team Collaboration Insights during Sprint
 
