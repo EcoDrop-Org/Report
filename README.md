@@ -244,17 +244,17 @@
         </ul>
         <a href="#62-landing-page-services--applications-implementation">6.2. Landing Page, Services & Applications Implementation</a><br>
         <ul>
-            <a href="#62x-sprint-n">6.2.X. Sprint n</a><br>
+            <a href="#621-sprint-n">6.2.1. Sprint n</a><br>
             <ul>
-                <a href="#62x1-sprint-planning-n">6.2.X.1. Sprint Planning n</a><br>
-                <a href="#62x2-aspect-leaders-and-collaborators">6.2.X.2. Aspect Leaders and Collaborators</a><br>
-                <a href="#62x3-sprint-backlog-n">6.2.X.3. Sprint Backlog n</a><br>
-                <a href="#62x4-development-evidence-for-sprint-review">6.2.X.4. Development Evidence for Sprint Review</a><br>
-                <a href="#62x5-testing-suite-evidence-for-sprint-review">6.2.X.5. Testing Suite Evidence for Sprint Review</a><br>
-                <a href="#62x6-execution-evidence-for-sprint-review">6.2.X.6. Execution Evidence for Sprint Review</a><br>
-                <a href="#62x7-services-documentation-evidence-for-sprint-review">6.2.X.7. Services Documentation Evidence for Sprint Review</a><br>
-                <a href="#62x8-software-deployment-evidence-for-sprint-review">6.2.X.8. Software Deployment Evidence for Sprint Review</a><br>
-                <a href="#62x9-team-collaboration-insights-during-sprint">6.2.X.9. Team Collaboration Insights during Sprint</a><br>
+                <a href="#6211-sprint-planning-n">6.2.1.1. Sprint Planning n</a><br>
+                <a href="#6212-aspect-leaders-and-collaborators">6.2.1.2. Aspect Leaders and Collaborators</a><br>
+                <a href="#6213-sprint-backlog-n">6.2.1.3. Sprint Backlog n</a><br>
+                <a href="#6214-development-evidence-for-sprint-review">6.2.1.4. Development Evidence for Sprint Review</a><br>
+                <a href="#6215-testing-suite-evidence-for-sprint-review">6.2.1.5. Testing Suite Evidence for Sprint Review</a><br>
+                <a href="#6216-execution-evidence-for-sprint-review">6.2.1.6. Execution Evidence for Sprint Review</a><br>
+                <a href="#6217-services-documentation-evidence-for-sprint-review">6.2.1.7. Services Documentation Evidence for Sprint Review</a><br>
+                <a href="#6218-software-deployment-evidence-for-sprint-review">6.2.1.8. Software Deployment Evidence for Sprint Review</a><br>
+                <a href="#6219-team-collaboration-insights-during-sprint">6.2.1.9. Team Collaboration Insights during Sprint</a><br>
             </ul>
         </ul>
         <a href="#63-validation-interviews">6.3. Validation Interviews</a><br>
