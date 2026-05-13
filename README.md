@@ -29,7 +29,7 @@
     
   <br>
   
-  <p align="center"><i>Ciclo 202601</i></p>
+  <p align="center"><i>Ciclo 202610</i></p>
 
 <br>
 
@@ -38,7 +38,8 @@
 
 | Versión | Fecha      | Autor                                                                                                                                                         | Descripción de modificación |
 |---------|------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------|
-| AV1     | 26/04/2026 | - Gutiérrez Condo, Maylhy Olinda<br>- Roca Tineo, Steven Mathew<br>- Rodríguez Rodríguez, Luis Piero<br>- Román Pajuelo, Luis Gustavo<br>- Silva Morales, Renzo Cesar | En la primera entrega del informe de nuestro proyecto, hemos realizado los primeros capítulos del informe y definimos todas las entidades que emplearemos en EcoDrop / Aquasave. |
+| AV1     | 26/04/2026 | - Gutiérrez Condo, Maylhy Olinda<br>- Roca Tineo, Steven Mathew<br>- Rodríguez Rodríguez, Luis Piero<br>- Román Pajuelo, Luis Gustavo<br>- Silva Morales, Renzo Cesar | En la primera entrega del informe de nuestro proyecto, hemos realizado los primeros capítulos del informe y definimos todas las entidades que emplearemos en AquaSave. |
+| TB1     | 13/06/2026 | - Gutiérrez Condo, Maylhy Olinda<br>- Roca Tineo, Steven Mathew<br>- Rodríguez Rodríguez, Luis Piero<br>- Román Pajuelo, Luis Gustavo<br>- Silva Morales, Renzo Cesar | En la segunda entrega del informe de nuestro proyecto, hemos realizado la landing page y el frontend de nuestra aplicación AquaSave |
 
 # Project Report Collaboration Insights
 
@@ -279,79 +280,18 @@
 
 # Student Outcome
 
-El curso contribuye al cumplimiento del Student Outcome ABET: **ABET – EAC - Student Outcome 3**  
+El curso contribuye al cumplimiento del Student Outcome ABET: **ABET – EAC - Student Outcome 5**
 
-**Criterio:** *La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos*   
+**Criterio:** *La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos.*
 
-En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome 5.
+En el siguiente cuadro se describen las acciones realizadas y los enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome 5.
 
-**Objetivo general:** Desarrollar, como equipo EcoDrop, AquaSave, una solución IoT para optimizar el consumo hídrico en huertos domésticos y parcelas periurbanas. Buscamos diseñar e implementar una plataforma tecnológica basada en el enfoque Domain-Driven Design (DDD), con una arquitectura moderna compuesta por una aplicación móvil/web en Flutter y un backend orientado a microservicios, integrada con dispositivos ESP32 para el monitoreo y control inteligente del riego, respondiendo a las necesidades reales de nuestro público objetivo y fomentando el trabajo colaborativo y la planificación eficaz del equipo.
+**Objetivo general:** Desarrollar, como equipo EcoDrop, AquaSave, una solución IoT para optimizar el consumo hídrico en huertos domésticos y parcelas periurbanas. Buscamos diseñar e implementar una plataforma tecnológica basada en el enfoque Domain-Driven Design (DDD), con una arquitectura moderna compuesta por una aplicación móvil/web en Flutter y un backend orientado a microservicios, integrada progresivamente con dispositivos ESP32 para el monitoreo y control inteligente del riego. En el avance TB1, el equipo se enfocó en implementar la Landing Page y el frontend inicial de la aplicación, validando la experiencia visual, la navegación, la gestión simulada de dispositivos, el dashboard, la configuración de riego y el historial, sin integración backend ni conexión IoT real todavía.
 
-<table border="1">
-  <tr>
-    <th>Criterio específico</th>
-    <th>Acciones realizadas</th>
-    <th>Conclusiones</th>
-  </tr>
-  <tr>
-    <td><strong>Trabaja en equipo para proporcionar liderazgo en forma conjunta.</strong></td>
-    <td>
-      <p><strong>Gutiérrez Condo, Maylhy Olinda</strong></p>
-      <p><i>AV1</i></p>
-      <p>Lideró el desarrollo de los diagramas de componentes y código del bounded context, así como los diagramas de clases del dominio y el diseño de base de datos, coordinando con el equipo para mantener coherencia arquitectónica.</p>
-      <p></p>
-      <p><strong>Roca Tineo, Steven Mathew</strong></p>
-      <p><i>AV1</i></p>
-      <p>Como Team Leader, lideró la definición de User Stories, Impact Mapping y Product Backlog, y tomó iniciativa en el diseño de las capas de dominio, interfaz, aplicación e infraestructura del sistema.</p>
-      <p></p>
-      <p><strong>Rodríguez Rodríguez, Luis Piero</strong></p>
-      <p><i>AV1</i></p>
-      <p>Lideró la realización de entrevistas con usuarios y la elaboración de los diagramas de contenedores y despliegue de la arquitectura de software, aportando una visión técnica estructurada al equipo.</p>
-      <p></p>
-      <p><strong>Román Pajuelo, Luis Gustavo</strong></p>
-      <p><i>AV1</i></p>
-      <p>Lideró el Needfinding, el Ubiquitous Language, el Context Mapping y los diagramas de arquitectura a nivel de sistema (Landscape y Context), estableciendo las bases del diseño estratégico del proyecto.</p>
-      <p></p>
-      <p><strong>Silva Morales, Renzo Cesar</strong></p>
-      <p><i>AV1</i></p>
-      <p>Lideró el análisis competitivo, el Big Picture EventStorming y el Strategic-Level Domain-Driven Design, incluyendo el Candidate Context Discovery, Domain Message Flows y Bounded Context Canvases, orientando al equipo en la definición del dominio.</p>
-    </td>
-    <td>
-      <p><ins><i><strong>AV1:</strong></i></ins></p>
-      <p><strong>Objetivo específico: </strong>Promover el liderazgo distribuido entre los integrantes para organizar las actividades iniciales del proyecto, como el diseño de la arquitectura, el modelado del dominio y la documentación base.</p>
-      <p><strong>Conclusión: </strong>Todos los miembros del equipo EcoDrop ejercieron liderazgo conjunto en distintas etapas del proyecto, distribuyendo responsabilidades de manera efectiva según sus fortalezas. La colaboración permitió alcanzar los objetivos del primer entregable, evidenciando la capacidad del equipo para funcionar de manera integrada y equitativa en el desarrollo de AquaSave.</p>
-    </td>
-  </tr>
-  <tr>
-    <td><strong>Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.</strong></td>
-    <td>
-      <p><strong>Gutiérrez Condo, Maylhy Olinda</strong></p>
-      <p><i>AV1</i></p>
-      <p>Planificó y cumplió a tiempo las tareas de arquitectura de componentes, código y base de datos del bounded context, contribuyendo a un entorno de trabajo ordenado y colaborativo.</p>
-      <p></p>
-      <p><strong>Roca Tineo, Steven Mathew</strong></p>
-      <p><i>AV1</i></p>
-      <p>Estableció metas claras para el equipo desde su rol de Team Leader, coordinando la planificación del backlog y el diseño por capas, fomentando la participación de todos los integrantes.</p>
-      <p></p>
-      <p><strong>Rodríguez Rodríguez, Luis Piero</strong></p>
-      <p><i>AV1</i></p>
-      <p>Facilitó un entorno inclusivo durante la fase de entrevistas y aportó con los diagramas de contenedores y despliegue, cumpliendo sus objetivos en tiempo y forma.</p>
-      <p></p>
-      <p><strong>Román Pajuelo, Luis Gustavo</strong></p>
-      <p><i>AV1</i></p>
-      <p>Promovió la planificación colaborativa a través del Needfinding y el Context Mapping, estableciendo objetivos arquitectónicos claros que guiaron el trabajo del resto del equipo.</p>
-      <p></p>
-      <p><strong>Silva Morales, Renzo Cesar</strong></p>
-      <p><i>AV1</i></p>
-      <p>Fomentó la participación activa del equipo en las sesiones de EventStorming y Domain-Driven Design, definiendo junto al grupo los bounded contexts y flujos de mensajes del dominio de AquaSave.</p>
-    </td>
-    <td>
-      <p><ins><i><strong>AV1:</strong></i></ins></p>
-      <p><strong>Objetivo específico: </strong>Fomentar la participación de todo el equipo en las decisiones iniciales del sistema, estableciendo metas claras en diseño, modelado del dominio y documentación, promoviendo un ambiente inclusivo de trabajo.</p>
-      <p><strong>Conclusión: </strong>El equipo EcoDrop creó un ambiente de colaboración donde se respetaron las contribuciones de todos los integrantes. Las metas y tareas fueron claramente definidas y cumplidas a tiempo en este primer entregable, gracias a una comunicación efectiva y una planificación organizada que permitió avanzar con solidez en el desarrollo de la solución AquaSave.</p>
-    </td>
-  </tr>
-</table>
+| Criterio específico | Acciones realizadas | Conclusiones |
+| :--- | :--- | :--- |
+| **Trabaja en equipo para proporcionar liderazgo en forma conjunta.** | **Gutierrez Condo, Maylhy Olinda**<br><br>*AV1*<br>Lideró el desarrollo de los diagramas de componentes y código del bounded context, así como los diagramas de clases del dominio y el diseño de base de datos, coordinando con el equipo para mantener coherencia arquitectónica.<br><br>*TB1*<br>Asumió liderazgo en la organización visual de pantallas relacionadas al monitoreo e historial, colaborando en la revisión de la experiencia de usuario para que las secciones del frontend mantuvieran claridad, consistencia y facilidad de lectura.<br><br>**Roca Tineo, Steven Mathew**<br><br>*AV1*<br>Como Team Leader, lideró la definición de User Stories, Impact Mapping y Product Backlog, y tomó iniciativa en el diseño de las capas de dominio, interfaz, aplicación e infraestructura del sistema.<br><br>*TB1*<br>Lideró la organización del Sprint 1, la priorización de historias implementables en frontend y la coordinación de tareas asociadas a la Landing Page, navegación, gestión visual de dispositivos y revisión general del avance.<br><br>**Rodríguez Rodríguez, Luis Piero**<br><br>*AV1*<br>Lideró la realización de entrevistas con usuarios y la elaboración de los diagramas de contenedores y despliegue de la arquitectura de software, aportando una visión técnica estructurada al equipo.<br><br>*TB1*<br>Lideró la implementación y validación del frontend en Flutter, incluyendo pantallas de autenticación, dashboard, navegación principal, modo oscuro, localización y mejoras de experiencia de usuario orientadas al prototipo funcional.<br><br>**Román Pajuelo, Luis Gustavo**<br><br>*AV1*<br>Lideró el Needfinding, el Ubiquitous Language, el Context Mapping y los diagramas de arquitectura a nivel de sistema, estableciendo las bases del diseño estratégico del proyecto.<br><br>*TB1*<br>Lideró la definición de criterios funcionales para la configuración de riego, umbrales, horarios y recomendaciones visuales, asegurando que el frontend reflejara adecuadamente el dominio de riego inteligente planteado en la etapa de análisis.<br><br>**Silva Morales, Renzo Cesar**<br><br>*AV1*<br>Lideró el análisis competitivo, el Big Picture EventStorming y el Strategic-Level Domain-Driven Design, incluyendo el Candidate Context Discovery, Domain Message Flows y Bounded Context Canvases, orientando al equipo en la definición del dominio.<br><br>*TB1*<br>Lideró la revisión de consistencia entre la propuesta de valor de AquaSave y las interfaces implementadas, colaborando en la validación del contenido de la Landing Page, los mensajes de soporte y las mejoras visuales del producto. | **_AV1:_**<br><br>**Objetivo específico:** Promover el liderazgo distribuido entre los integrantes para organizar las actividades iniciales del proyecto, como el diseño de la arquitectura, el modelado del dominio y la documentación base.<br><br>**Conclusión:** Todos los miembros del equipo EcoDrop ejercieron liderazgo conjunto en distintas etapas del proyecto, distribuyendo responsabilidades de manera efectiva según sus fortalezas. La colaboración permitió alcanzar los objetivos del primer entregable, evidenciando la capacidad del equipo para funcionar de manera integrada y equitativa en el desarrollo de AquaSave.<br><br>**_TB1:_**<br><br>**Objetivo específico:** Consolidar el liderazgo conjunto del equipo durante la construcción de los primeros entregables implementados: Landing Page y frontend de AquaSave, manteniendo alineación entre el diseño del producto, las historias de usuario priorizadas y el alcance real del sprint.<br><br>**Conclusión:** Durante TB1, el equipo demostró liderazgo distribuido al transformar la planificación previa en un incremento tangible de software. Cada integrante aportó desde un aspecto específico del producto, permitiendo entregar una Landing Page funcional y un frontend inicial coherente con la propuesta de AquaSave. El liderazgo no se concentró en una sola persona, sino que se compartió según las responsabilidades técnicas, visuales y funcionales del avance. |
+| **Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.** | **Gutierrez Condo, Maylhy Olinda**<br><br>*AV1*<br>Planificó y cumplió a tiempo las tareas de arquitectura de componentes, código y base de datos del bounded context, contribuyendo a un entorno de trabajo ordenado y colaborativo.<br><br>*TB1*<br>Colaboró en la revisión de las pantallas del historial, análisis visual y flujo de monitoreo, aportando observaciones para mejorar la organización de la información y la claridad de los datos presentados al usuario.<br><br>**Roca Tineo, Steven Mathew**<br><br>*AV1*<br>Estableció metas claras para el equipo desde su rol de Team Leader, coordinando la planificación del backlog y el diseño por capas, fomentando la participación de todos los integrantes.<br><br>*TB1*<br>Organizó las tareas del sprint, coordinó la revisión del Sprint Backlog y promovió que las historias seleccionadas se ajustaran al alcance real del avance: frontend y Landing Page, evitando comprometer funcionalidades dependientes de backend o hardware.<br><br>**Rodríguez Rodríguez, Luis Piero**<br><br>*AV1*<br>Facilitó un entorno inclusivo durante la fase de entrevistas y aportó con los diagramas de contenedores y despliegue, cumpliendo sus objetivos en tiempo y forma.<br><br>*TB1*<br>Colaboró activamente en la implementación del frontend, integrando pantallas, navegación, temas visuales, localización y validaciones de interfaz. Además, apoyó la verificación técnica del proyecto mediante revisión local y análisis estático.<br><br>**Román Pajuelo, Luis Gustavo**<br><br>*AV1*<br>Promovió la planificación colaborativa a través del Needfinding y el Context Mapping, estableciendo objetivos arquitectónicos claros que guiaron el trabajo del resto del equipo.<br><br>*TB1*<br>Participó en la definición y revisión de las tareas relacionadas con configuración de riego, horarios, umbrales y recomendaciones, asegurando que la interfaz mantuviera relación con las necesidades de los usuarios objetivo.<br><br>**Silva Morales, Renzo Cesar**<br><br>*AV1*<br>Fomentó la participación activa del equipo en las sesiones de EventStorming y Domain-Driven Design, definiendo junto al grupo los bounded contexts y flujos de mensajes del dominio de AquaSave.<br><br>*TB1*<br>Colaboró en la revisión de contenido, consistencia visual y comunicación del valor de AquaSave en la Landing Page, aportando a que el producto se presentara de forma clara, profesional y alineada con el problema identificado. | **_AV1:_**<br><br>**Objetivo específico:** Fomentar la participación de todo el equipo en las decisiones iniciales del sistema, estableciendo metas claras en diseño, modelado del dominio y documentación, promoviendo un ambiente inclusivo de trabajo.<br><br>**Conclusión:** El equipo EcoDrop creó un ambiente de colaboración donde se respetaron las contribuciones de todos los integrantes. Las metas y tareas fueron claramente definidas y cumplidas a tiempo en este primer entregable, gracias a una comunicación efectiva y una planificación organizada que permitió avanzar con solidez en el desarrollo de la solución AquaSave.<br><br>**_TB1:_**<br><br>**Objetivo específico:** Planificar y ejecutar colaborativamente el primer incremento implementado del producto, priorizando tareas alcanzables para Landing Page y frontend, y manteniendo claridad sobre las limitaciones del sprint respecto a backend e integración IoT real.<br><br>**Conclusión:** En TB1, el equipo EcoDrop logró trabajar de manera coordinada e inclusiva para entregar un avance funcional y verificable. La división de tareas permitió cubrir diseño visual, navegación, pantallas principales, configuración, historial y documentación del sprint. Asimismo, el equipo demostró madurez al delimitar correctamente el alcance del avance, presentando el frontend como prototipo funcional y dejando la integración real con backend, sensores ESP32 y servicios remotos para futuras iteraciones. |
 
 ## Capítulo I: Introducción
 
@@ -1973,35 +1913,442 @@ Esta capa encapsula las reglas de negocio para el cálculo de métricas de ahorr
 
 ### 5.1. Style Guidelines
 
+Esta sección define los lineamientos visuales y de experiencia de usuario aplicados en la interfaz frontend de AquaSave. La documentación se elaboró tomando como referencia el diseño implementado en la aplicación Flutter, especialmente los archivos de tema, localización, navegación y pantallas principales del frontend. El objetivo es asegurar que la solución mantenga coherencia visual, claridad operativa y facilidad de uso para horticultores urbanos y micro-agricultores periurbanos.
+
 #### 5.1.1. General Style Guidelines
+
+La identidad visual de AquaSave se basa en una estética limpia, natural y funcional. La interfaz busca transmitir sostenibilidad, control y confianza mediante una combinación de tonos verdes, fondos claros, tarjetas suaves y componentes de lectura rápida. Dado que la aplicación muestra datos sensibles para la toma de decisiones de riego, como humedad, temperatura, lluvia, estado del dispositivo y consumo hídrico, el diseño prioriza la interpretación inmediata de la información.
+
+<p align="center">
+  <img src="image/General_Style_Guidelines.png" alt="Style Guidelines" width="1000">
+</p>
+
+**Branding y concepto visual**
+
+El concepto visual de AquaSave se fundamenta en la relación entre tecnología IoT y cuidado responsable del agua. Por ello, la interfaz utiliza una paleta inspirada en elementos naturales como hojas, suelo húmedo y superficies agrícolas claras. El logotipo de AquaSave se muestra como elemento de identidad en la navegación lateral de escritorio y refuerza la asociación entre la marca y la gestión inteligente del riego.
+
+Los componentes principales utilizan bordes redondeados, sombras suaves y contenedores tipo tarjeta. Este patrón permite agrupar información operativa sin saturar la pantalla. Las tarjetas de humedad, clima, dispositivos, historial y configuración se diseñan como bloques independientes para facilitar el escaneo visual y reducir la carga cognitiva del usuario.
+
+**Tipografía y legibilidad**
+
+El frontend utiliza Google Fonts mediante las familias `Manrope` e `Inter`, definidas en el sistema de estilos de la aplicación. `Manrope` se utiliza para títulos y encabezados, debido a su peso visual y buena presencia en dashboards. `Inter` se utiliza para textos de cuerpo, etiquetas, botones y datos secundarios, ya que ofrece alta legibilidad en interfaces densas.
+
+| Uso | Fuente | Tamaño aproximado | Peso | Propósito |
+|---|---|---:|---:|---|
+| Títulos principales | Manrope | 24px - 44px | 800 | Jerarquizar vistas como Inicio, Configuración y Análisis |
+| Subtítulos y encabezados de tarjeta | Inter | 17px - 18px | 700 - 800 | Identificar secciones funcionales |
+| Texto de cuerpo | Inter | 14px - 16px | 500 | Describir estados, ayudas y mensajes |
+| Botones y etiquetas | Inter | 13px - 14px | 800 | Resaltar acciones y estados |
+
+Los valores importantes, como porcentajes de humedad, temperatura y métricas de ahorro, se presentan con mayor peso tipográfico para permitir lectura rápida. Las ayudas textuales se mantienen en tamaño menor y con menor opacidad para no competir con las acciones principales.
+
+**Paleta de colores**
+
+La paleta de AquaSave tiene una función estética y semántica. Los tonos verdes representan funcionamiento normal, sostenibilidad y acciones principales. Los tonos claros generan una sensación de limpieza y calma, adecuada para usuarios no técnicos. El color secundario rojizo se reserva para alertas o estados que requieren atención.
+
+| Token visual | Color | Uso en la interfaz |
+|---|---|---|
+| `lightBackground` | `#F3F7EF` | Fondo principal en modo claro |
+| `lightSurface` | `#EAF3E5` | Superficies de secciones y contenedores |
+| `lightPrimary` | `#497654` | Botones primarios, iconos activos, indicadores y sliders |
+| `lightCard` | `#F8FBF4` | Tarjetas de contenido |
+| `lightText` | `#2D3D2C` | Texto principal |
+| `lightDivider` | `#D9E2D3` | Bordes, divisores y estados inactivos |
+| `secondary` | `#FE5C73` | Alertas, notificaciones críticas y señales de atención |
+| `darkBackground` | `#0F1712` | Fondo principal en modo oscuro |
+| `darkCard` | `#1F2D24` | Tarjetas en modo oscuro |
+| `darkPrimary` | `#94BC9A` | Acciones primarias en modo oscuro |
+
+El modo oscuro mantiene la misma lógica semántica del modo claro, pero reduce la luminosidad del fondo y aumenta el contraste de los textos. Esta opción es relevante para usuarios que revisan la aplicación durante la noche o en entornos de baja iluminación.
+
+**Espaciado, bordes y retícula**
+
+La aplicación utiliza un sistema de espaciado consistente definido en `AppDimensions`. Aunque no es una grilla rígida de 8px, sí mantiene una escala estable para separar elementos relacionados y secciones completas.
+
+| Token | Valor | Uso |
+|---|---:|---|
+| `spaceXs` | 8px | Separación mínima entre iconos y texto |
+| `spaceSm` | 14px | Separación entre campos o controles relacionados |
+| `spaceMd` | 20px | Separación entre bloques dentro de una pantalla |
+| `spaceLg` | 28px | Padding de páginas y tarjetas principales |
+| `spaceXl` | 39px | Separación inferior o márgenes amplios |
+| `buttonHeight` | 57px | Altura base de botones principales |
+| `inputHeight` | 57px | Altura base de campos de formulario |
+| `sidebarWidth` | 236px | Ancho de navegación lateral en escritorio |
+
+Los bordes redondeados de inputs y botones se mantienen alrededor de 14px, mientras que las tarjetas principales suelen usar radios entre 16px y 24px. Esta decisión visual hace que la aplicación se perciba más accesible y menos rígida para usuarios agrícolas o domésticos.
+
+**Componentes y estados visuales**
+
+Los componentes principales siguen lineamientos de Material Design 3 adaptados a la identidad de AquaSave:
+
+- **Botones primarios:** fondo verde `#497654`, texto blanco, altura mínima de 52px y bordes redondeados.
+- **Botones secundarios:** estilo outline con borde verde claro o divisor, utilizados para acciones como cancelar, agregar horario o verificar zona.
+- **Inputs:** fondo claro, radio de 14px, icono contextual y borde resaltado cuando están enfocados.
+- **Switches:** verdes cuando están activos y tonos neutros cuando están inactivos.
+- **Tarjetas:** fondos claros, sombra suave y separación suficiente para agrupar información.
+- **Indicadores de estado:** etiquetas como `Activo`, `En línea`, `Sin conexión`, `Riego iniciado` y `Pausa recomendada` permiten entender el estado del sistema sin depender de información técnica.
+
+**Tono de comunicación**
+
+El tono de AquaSave es claro, cercano y preventivo. La aplicación evita lenguaje técnico excesivo y privilegia mensajes accionables. Por ejemplo, en lugar de presentar únicamente datos climáticos, muestra estados como "No se debe regar", "Se recomienda regar" o "Riego puede continuar". Esta comunicación está alineada con el perfil de usuarios definido en el proyecto, especialmente considerando que parte del público objetivo puede tener baja familiaridad con soluciones IoT.
 
 #### 5.1.2. Web, Mobile and IoT Style Guidelines
 
+**Web Style Guidelines**
+
+La aplicación frontend de AquaSave está desarrollada en Flutter y utiliza Material Design 3. En escritorio, la experiencia se organiza mediante una barra lateral fija y un área principal de contenido. La aplicación cambia de estructura de navegación según el ancho disponible: cuando el viewport tiene al menos 800px, se muestra el `AppSidebar`; en anchos menores, se utiliza una barra de navegación inferior.
+
+| Categoría | Breakpoint aproximado | Comportamiento |
+|---|---:|---|
+| Mobile | Menor a 800px | Navegación inferior con seis destinos principales |
+| Desktop / Web amplio | 800px o más | Sidebar izquierda fija con logo y navegación vertical |
+| Contenido ancho | 980px - 1120px | Contenedores centrados para dashboards, configuración y dispositivos |
+
+El layout web prioriza dashboards escaneables. Las pantallas principales utilizan `SingleChildScrollView`, `ConstrainedBox` y `LayoutBuilder` para adaptar columnas, grids y tarjetas según el ancho. En vistas como Dispositivos, se usa un grid amplio en desktop y una lista vertical en pantallas estrechas.
+
+**Componentes web principales**
+
+| Componente | Lineamiento visual | Uso |
+|---|---|---|
+| Sidebar | Ancho 236px, logo superior, indicador activo verde | Navegación de escritorio |
+| App Header | Título de sección y accesos rápidos | Contextualiza la pantalla actual |
+| Cards de dashboard | Fondo `lightCard`, sombra suave, icono y texto jerarquizado | Métricas de humedad, clima, riego y ahorro |
+| Dialog de dispositivo | Formulario con secciones agrupadas, botones Cancelar y Registrar/Guardar | Alta y edición de huertos/dispositivos |
+| Formulario de ubicación | País, ciudad, distrito y código postal con búsqueda por API | Precisión climática para el dispositivo |
+| Programación automática | Campo 24 horas, estado activo/inactivo y validación de hora | Configuración de riego programado |
+
+**Mobile Style Guidelines**
+
+En dispositivos móviles, AquaSave mantiene el mismo sistema visual, pero reorganiza la navegación en una `NavigationBar` inferior. Esta barra incluye las mismas secciones principales que la versión de escritorio: Inicio, Dispositivos, Análisis, Historial, Perfil y Configuración.
+
+Los layouts móviles se apilan verticalmente para evitar desbordes horizontales. Los formularios y tarjetas se muestran a ancho completo, con botones principales ocupando todo el ancho disponible cuando el espacio es reducido. Esta decisión facilita el uso táctil y evita que el usuario tenga que precisar demasiado al interactuar con controles críticos como iniciar riego, guardar configuración o confirmar cambios.
+
+| Elemento móvil | Lineamiento |
+|---|---|
+| Navegación inferior | Icono + etiqueta seleccionada, basada en `NavigationBar` |
+| Tarjetas | Una columna, ancho completo y separación vertical |
+| Formularios | Campos apilados, botones full width en pantallas pequeñas |
+| Modales | Márgenes reducidos y acciones verticales cuando el ancho es menor a 560px |
+| Controles táctiles | Botones de al menos 48px de alto, switches con área táctil suficiente |
+
+**IoT Style Guidelines**
+
+La interfaz IoT de AquaSave se centra en representar de forma comprensible los datos enviados por el dispositivo ESP32 y sus sensores. Los datos del sistema no se presentan como lecturas técnicas aisladas, sino como estados operativos que ayudan al usuario a decidir si debe regar, pausar o revisar el dispositivo.
+
+| Dato IoT | Representación UI | Decisión que habilita |
+|---|---|---|
+| Humedad del suelo | Porcentaje, rango saludable e indicador visual | Determinar si el cultivo requiere riego |
+| Temperatura | Valor en °C y alerta por umbral | Identificar estrés térmico |
+| Estado del dispositivo | `En línea` / `Sin conexión` | Confiar o no en la lectura actual |
+| Caudal / consumo | Historial y métricas de litros usados | Evaluar consumo y ahorro hídrico |
+| Clima externo | Lluvia, viento, condición climática | Pausar riego si hay lluvia prevista |
+| Bomba / riego | Estado `Regando` o `Detenido` | Controlar el ciclo de riego |
+
+Para la ubicación climática, la interfaz solicita país, ciudad, distrito o código postal. Estos datos no se guardan por separado; se usan para consultar APIs externas de geocodificación y ubicar correctamente la zona climática del dispositivo. Este criterio es importante porque existen distritos con nombres repetidos entre países o regiones, como Miraflores o San Isidro.
+
 ### 5.2. Information Architecture
+
+La arquitectura de información de AquaSave organiza la experiencia en torno a las tareas principales del usuario: monitorear cultivos, gestionar dispositivos IoT, controlar el riego, revisar métricas históricas y configurar preferencias. La estructura evita una navegación técnica basada en módulos internos del sistema y utiliza etiquetas comprensibles para usuarios no especializados.
 
 #### 5.2.1. Organization Systems
 
+El sistema de organización principal es **funcional por tareas**, ya que cada sección agrupa acciones relacionadas con un objetivo concreto del usuario. Esta decisión responde a la naturaleza operativa de AquaSave: el usuario no entra a la aplicación para explorar información, sino para saber qué está pasando con su huerto o parcela y actuar rápidamente.
+
+| Sección | Objetivo de usuario | Contenido principal |
+|---|---|---|
+| Inicio | Obtener una visión rápida del huerto | Humedad, clima, dispositivo activo y control rápido |
+| Dispositivos | Gestionar huertos o dispositivos ESP32 | Lista de dispositivos, edición, ubicación y plantas |
+| Análisis | Comprender el impacto del riego inteligente | Ahorro, salud del cultivo, estrés hídrico y estabilidad |
+| Historial | Revisar registros de riego y consumo | Ciclos de bomba, litros usados y tendencias |
+| Perfil | Gestionar datos personales y preferencias de cuenta | Datos del usuario, plan, contraseña y notificaciones |
+| Configuración | Ajustar reglas del sistema | Umbrales, pausa por lluvia, horarios automáticos y plan |
+
+Además, existe una organización secundaria por **estado operativo**. El frontend diferencia datos activos, inactivos, críticos o pendientes mediante etiquetas, badges, colores y mensajes. Por ejemplo, un dispositivo puede mostrarse como `En línea` o `Sin conexión`, mientras que el riego puede mostrarse como `Regando` o `Detenido`.
+
+La aplicación también utiliza una organización por **perfil de acceso**. Antes de iniciar sesión, el usuario solo accede a Login o Registro. Después de autenticarse, accede al dashboard y al resto de secciones operativas.
+
 #### 5.2.2. Labeling Systems
+
+El sistema de etiquetado utiliza términos simples y consistentes, definidos en el archivo de localización del frontend. La aplicación soporta español e inglés, pero para el contexto principal de AquaSave se prioriza el español por estar orientada inicialmente al mercado peruano.
+
+| Label principal | Significado en la experiencia |
+|---|---|
+| Inicio | Pantalla principal de monitoreo |
+| Dispositivos | Gestión de huertos o dispositivos IoT |
+| Análisis | Métricas avanzadas del cultivo |
+| Historial | Registro de ciclos de riego y consumo |
+| Perfil | Datos personales, plan, contraseña y notificaciones |
+| Configuración | Parámetros del sistema de riego |
+
+Los labels evitan tecnicismos innecesarios. Por ejemplo, se usa "Humedad" en lugar de "Soil Moisture Reading", "Clima del huerto" en lugar de "Weather Forecast Integration" y "Pausa por lluvia" en lugar de "Weather Override Threshold". Esto permite que la información sea comprensible para horticultores urbanos y micro-agricultores periurbanos.
+
+**Labels de acción**
+
+| Acción | Uso |
+|---|---|
+| Agregar dispositivo | Abre el formulario de alta de dispositivo o huerto |
+| Verificar zona | Consulta APIs externas para validar la ubicación climática |
+| Iniciar riego | Activa el ciclo de riego desde la interfaz |
+| Detener riego | Finaliza el ciclo de riego activo |
+| Agregar horario | Crea una nueva programación automática |
+| Guardar configuración | Persiste cambios de umbrales y horarios |
+| Guardar contraseña | Confirma el cambio de contraseña |
+
+**Labels de estado**
+
+| Estado | Interpretación |
+|---|---|
+| Activo | Elemento habilitado o seleccionado |
+| Inactivo | Elemento deshabilitado o pausado |
+| En línea | Dispositivo con conexión disponible |
+| Sin conexión | Última lectura disponible, pero sin conexión actual |
+| Riego iniciado | La bomba o ciclo de riego se encuentra activo |
+| Riego detenido | La bomba no está ejecutando riego |
+| Zona detectada | La ubicación fue resuelta correctamente |
+| Zona detectada por código postal | La ubicación fue resuelta usando el código postal como referencia |
+
 
 #### 5.2.3. SEO Tags and Meta Tags
 
+La aplicación web de AquaSave incluye metadatos básicos en `web/index.html`, lo que permite identificar la aplicación correctamente en navegador, accesos móviles y favoritos. Al tratarse de una aplicación Flutter Web, gran parte del contenido se renderiza del lado del cliente; por ello, los metadatos estáticos deben ser claros y representativos.
+
+| Meta tag / recurso | Valor actual | Propósito |
+|---|---|---|
+| `<title>` | `AquaSave` | Nombre mostrado en pestaña del navegador |
+| `meta charset` | `UTF-8` | Soporte de caracteres para español e inglés |
+| `X-UA-Compatible` | `IE=Edge` | Compatibilidad de renderizado en navegadores |
+| `meta description` | `AquaSave - monitoreo y riego inteligente.` | Descripción general para buscadores |
+| `mobile-web-app-capable` | `yes` | Permite comportamiento tipo aplicación en móviles |
+| `apple-mobile-web-app-title` | `AquaSave` | Nombre en acceso directo de iOS |
+| `apple-touch-icon` | `AquaSaveLogo.PNG` | Icono para dispositivos Apple |
+| `favicon` | `AquaSaveLogo.PNG` | Icono de pestaña del navegador |
+| `manifest.json` | Vinculado | Configuración PWA base |
+
+
 #### 5.2.4. Searching Systems
+
+AquaSave no implementa un buscador global de contenido, ya que la navegación principal está diseñada alrededor de secciones funcionales. Sin embargo, sí incluye sistemas de búsqueda específicos para resolver necesidades operativas.
+
+El sistema de búsqueda más relevante se encuentra en el formulario de ubicación del dispositivo. Este flujo permite ingresar país, ciudad, distrito y código postal para encontrar la zona climática correcta del huerto. La precisión de esta búsqueda es importante porque existen nombres de distritos repetidos entre países o provincias. Por ejemplo, el usuario puede necesitar seleccionar Miraflores en Lima, Perú, y no Miraflores en otra provincia.
+
+**Búsqueda de ubicación climática**
+
+| Entrada del usuario | Uso en el sistema |
+|---|---|
+| País | Restringe la búsqueda por código de país |
+| Ciudad | Ayuda a diferenciar distritos repetidos |
+| Distrito / zona | Define el área principal del huerto |
+| Código postal | Alternativa de precisión cuando el nombre se repite |
+
+Este sistema de búsqueda no guarda país, ciudad, distrito y código postal como campos separados de perfil. Su finalidad es ubicar correctamente la zona climática asociada al dispositivo para obtener pronósticos y reglas de riego más precisas.
+
+Además, la aplicación utiliza selección directa de dispositivos en la sección Dispositivos. En lugar de un buscador textual, el usuario visualiza tarjetas de dispositivos y selecciona cuál desea mostrar como dispositivo activo en la plataforma.
 
 #### 5.2.5. Navigation Systems
 
+El sistema de navegación de AquaSave es adaptativo. En escritorio, la navegación se presenta como una barra lateral fija; en pantallas pequeñas, se reemplaza por una barra inferior. Esta estrategia mantiene consistencia funcional sin forzar el mismo patrón visual en todos los tamaños de pantalla.
+
+**Navegación de escritorio**
+
+En pantallas de 800px o más, AquaSave muestra una barra lateral izquierda con el logotipo y las secciones principales. El elemento activo se marca con un fondo verde claro, icono resaltado y un indicador vertical. Este patrón facilita que el usuario identifique rápidamente en qué módulo se encuentra.
+
+| Elemento | Comportamiento |
+|---|---|
+| Logo AquaSave | Refuerza identidad visual en la parte superior |
+| Inicio | Lleva al dashboard general |
+| Dispositivos | Lleva a la gestión de huertos/dispositivos |
+| Análisis | Lleva a métricas avanzadas |
+| Historial | Lleva al registro de riegos |
+| Perfil | Lleva a datos de cuenta |
+| Configuración | Lleva a reglas y umbrales |
+
+**Navegación móvil**
+
+En pantallas menores a 800px, la aplicación utiliza una barra inferior con los mismos destinos. Esta decisión mejora la ergonomía táctil, ya que los accesos principales quedan cerca del pulgar del usuario.
+
+**Flujo de navegación**
+
+El frontend maneja dos niveles de navegación:
+
+1. **Navegación de autenticación:** Login y Registro. Si el usuario no está autenticado, solo puede alternar entre estas dos pantallas.
+2. **Navegación interna:** Inicio, Dispositivos, Análisis, Historial, Perfil y Configuración. Esta navegación se habilita después del inicio de sesión.
+
+**Mapa de navegación principal**
+
+```text
+Login
+ └── Registro
+
+Aplicación autenticada
+ ├── Inicio
+ │   ├── Estado del huerto
+ │   ├── Clima
+ │   └── Control rápido de riego
+ ├── Dispositivos
+ │   ├── Lista de dispositivos
+ │   ├── Agregar dispositivo
+ │   └── Editar ubicación / plantas
+ ├── Análisis
+ │   ├── Ahorro hídrico
+ │   ├── Salud del cultivo
+ │   └── Estabilidad del suelo
+ ├── Historial
+ │   ├── Ciclos de bomba
+ │   └── Consumo registrado
+ ├── Perfil
+ │   ├── Datos personales
+ │   ├── Plan activo
+ │   ├── Cambio de contraseña
+ │   └── Notificaciones
+ └── Configuración
+     ├── Umbrales de humedad
+     ├── Pausa por lluvia
+     └── Programación automática
+```
+
+La navegación también está conectada con el estado del dispositivo activo. Cuando el usuario cambia de dispositivo o modifica su ubicación, el frontend carga el clima correspondiente para actualizar recomendaciones de riego. Esto vincula la navegación visual con decisiones operativas del sistema IoT.
+
 ### 5.3. Landing Page UI Design
+
+Esta es nuestra landing page, la cual contiene secciones organizadas de manera estratégica para presentar la propuesta de AquaSave. En ella se incluye una sección principal de bienvenida, los beneficios del sistema, los pasos para utilizar la aplicación, sus funcionalidades más importantes, la presentación del equipo y un llamado a la acción final. Su diseño busca comunicar de forma clara, moderna y atractiva cómo AquaSave ayuda a optimizar el riego, ahorrar agua y facilitar el cuidado de las plantas.
 
 #### 5.3.1. Landing Page Wireframe
 
+
+
+<p align="center">
+  <img src="image/wireframeLading.png" width="70%">
+</p>
+
+
+
+
 #### 5.3.2. Landing Page Mock-up
+
+
+<p align="center">
+  <img src="image/mockup-landing.png" width="70%">
+</p>
+
+[Link para ver los wireframes y Mock-Up de la Landing Page](https://www.figma.com/design/pZztbeAUfk1x363ScNolMg/AquaSave?node-id=43-3936&t=l9dE5WV4efNC0iQp-1)
 
 ### 5.4. Applications UX/UI Design
 
+Esta sección presenta el diseño UX/UI de la aplicación AquaSave, donde se visualizan las principales pantallas del módulo de dispositivos. El diseño incluye una navegación lateral clara, tarjetas de huertos registrados, opción para agregar nuevos dispositivos, conexión del ESP32 a la plataforma y formularios para agregar o editar plantas. La propuesta mantiene una interfaz ordenada, intuitiva y amigable, utilizando colores suaves relacionados con la naturaleza para reforzar la identidad ecológica del proyecto y facilitar la experiencia del usuario.
+
 #### 5.4.1. Applications Wireframes
+
+Inicio De Sesión:
+<p align="center">
+  <img src="image/1ws.png" width="30%">
+  <img src="image/2ws.png" width="30%">
+</p>
+
+Dashboard:
+
+<p align="center">
+  <img src="image/1wd.png" width="70%">
+</p>
+
+
+Dispositivos:
+
+<p align="center">
+  <img src="image/w1dis.png" width="23%">
+ <img src="image/w2dis.png" width="23%">
+ <img src="image/w3dis.png" width="23%">
+ <img src="image/w4dis.png" width="23%">
+  <br><br>
+ <img src="image/w5dis.png" width="23%">
+ <img src="image/w6dis.png" width="23%">
+ <img src="image/w7dis.png" width="23%">
+  <br><br>
+ <img src="image/w8dis.png" width="23%">
+ <img src="image/w9dis.png" width="23%">
+ <img src="image/w10dis.png" width="23%">
+</p>
+
+Perfil:
+<p align="center">
+  <img src="image/wperfil.png" width="70%">
+</p>
+
+Analisis:
+<p align="center">
+  <img src="image/wanalisis.png" width="70%">
+</p>
+
+Historial:
+<p align="center">
+  <img src="image/whistorial.png" width="70%">
+</p>
+
 
 #### 5.4.2. Applications Wireflow Diagrams
 
+<p align="center">
+  <img src="image/userflow.png" width="70%">
+</p>
+<p align="center">
+  <img src="image/userflow (1).png" width="70%">
+</p>
+<p align="center">
+  <img src="image/userflow (2).png" width="70%">
+</p>
+
+
+
 #### 5.4.2. Applications Mock-ups
+
+
+Inicio De Sesión:
+<p align="center">
+  <img src="image/1-inicioSesion.png" width="30%">
+  <img src="image/2-InicioSesion.png" width="30%">
+  <img src="image/3-InicioSesion.png" width="30%">
+</p>
+
+Dashboard:
+
+<p align="center">
+  <img src="image/dashboard.png" width="70%">
+</p>
+
+Dispositivos:
+
+<p align="center">
+  <img src="image/1dash.png" width="23%">
+  <img src="image/2dash.png" width="23%">
+  <img src="image/3dash.png" width="23%">
+  <img src="image/4dash.png" width="23%">
+  <br><br>
+  <img src="image/5dash.png" width="23%">
+  <img src="image/6dash.png" width="23%">
+  <img src="image/7dash.png" width="23%">
+  <br><br>
+  <img src="image/1dis.png" width="23%">
+  <img src="image/2dis.png" width="23%">
+  <img src="image/3dis.png" width="23%">
+</p>
+
+Perfil:
+<p align="center">
+  <img src="image/perfilll.png" width="70%">
+</p>
+
+Analisis:
+<p align="center">
+  <img src="image/Analisis.png" width="70%">
+</p>
+
+Historial:
+<p align="center">
+  <img src="image/historial.png" width="70%">
+</p>
+
+[Link para ver los wireframes y Mock-Up de la Aplicacion web](https://www.figma.com/design/pZztbeAUfk1x363ScNolMg/AquaSave?node-id=0-1&t=l9dE5WV4efNC0iQp-1 ) 
+
 
 #### 5.4.3. Applications User Flow Diagrams
 
@@ -2023,27 +2370,190 @@ Esta capa encapsula las reglas de negocio para el cálculo de métricas de ahorr
 
 #### 6.1.4. Software Deployment Configuration
 
-### 6.2. Landing Page, Services & Applications Implementation
+### 6.2. Landing Page, Services & Applications Implementation.
 
-#### 6.2.X. Sprint n
+#### 6.2.1. Sprint 1
 
-##### 6.2.X.1. Sprint Planning n
+##### 6.2.1.1. Sprint Planning 1
 
-##### 6.2.X.2. Aspect Leaders and Collaborators
+El Sprint Planning es la reunión que da inicio al sprint y permite definir qué incremento se construirá, qué valor entregará al usuario y cómo se organizará el trabajo del equipo. Para este primer sprint, el equipo enfocó el desarrollo en la construcción de la Landing Page de AquaSave y en el primer incremento funcional del frontend de la aplicación, considerando únicamente interfaces, navegación, estados locales y simulaciones visuales, sin integración backend ni conexión real con dispositivos IoT.
 
-##### 6.2.X.3. Sprint Backlog n
+A continuación se muestra la tabla del Sprint Planning:
 
-##### 6.2.X.4. Development Evidence for Sprint Review
+| Sprint # | Sprint 1 |
+| :---- | :---- |
+| **Sprint Planning Background** |  |
+| Date | 2026-04-28 |
+| Time | 03:30 PM |
+| Location | Reunión virtual realizada mediante videollamada del equipo de desarrollo. |
+| Prepared By | Rodríguez Rodríguez, Luis Piero / Roca Tineo, Steven Mathew |
+| Attendees (to planning meeting) | Gutierrez Condo, Maylhy Olinda / Roca Tineo, Steven Mathew / Rodríguez Rodríguez, Luis Piero / Román Pajuelo, Luis Gustavo / Silva Morales, Renzo Cesar |
+| Sprint n - 1 Review Summary | No aplica, debido a que este corresponde al primer sprint del proyecto. No existía un incremento previo para revisar ni feedback anterior del Product Owner sobre entregables desarrollados. |
+| Sprint n - 1 Retrospective Summary | No aplica, debido a que este corresponde al primer sprint del proyecto. El equipo aún no contaba con una iteración previa sobre la cual evaluar aciertos, dificultades u oportunidades de mejora. |
+| **Sprint Goal & User Stories** |  |
+| Sprint 1 Goal | Our focus is on delivering the first usable frontend experience for AquaSave through a responsive Landing Page and a functional application prototype for garden monitoring and irrigation management. We believe it delivers product understanding, early trust, and a clear preview of the smart irrigation workflow to urban horticulturists and peri-urban micro-farmers. This will be confirmed when users can navigate the Landing Page, access support information, open the frontend app, log in or register at prototype level, view the dashboard, manage ESP32 device records in the interface, configure irrigation thresholds locally, review weather-aware recommendations, and consult irrigation history without backend or real IoT integration being required for this sprint. |
+| Sprint 1 Velocity | 66 |
+| Sum of Story Points | 66 |
 
-##### 6.2.X.5. Testing Suite Evidence for Sprint Review
+##### 6.2.1.2. Aspect Leaders and Collaborators
 
-##### 6.2.X.6. Execution Evidence for Sprint Review
+Durante el desarrollo del Sprint 1, se identificaron distintos aspectos funcionales relacionados con la construcción de la Landing Page y del frontend de AquaSave. Con el objetivo de organizar el trabajo del equipo de manera eficiente, se elaboró una matriz de Liderazgo y Colaboración (LACX), donde cada integrante asume el rol de líder (L) en determinados aspectos clave del desarrollo y el rol de colaborador (C) en otros.
 
-##### 6.2.X.7. Services Documentation Evidence for Sprint Review
+Los aspectos definidos para este Sprint son:
 
-##### 6.2.X.8. Software Deployment Evidence for Sprint Review
+1. Landing Page y contenido público
+2. Autenticación frontend
+3. Dashboard principal
+4. Gestión de dispositivos ESP32 en interfaz
+5. Configuración de umbrales y horarios
+6. Clima y recomendaciones visuales
+7. Historial de riegos
+8. Análisis y métricas visuales
+9. Internacionalización y modo oscuro
+10. Revisión general y mejoras
 
-##### 6.2.X.9. Team Collaboration Insights during Sprint
+| Team Member (Last Name, First Name) | GitHub Username | Landing Page | Authentication frontend | Dashboard | Device management UI | Thresholds and schedules | Weather recommendations | Irrigation history | Analytics UI | i18n and dark mode | Review and improvements |
+|-------------------------------------|-----------------|--------------|--------------------------|-----------|----------------------|--------------------------|-------------------------|--------------------|--------------|--------------------|--------------------------|
+| Gutierrez Condo, Maylhy Olinda | Ly009463 | C | C | L | C | C | C | L | C | C | C |
+| Roca Tineo, Steven Mathew | matthewsrt29 | L | C | C | L | C | C | C | C | C | L |
+| Rodríguez Rodríguez, Luis Piero | luisprr | C | L | L | C | C | L | C | C | L | L |
+| Román Pajuelo, Luis Gustavo | Raizo400Z | C | C | C | C | L | C | C | L | C | C |
+| Silva Morales, Renzo Cesar | rrenzosilva | C | C | C | C | C | C | C | C | L | C |
+
+##### 6.2.1.3. Sprint Backlog 1
+
+Nota: el estado **Done** corresponde al incremento implementado en **frontend y Landing Page**. Las funcionalidades que requieren backend, autenticación real, integración con Google, envío de correos, notificaciones push, persistencia remota o comunicación física con ESP32 quedan fuera del alcance de este sprint.
+
+| Sprint n | Sprint 1 | | | | | | |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **User Story** | **Work-Item / Task** | | | | | | |
+| **User Story ID** | **Id** | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status** | |
+| **Landing Page: Presentar AquaSave y sus servicios** | | | | | | | |
+| | 1 | Implementación de estructura principal | Crear la Landing Page con secciones Hero, Benefits, How it works, Features, About, Sustainability, Contact y CTA final. | 5 | Developer Team | Done |
+| | 2 | Navegación responsive | Implementar navbar, menú mobile y navegación hacia secciones internas y páginas secundarias. | 4 | Developer Team | Done |
+| | 3 | Selector de idioma | Implementar cambio visual de idioma ES/EN para los textos principales de la Landing Page. | 4 | Developer Team | Done |
+| | 4 | Páginas informativas complementarias | Crear páginas de Help Center, FAQ y Legal con estilo consistente. | 5 | Developer Team | Done |
+| | 5 | Formulario de contacto frontend | Implementar la interfaz del formulario de contacto con campos y feedback visual, sin envío backend real. | 3 | Developer Team | Done |
+| | 6 | Footer informativo | Añadir enlaces de exploración, ayuda y legal dentro del footer. | 2 | Developer Team | Done |
+| **US01: Registrar cuenta nueva** | | | | | | | |
+| | 1 | Pantalla de registro frontend | Implementar la interfaz de registro a nivel de prototipo con campos de usuario, contraseña y confirmación. | 2 | Developer Team | Done |
+| | 2 | Validación de contraseña | Validar en frontend que contraseña y confirmación coincidan antes de continuar. | 1 | Developer Team | Done |
+| | 3 | Manejo visual de estado | Conectar la pantalla con estados frontend de carga, éxito y error simulados por la capa de autenticación local. | 2 | Developer Team | Done |
+| **US02: Iniciar sesión con correo y contraseña** | | | | | | | |
+| | 1 | Pantalla de login frontend | Implementar la interfaz de inicio de sesión con campos de credenciales y acción principal. | 2 | Developer Team | Done |
+| | 2 | Estados visuales de autenticación | Mostrar carga, error y acceso exitoso desde la lógica frontend existente. | 2 | Developer Team | Done |
+| | 3 | Navegación al dashboard | Redirigir al usuario hacia el dashboard después del login en el prototipo. | 1 | Developer Team | Done |
+| **US32: Vincular dispositivo IoT ESP32 desde la app** | | | | | | | |
+| | 1 | Diseño del flujo guiado de vinculación | Implementar un wizard frontend que represente el proceso de vinculación del ESP32. | 3 | Developer Team | Done |
+| | 2 | Pantalla de preparación del dispositivo | Mostrar instrucciones visuales para encender y preparar el ESP32 antes de la conexión. | 1.5 | Developer Team | Done |
+| | 3 | Interfaz de configuración Wi-Fi | Crear la pantalla para seleccionar red Wi-Fi e ingresar contraseña, sin conexión real al dispositivo. | 2 | Developer Team | Done |
+| | 4 | Simulación visual de verificación | Implementar una vista de comprobación simulada para representar el estado de conexión del ESP32. | 1.5 | Developer Team | Done |
+| | 5 | Registro frontend del dispositivo | Añadir el dispositivo al estado local de la app para que aparezca en la interfaz como huerto registrado. | 2 | Developer Team | Done |
+| **US33: Configurar umbrales del sensor desde la app** | | | | | | | |
+| | 1 | Interfaz de umbrales de humedad | Implementar controles frontend para ajustar humedad mínima y máxima. | 2 | Developer Team | Done |
+| | 2 | Presets visuales por tipo de planta | Añadir presets de humedad para plantas de vegetales, plantas con frutos, hierbas aromáticas, suculentas y cactus. | 2 | Developer Team | Done |
+| | 3 | Interfaz de umbrales de temperatura | Implementar controles visuales para temperatura alta y baja usados por las recomendaciones del frontend. | 1.5 | Developer Team | Done |
+| | 4 | Aplicación local en recomendaciones | Usar los valores configurados para cambiar mensajes y alertas visuales dentro de la app, sin enviarlos a sensores reales. | 2 | Developer Team | Done |
+| **US34: Gestionar múltiples dispositivos IoT** | | | | | | | |
+| | 1 | Listado frontend de dispositivos | Implementar tarjetas para visualizar huertos/dispositivos registrados en la app. | 2 | Developer Team | Done |
+| | 2 | Alta local de dispositivo | Permitir agregar nuevos dispositivos dentro del estado local del frontend. | 2 | Developer Team | Done |
+| | 3 | Edición local de dispositivo | Permitir editar nombre, ubicación, cantidad de plantas, descripción y datos de configuración desde la interfaz. | 3 | Developer Team | Done |
+| | 4 | Ubicación bilingüe | Mostrar la ubicación del dispositivo en español o inglés según el idioma activo. | 2 | Developer Team | Done |
+| **US09: Ver humedad del suelo en tiempo real** | | | | | | | |
+| | 1 | Tarjeta de humedad | Mostrar humedad promedio del dispositivo activo con datos disponibles en el frontend. | 2 | Developer Team | Done |
+| | 2 | Indicadores visuales de humedad | Representar el estado de humedad con porcentaje, barra y textos de apoyo. | 2 | Developer Team | Done |
+| | 3 | Asociación con dispositivo activo | Mostrar la humedad correspondiente al huerto seleccionado dentro del prototipo. | 1.5 | Developer Team | Done |
+| **US10: Ver temperatura del suelo y ambiente** | | | | | | | |
+| | 1 | Visualización de temperatura | Mostrar temperatura en dashboard y tarjeta climática usando datos del frontend o forecast disponible. | 2 | Developer Team | Done |
+| | 2 | Alerta visual por temperatura | Mostrar recomendaciones visuales cuando la temperatura supera o cae bajo los umbrales configurados. | 2 | Developer Team | Done |
+| **US12: Ver estado de conexión del dispositivo IoT** | | | | | | | |
+| | 1 | Badge de conexión frontend | Implementar indicador visual En línea / Sin conexión en la tarjeta del dispositivo. | 1.5 | Developer Team | Done |
+| | 2 | Estado en listado | Mostrar el estado del dispositivo dentro de las tarjetas del listado. | 1.5 | Developer Team | Done |
+| **US13: Activar el riego manualmente desde la app** | | | | | | | |
+| | 1 | Botón Iniciar riego | Implementar botón frontend para iniciar un ciclo de riego simulado. | 1.5 | Developer Team | Done |
+| | 2 | Estado visual de riego activo | Mostrar indicador, estado y temporizador cuando el riego está activo en la interfaz. | 2 | Developer Team | Done |
+| | 3 | Feedback de activación | Mostrar confirmación visual al usuario al iniciar el riego en el prototipo. | 1 | Developer Team | Done |
+| **US14: Detener el riego manualmente desde la app** | | | | | | | |
+| | 1 | Botón Detener riego | Implementar botón frontend para detener el ciclo simulado. | 1.5 | Developer Team | Done |
+| | 2 | Estado visual detenido | Actualizar la tarjeta de control cuando el riego se detiene. | 1.5 | Developer Team | Done |
+| | 3 | Feedback de detención | Mostrar confirmación visual al detener el riego. | 1 | Developer Team | Done |
+| **US15: Configurar umbrales de humedad para riego automático** | | | | | | | |
+| | 1 | Controles visuales de humedad | Implementar sliders para humedad mínima y máxima. | 2 | Developer Team | Done |
+| | 2 | Recomendaciones basadas en umbrales | Usar los valores configurados para cambiar consejos visuales de riego. | 2 | Developer Team | Done |
+| | 3 | Estado local de configuración | Mantener los valores configurados durante la sesión del frontend. | 1.5 | Developer Team | Done |
+| **US16: Programar horarios de riego** | | | | | | | |
+| | 1 | Interfaz de programación | Implementar sección visual de horarios automáticos dentro de Settings. | 2 | Developer Team | Done |
+| | 2 | Gestión local de horarios | Permitir agregar, activar/desactivar y eliminar horarios en frontend. | 2 | Developer Team | Done |
+| | 3 | Validación de formato horario | Validar el formato `HH:MM` en la interfaz. | 1.5 | Developer Team | Done |
+| **US17: Consultar pronóstico del clima desde la app** | | | | | | | |
+| | 1 | Tarjeta climática | Implementar tarjeta con temperatura, humedad, probabilidad de lluvia y viento. | 2.5 | Developer Team | Done |
+| | 2 | Ubicación del huerto | Mostrar la ubicación asociada al dispositivo activo. | 1.5 | Developer Team | Done |
+| | 3 | Estados de carga y error | Manejar visualmente estados de carga y error del pronóstico. | 2 | Developer Team | Done |
+| **US19: Configurar umbral de lluvia para pausa automática** | | | | | | | |
+| | 1 | Control de probabilidad de lluvia | Implementar slider frontend para definir el porcentaje de lluvia usado en recomendaciones. | 2 | Developer Team | Done |
+| | 2 | Consejo visual por lluvia | Mostrar recomendación de no regar cuando la probabilidad de lluvia supera el umbral configurado. | 2 | Developer Team | Done |
+| **US22: Recibir alerta de temperatura extrema** | | | | | | | |
+| | 1 | Alerta visual por calor | Implementar recomendación visual cuando la temperatura supera el umbral configurado. | 2 | Developer Team | Done |
+| | 2 | Alerta visual por frío | Implementar recomendación visual cuando la temperatura cae bajo el umbral configurado. | 2 | Developer Team | Done |
+| **US24: Ver historial de riegos realizados** | | | | | | | |
+| | 1 | Tabla de historial frontend | Implementar tabla con fecha, huerto, tipo, duración, litros y humedad antes/después. | 3 | Developer Team | Done |
+| | 2 | Mejora visual de tabla | Ajustar anchos, divisiones, alineación y encabezados para mejorar legibilidad. | 2 | Developer Team | Done |
+| | 3 | Registro manual en memoria | Implementar diálogo para registrar riego manual y añadirlo temporalmente a la tabla. | 3 | Developer Team | Done |
+| **US28: Ver resumen del estado de cultivos en el dashboard** | | | | | | | |
+| | 1 | Dashboard principal | Integrar dispositivo activo, humedad, clima y control rápido en Home. | 3 | Developer Team | Done |
+| | 2 | Layout responsive | Ajustar distribución para escritorio y pantallas pequeñas. | 2 | Developer Team | Done |
+| | 3 | Compatibilidad con modo oscuro | Rebalancear colores, cards, texto, chips y contrastes para dark mode. | 2 | Developer Team | Done |
+| **US29: Acceder rápidamente al control de riego desde el dashboard** | | | | | | | |
+| | 1 | Control rápido en Home | Implementar tarjeta de control de riego directamente en el dashboard. | 2 | Developer Team | Done |
+| | 2 | Acciones visibles | Añadir botones para iniciar y detener riego simulado sin navegar a otra pantalla. | 1.5 | Developer Team | Done |
+| | 3 | Estado del control | Mostrar visualmente si el riego está activo o detenido. | 1.5 | Developer Team | Done |
+
+##### 6.2.1.4. Development Evidence for Sprint Review
+
+Durante el Sprint 1 se desarrollaron los incrementos correspondientes a la Landing Page y al frontend de AquaSave. En la Landing Page se implementaron secciones informativas, navegación responsive, selector de idioma, páginas de soporte, FAQ, legal, CTA y formulario de contacto. En el frontend se implementaron pantallas y flujos para autenticación de prototipo, dashboard, dispositivos, configuración, clima, historial y análisis visual.
+
+| Repository | Branch | Commit Id | Commit Message | Committed on (Date) |
+| ----- | ----- | ----- | ----- | ----- |
+| https://github.com/EcoDrop-Org/AquaSave-LandingPage | develop | 8bc8392 | feat: add AquaSave landing page | 2026-05-07 |
+| https://github.com/EcoDrop-Org/AquaSave-LandingPage | main | b4235b9 | chore: merge develop into main | 2026-05-07 |
+| https://github.com/EcoDrop-Org/AquaSave-LandingPage | develop | 1d9b524 | fix: refine landing navigation and visuals | 2026-05-07 |
+| https://github.com/EcoDrop-Org/AquaSave-LandingPage | main | 53121ba | chore: merge develop updates into main | 2026-05-07 |
+| https://github.com/EcoDrop-Org/AquaSave-LandingPage | develop | 8624a94 | feat: enhance landing visuals and mobile experience | 2026-05-08 |
+| https://github.com/EcoDrop-Org/AquaSave-LandingPage | develop | 5b2a7be | feat: enhance landing visuals and support pages | 2026-05-09 |
+| https://github.com/EcoDrop-Org/AquaSave-LandingPage | main | feb9404 | chore: merge landing visual and support updates | 2026-05-09 |
+| https://github.com/EcoDrop-Org/AquaSave-Frontend | main | be87c24 | Initial commit | 2026-05-10 |
+| https://github.com/EcoDrop-Org/AquaSave-Frontend | develop | 90cdfd8 | feat: auth and home screens | 2026-05-10 |
+| https://github.com/EcoDrop-Org/AquaSave-Frontend | develop | 323fc2b | feat: stats and devices screens | 2026-05-11 |
+| https://github.com/EcoDrop-Org/AquaSave-Frontend | develop | 32ab639 | feat: history view | 2026-05-11 |
+| https://github.com/EcoDrop-Org/AquaSave-Frontend | develop | 16fec47 | feat: modernize dashboard and weather flow | 2026-05-11 |
+| https://github.com/EcoDrop-Org/AquaSave-Frontend | develop | 6dc6752 | feat: enhance AquaSave frontend experience | 2026-05-12 |
+| https://github.com/EcoDrop-Org/AquaSave-Frontend | develop | b4e0cfe | fix: improve location lookup and settings UI | 2026-05-12 |
+| https://github.com/EcoDrop-Org/AquaSave-Frontend | develop | 6fd2ef5 | fix: refine frontend forms and schedule validation | 2026-05-12 |
+| https://github.com/EcoDrop-Org/AquaSave-Frontend | develop | f91bd7e | feat(frontend): polish device onboarding and history | 2026-05-12 |
+| https://github.com/EcoDrop-Org/AquaSave-Frontend | develop | 7450848 | feat: improve garden UX and irrigation history | 2026-05-13 |
+| https://github.com/EcoDrop-Org/AquaSave-Frontend | main | 103615a | chore: merge develop into main | 2026-05-13 |
+
+##### 6.2.1.5. Testing Suite Evidence for Sprint Review
+
+Durante este sprint se realizaron verificaciones enfocadas en confirmar que los entregables de frontend y Landing Page funcionaran correctamente dentro del alcance definido. En la Landing Page se comprobó la existencia y carga local de `index.html`, `help.html`, `faq.html` y `legal.html`, además de la presencia de navegación responsive, secciones principales, selector de idioma, formulario de contacto, footer y páginas secundarias de soporte.
+
+En el frontend Flutter se ejecutó `flutter analyze` sobre `AquaSave-Frontend-main`, obteniendo como resultado **No issues found**. Esta revisión confirmó que las pantallas, widgets, cubits, blocs, modelos y localización añadidos durante el sprint no presentan errores estáticos. También se revisó manualmente el alcance implementado en las pantallas de login, registro, Home, dispositivos, configuración, historial y análisis, validando que el incremento corresponde a frontend/prototipo y no a integración backend o IoT real.
+
+| Repository | Branch | Commit Id | Validation | Result | Date |
+| ----- | ----- | ----- | ----- | ----- | ----- |
+| https://github.com/EcoDrop-Org/AquaSave-LandingPage | main | feb9404 | Revisión de carga local de páginas, navegación, selector de idioma y secciones informativas. | Passed | 2026-05-13 |
+| https://github.com/EcoDrop-Org/AquaSave-Frontend | develop | 7450848 | Ejecución de `flutter analyze` para validar estructura, imports, tipos y consistencia del frontend. | Passed | 2026-05-13 |
+| https://github.com/EcoDrop-Org/AquaSave-Frontend | main | 103615a | Verificación posterior al merge para confirmar que el incremento frontend quedó integrado en la rama principal. | Passed | 2026-05-13 |
+
+##### 6.2.1.6. Execution Evidence for Sprint Review
+
+##### 6.2.1.7. Services Documentation Evidence for Sprint Review
+
+No se incluyeron servicios en este sprint, ya que se utilizó una API simulada (fake API).
+
+##### 6.2.1.8. Software Deployment Evidence for Sprint Review
+
+##### 6.2.1.9. Team Collaboration Insights during Sprint
 
 ### 6.3. Validation Interviews
 
@@ -2066,6 +2576,10 @@ Esta capa encapsula las reglas de negocio para el cálculo de métricas de ahorr
 2. Los usuarios objetivo muestran una necesidad clara de tecnificación, pero con fuertes restricciones de simplicidad, accesibilidad y usabilidad. Tanto horticultores urbanos como micro-agricultores periurbanos comparten patrones: toman decisiones basadas en experiencia, carecen de datos en tiempo real y muestran alta apertura a soluciones tecnológicas. Sin embargo, también presentan barreras como baja adopción tecnológica, necesidad de interfaces intuitivas y preferencia por soluciones fáciles de instalar, lo que define directamente los requisitos clave del producto.
 
 3. AquaSave se posiciona como una solución diferenciada al integrar hardware IoT accesible con software inteligente enfocado en datos reales y contexto local. A diferencia de la competencia, la propuesta combina sensores físicos (humedad, caudal, temperatura) con datos climáticos y plataformas digitales, ofreciendo una solución integral, precisa y orientada a pequeños usuarios. Este enfoque no solo responde al problema identificado, sino que también genera una ventaja competitiva clara basada en accesibilidad, automatización y toma de decisiones basada en datos.
+   
+4. El desarrollo del frontend y la Landing Page permitió validar tempranamente la experiencia de usuario antes de integrar backend e IoT real. El proyecto ya cuenta con una representación funcional de los flujos principales: presentación del producto, autenticación a nivel prototipo, gestión de dispositivos, dashboard, configuración de riego, recomendaciones climáticas e historial. Esto facilita detectar mejoras de usabilidad, ajustar la arquitectura visual y reducir riesgos antes de avanzar hacia la conexión con sensores, servicios remotos y automatización física.
+
+5. La propuesta requiere una evolución progresiva donde la prioridad siguiente debe ser convertir el prototipo visual en un sistema conectado y medible. Si bien el avance actual demuestra la viabilidad conceptual y de interacción, el valor completo de AquaSave dependerá de integrar autenticación real, persistencia de datos, comunicación con ESP32, lectura de sensores, ejecución de riego y notificaciones. Esta transición será clave para pasar de una solución demostrativa a una herramienta operativa capaz de generar ahorro hídrico verificable para los usuarios objetivo.
 
 ### Video About-the-Team
 
