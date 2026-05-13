@@ -2941,6 +2941,12 @@ La aplicación web fue desplegada utilizando Firebase, aprovechando su integraci
 
 ##### 6.2.1.9. Team Collaboration Insights during Sprint
 
+En esta sección se presenta la evidencia de la colaboración realizada durante el sprint.
+
+[![image.png](https://i.postimg.cc/4y0WBRRf/image.png)](https://postimg.cc/sGpPg82q)
+
+[![image.png](https://i.postimg.cc/c1F2rP2Z/image.png)](https://postimg.cc/kDtfHY7h)
+
 ### 6.3. Validation Interviews
 
 #### 6.3.1. Diseño de Entrevistas
