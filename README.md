@@ -2885,9 +2885,39 @@ En el frontend Flutter se ejecutó `flutter analyze` sobre `AquaSave-Frontend-ma
 
 ##### 6.2.1.6. Execution Evidence for Sprint Review
 
+En esta sección se deja en evidencia lo desarrollado en el sprint.
+
+*Landing Page:*
+
+[![image.png](https://i.postimg.cc/PrpJ05ym/image.png)](https://postimg.cc/VdwzC136)
+
+[![image.png](https://i.postimg.cc/zfjGTbz9/image.png)](https://postimg.cc/NyKtc0r4)
+
+[![image.png](https://i.postimg.cc/pXFVq1Vp/image.png)](https://postimg.cc/7fqyL92k)
+
+[![image.png](https://i.postimg.cc/LsNmncvF/image.png)](https://postimg.cc/06MT4HLV)
+
+[![image.png](https://i.postimg.cc/HWf8YMVy/image.png)](https://postimg.cc/BtBnNX5S)
+
+*App Web:*
+
+[![image.png](https://i.postimg.cc/MpnLyhWx/image.png)](https://postimg.cc/rDLgTZ0Y)
+
+[![image.png](https://i.postimg.cc/Gpm5jQZp/image.png)](https://postimg.cc/TKB0dr28)
+
+[![image.png](https://i.postimg.cc/T3FDk2s0/image.png)](https://postimg.cc/RW1hhm4J)
+
+[![image.png](https://i.postimg.cc/9fPQGWHX/image.png)](https://postimg.cc/t1TbbGg8)
+
+[![image.png](https://i.postimg.cc/rwrmw1hS/image.png)](https://postimg.cc/ts9yrxGT)
+
+[![image.png](https://i.postimg.cc/gj7zYj8q/image.png)](https://postimg.cc/YL1KRpXh)
+
+[![image.png](https://i.postimg.cc/fbvMVBYy/image.png)](https://postimg.cc/Y4j5VNnB)
+
 ##### 6.2.1.7. Services Documentation Evidence for Sprint Review
 
-No se incluyeron servicios en este sprint, ya que se utilizó una API simulada (fake API).
+No se incluyeron servicios en este sprint.
 
 ##### 6.2.1.8. Software Deployment Evidence for Sprint Review
 
