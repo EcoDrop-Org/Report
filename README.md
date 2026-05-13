@@ -2915,6 +2915,8 @@ En esta sección se deja en evidencia lo desarrollado en el sprint.
 
 [![image.png](https://i.postimg.cc/fbvMVBYy/image.png)](https://postimg.cc/Y4j5VNnB)
 
+Link del video de explicación: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c362_upc_edu_pe/IQDHstfnGBFKT6Si5DLgO6nmAYNIGstqvHFM8Ulu5WNuqqE?e=6Y9Q7W](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c362_upc_edu_pe/IQDHstfnGBFKT6Si5DLgO6nmAYNIGstqvHFM8Ulu5WNuqqE?e=6Y9Q7W)
+
 ##### 6.2.1.7. Services Documentation Evidence for Sprint Review
 
 No se incluyeron servicios en este sprint.
