@@ -2401,6 +2401,43 @@ Application Prototype: [AquaSave Web Application Prototype](https://www.figma.co
 
 ### 5.6. IoT Device Design
 
+El siguiente diagrama presenta el diseño inicial del dispositivo IoT de AquaSave, representando la configuración física y las conexiones principales entre los componentes de hardware seleccionados para el prototipo. Este diseño tiene como objetivo validar la lógica básica del sistema de riego inteligente, considerando la lectura de humedad del suelo, la medición de temperatura y la activación automática de una bomba de agua cuando las condiciones del huerto lo requieran.
+
+<p align="center">
+  <img src="image/aquasave-iot-device-design.png" alt="AquaSave IoT Device Design" width="900">
+</p>
+
+El esquema fue desarrollado en **Tinkercad**, una plataforma web para diseño y simulación de circuitos electrónicos. Debido a las limitaciones de disponibilidad de componentes en las plataformas de simulación, el prototipo fue representado utilizando una placa **Arduino Uno**. Sin embargo, la solución final de AquaSave está planificada para implementarse con un **ESP32**, debido a que este microcontrolador permite conectividad WiFi y comunicación con la aplicación web del sistema.
+
+**Componentes del Diseño:**
+
+| Componente | Descripción | Especificaciones Técnicas |
+|-----------|-------------|----------------------------|
+| Arduino Uno | Microcontrolador utilizado para simular la lógica principal del prototipo. En la versión final será reemplazado por un ESP32. | Entradas analógicas, salidas digitales/PWM, alimentación de 5V |
+| Sensor de humedad de suelo | Sensor encargado de medir el nivel de humedad presente en el sustrato del huerto. | Salida analógica, rango de lectura aproximado de 0 a 1023 |
+| Sensor de temperatura TMP36 | Sensor utilizado para medir la temperatura ambiental del entorno del cultivo. | Salida analógica, medición de temperatura en grados Celsius |
+| Motor de corriente continua | Actuador que representa el funcionamiento de la bomba de agua para el sistema de riego. | Activación mediante señal PWM desde el microcontrolador |
+| Transistor NPN | Componente utilizado para controlar el encendido del motor sin conectar directamente la carga al microcontrolador. | Permite conmutar el motor mediante una señal de control |
+| Resistencia | Elemento de protección utilizado para limitar la corriente y proteger los componentes del circuito. | Valor referencial según la conexión del transistor y actuador |
+| Protoboard | Placa de pruebas utilizada para organizar las conexiones del circuito sin soldadura. | Permite conexiones temporales durante la etapa de prototipado |
+| Cables de conexión | Conductores utilizados para enlazar sensores, actuadores y placa de control. | Conexiones macho-macho para protoboard y placa Arduino |
+
+Es importante destacar que durante la fase de diseño y validación técnica se identificaron las siguientes consideraciones:
+
+1. **Uso de Arduino Uno como representación inicial:** El circuito fue diseñado en Tinkercad utilizando Arduino Uno, ya que esta plataforma permite simular fácilmente sensores analógicos, actuadores y conexiones básicas. No obstante, este componente cumple un rol referencial dentro del prototipo, debido a que la arquitectura final de AquaSave contempla el uso de un ESP32 por su capacidad de conexión WiFi.
+
+2. **Sensor de humedad como entrada principal del sistema:** El sensor de humedad de suelo es uno de los elementos más importantes del diseño, ya que permite identificar si el cultivo requiere riego. Cuando la lectura indica un nivel bajo de humedad, el sistema interpreta que el suelo necesita agua y puede activar el actuador encargado del riego.
+
+3. **Sensor de temperatura como variable de apoyo:** El sensor TMP36 permite incorporar una segunda variable ambiental para la toma de decisiones. Si la temperatura supera un valor determinado, el sistema también puede activar el riego, ya que una temperatura elevada puede incrementar la evaporación del agua y afectar el estado del cultivo.
+
+4. **Motor de corriente continua como simulación de bomba de agua:** En el prototipo, el motor representa el comportamiento de una bomba de agua. Esta decisión permite validar la lógica de activación del riego sin utilizar una bomba real durante la simulación. En una implementación física posterior, este motor sería reemplazado por una bomba de agua de bajo voltaje, controlada mediante un módulo de potencia o relé.
+
+5. **Control del actuador mediante transistor:** El transistor NPN permite controlar el motor desde la señal del microcontrolador sin exigir que la placa entregue directamente toda la corriente necesaria para el actuador. Esta separación es importante para proteger el circuito y acercar el diseño a una implementación más realista.
+
+6. **Relación con la aplicación AquaSave:** El diseño del dispositivo se vincula con las funcionalidades de la aplicación web, ya que los datos de humedad, temperatura y estado del riego serán utilizados para mostrar información en el dashboard. En la versión final, el ESP32 enviará estos datos a la plataforma para que el usuario pueda monitorear el estado del huerto y tomar decisiones desde la interfaz.
+
+El diseño representa una primera versión de prototipado enfocada en validar la lógica de funcionamiento del sistema de riego inteligente. La simulación permite comprobar que el dispositivo puede leer variables del entorno y activar un actuador cuando las condiciones del cultivo lo requieren. Para futuras iteraciones, se plantea reemplazar el Arduino Uno por un ESP32, incorporar una bomba de agua real, mejorar el circuito de control del actuador y conectar el dispositivo con la API de AquaSave para el envío de datos hacia la aplicación web.
+
 ---
 
 ## Capítulo VI: Product Implementation, Validation & Deployment
